@@ -68,21 +68,25 @@ def build_table_equip_levels():
         cur.execute("PRAGMA foreign_keys = ON")
         cur.execute("DROP TABLE IF EXISTS EquipLevels")
         cur.execute("CREATE TABLE EquipLevels("
-                    "Equip INTEGER, "
                     "Id INTEGER PRIMARY KEY AUTOINCREMENT, "
+                    "Equip INTEGER, "
                     "Level INTEGER, "
                     "PAttack INTEGER, "
                     "MAttack INTEGER, "
+                    "PDefense INTEGER, "
+                    "MDefense INTEGER, "
                     "FOREIGN KEY(Equip) REFERENCES Equips(Id))")
 
         for row in master_data:
             cur.execute("INSERT INTO EquipLevels ("
-                        "Equip, Level, PAttack, MAttack) "
-                        "VALUES ('{}', '{}', '{}', {})".format(
+                        "Equip, Level, PAttack, MAttack, PDefense, MDefense) "
+                        "VALUES ('{}', '{}', '{}', '{}', '{}', '{}')".format(
                             foreign_keys[row['EquipName']],
                             row['Level'],
                             row['PAttack'],
-                            row['MAttack']))
+                            row['MAttack'],
+                            row['PDefense'],
+                            row['MDefense']))
 
 
 def build_table_equip_upgrade_components():

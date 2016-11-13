@@ -1,6 +1,11 @@
-EquipName,Level,PAttack,MAttack
-Proto Sword,1,5,5
-Proto Sword,2,10,5
-Proto Sword,3,15,5
-Proto Sword,4,20,5
-Proto Sword,5,25,10
+EquipName,Level,PAttack,MAttack,PDefense,MDefense
+Proto Sword,1,5,5,0,0
+Proto Sword,2,10,5,0,0
+Proto Sword,3,15,5,0,0
+Proto Sword,4,20,5,0,0
+Proto Sword,5,25,10,0,0
+Proto Armor,1,0,0,5,5
+Proto Armor,2,0,0,10,5
+Proto Armor,3,0,0,15,5
+Proto Armor,4,0,0,20,5
+Proto Armor,5,0,0,25,10

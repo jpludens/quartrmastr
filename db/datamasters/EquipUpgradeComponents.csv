@@ -5,3 +5,7 @@ Proto Sword,3,Metal,3
 Proto Sword,3,Wood,4
 Proto Sword,4,Metal,5
 Proto Sword,4,Gem,1
+Proto Armor,1,Steel Plate,5
+Proto Armor,2,Steel Plate,10
+Proto Armor,3,Steel Plate,15
+Proto Armor,4,Steel Plate,20
