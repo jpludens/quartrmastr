@@ -3,3 +3,6 @@
 
 # OpenOffice file locks
 .~lock.*
+
+# pyc
+*.pyc

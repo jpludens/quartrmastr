@@ -4,21 +4,20 @@ import sqlite3
 import csv
 import os
 
+db_location = os.path.join('db', 'nolegsbase.db')
 
 def get_from_datamaster(filename):
     filepath = os.path.join(os.getcwd(), 'db', 'datamasters', filename)
     with open(filepath, 'r') as f:
-        contents = [r for r in csv.DictReader(f)]
-    return contents
+        return [r for r in csv.DictReader(f)]
 
 
 def get_connection():
-    return sqlite3.connect('db/nolegsbase.db')
+    return sqlite3.connect(db_location)
 
 
 def build_table_equips():
-    master_data = get_from_datamaster('Equips.csv')
-    
+    # No requirements
     with get_connection() as con:
         cur = con.cursor()
         cur.execute("DROP TABLE IF EXISTS Equips")
@@ -27,7 +26,7 @@ def build_table_equips():
                     "EquipName TEXT, "
                     "EquipSlot TEXT)")
 
-        for row in master_data:
+        for row in get_from_datamaster('Equips.csv'):
             cur.execute("INSERT INTO Equips ("
                         "EquipName, EquipSlot) "
                         "VALUES ('{}', '{}')".format(
@@ -36,8 +35,7 @@ def build_table_equips():
 
 
 def build_table_materials():
-    master_data = get_from_datamaster('Materials.csv')
-    
+    # No requirements
     with get_connection() as con:
         cur = con.cursor()
         cur.execute("DROP TABLE IF EXISTS Materials")
@@ -46,7 +44,7 @@ def build_table_materials():
                     "MaterialName TEXT, "
                     "MaterialPrice TEXT)")
 
-        for row in master_data:
+        for row in get_from_datamaster('Materials.csv'):
             cur.execute("INSERT INTO Materials ("
                         "MaterialName, MaterialPrice) "
                         "VALUES ('{}', '{}')".format(
@@ -56,8 +54,6 @@ def build_table_materials():
 
 def build_table_equip_levels():
     # Requires Equips
-    master_data = get_from_datamaster('EquipLevels.csv')
-
     with get_connection() as con:
         con.row_factory = sqlite3.Row
         cur = con.cursor()
@@ -77,7 +73,7 @@ def build_table_equip_levels():
                     "MDefense INTEGER, "
                     "FOREIGN KEY(Equip) REFERENCES Equips(Id))")
 
-        for row in master_data:
+        for row in get_from_datamaster('EquipLevels.csv'):
             cur.execute("INSERT INTO EquipLevels ("
                         "Equip, Level, PAttack, MAttack, PDefense, MDefense) "
                         "VALUES ('{}', '{}', '{}', '{}', '{}', '{}')".format(
@@ -94,8 +90,6 @@ def build_table_equip_upgrade_components():
     def get_equip_level_tag(row):
         return row['EquipName'] + str(row['Level'])
 
-    master_data = get_from_datamaster('EquipUpgradeComponents.csv')
-
     with get_connection() as con:
         con.row_factory = sqlite3.Row
         cur = con.cursor()
@@ -110,8 +104,8 @@ def build_table_equip_upgrade_components():
                              for row in cur.fetchall()})
 
         cur.execute("PRAGMA foreign_keys = ON")
-        cur.execute("DROP TABLE IF EXISTS EquipUpgradeComponents")
-        cur.execute("CREATE TABLE EquipUpgradeComponents("
+        cur.execute("DROP TABLE IF EXISTS EquipUpgradeMaterials")
+        cur.execute("CREATE TABLE EquipUpgradeMaterials("
                     "Id INTEGER PRIMARY KEY AUTOINCREMENT, "
                     "EquipLevel INTEGER, "
                     "Material INTEGER, "
@@ -119,9 +113,8 @@ def build_table_equip_upgrade_components():
                     "FOREIGN KEY(EquipLevel) REFERENCES EquipLevels(Id), "
                     "FOREIGN KEY(Material) REFERENCES Materials(Id))")
 
-        for row in master_data:
-            # print row
-            cur.execute("INSERT INTO EquipUpgradeComponents ("
+        for row in get_from_datamaster('EquipUpgradeMaterials.csv'):
+            cur.execute("INSERT INTO EquipUpgradeMaterials ("
                         "EquipLevel, Material, Amount) "
                         "VALUES ('{}', '{}', '{}')".format(
                             foreign_keys[get_equip_level_tag(row)],
