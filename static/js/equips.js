@@ -108,10 +108,14 @@ const renderStatsForEquipLevel = equipLevel => (
   <div>
     <h4>Stats</h4>
     <ul>
+      <li>Health Points: {equipLevel.stats.healthPoints}</li>
+      <li>Magic Points: {equipLevel.stats.magicPoints}</li>
       <li>Physical Attack: {equipLevel.stats.physicalAttack}</li>
       <li>Magic Attack: {equipLevel.stats.magicAttack}</li>
-      <li>Physical Defense: {equipLevel.stats.physicalDefense}</li>
-      <li>Magic Defense: {equipLevel.stats.magicDefense}</li>
+      <li>Physical Defence: {equipLevel.stats.physicalDefence}</li>
+      <li>Magic Defence: {equipLevel.stats.magicDefence}</li>
+      <li>Accuracy: {equipLevel.stats.accuracy}</li>
+      <li>Evade: {equipLevel.stats.evade}</li>
     </ul>
   </div>
 );

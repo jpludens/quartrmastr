@@ -1,11 +1,91 @@
-EquipName,Level,PAttack,MAttack,PDefense,MDefense
-Proto Sword,1,5,5,0,0
-Proto Sword,2,10,5,0,0
-Proto Sword,3,15,5,0,0
-Proto Sword,4,20,5,0,0
-Proto Sword,5,25,10,0,0
-Proto Armor,1,0,0,5,5
-Proto Armor,2,0,0,10,5
-Proto Armor,3,0,0,15,5
-Proto Armor,4,0,0,20,5
-Proto Armor,5,0,0,25,10
+EquipName,Level,HP,MP,PAttack,MAttack,PDefence,MDefence,Accuracy,Evade
+Red Vulcan,1,0,0,10,10,0,0,0,0
+Red Vulcan,2,0,0,20,20,0,5,0,0
+Red Vulcan,3,0,0,30,30,0,5,0,0
+Red Vulcan,4,0,0,45,45,0,10,0,0
+Red Vulcan,5,0,0,60,60,0,10,0,0
+Flamethrower,1,5,0,0,10,0,0,0,0
+Flamethrower,2,5,0,10,20,0,0,0,0
+Flamethrower,3,10,0,20,30,0,0,0,0
+Flamethrower,4,10,0,30,40,0,0,0,0
+Flamethrower,5,15,0,40,50,0,0,0,0
+Thunder Core,1,0,0,10,10,0,0,0,0
+Thunder Core,2,0,5,20,20,0,0,0,0
+Thunder Core,3,0,10,30,30,0,0,0,0
+Thunder Core,4,0,15,40,45,0,0,0,0
+Thunder Core,5,0,20,50,60,0,0,0,0
+Sub Zero,1,0,10,10,10,0,10,0,0
+Sub Zero,2,0,10,20,20,0,10,0,0
+Sub Zero,3,0,15,30,30,0,15,0,0
+Sub Zero,4,0,15,45,45,0,15,0,0
+Sub Zero,5,0,20,60,60,0,20,0,0
+Quake Maker,1,10,0,20,20,0,0,0,0
+Quake Maker,2,10,0,30,30,5,5,0,0
+Quake Maker,3,15,0,40,40,5,5,0,0
+Quake Maker,4,15,0,50,50,10,10,0,0
+Quake Maker,5,20,0,60,60,10,10,0,0
+Destroyer,1,0,0,10,10,0,0,0,0
+Destroyer,2,0,0,20,20,0,0,5,5
+Destroyer,3,0,0,30,30,0,0,5,5
+Destroyer,4,0,0,40,40,0,0,10,10
+Destroyer,5,0,0,50,50,0,0,10,10
+Super Snipe,1,0,0,0,0,0,0,25,0
+Super Snipe,2,0,0,5,5,0,0,30,5
+Super Snipe,3,0,0,10,10,0,0,35,10
+Super Snipe,4,0,0,20,20,0,0,40,15
+Super Snipe,5,0,0,30,30,0,0,50,20
+Vortex Cannon,1,0,0,0,25,0,0,-10,-10
+Vortex Cannon,2,0,0,0,40,5,5,-10,-10
+Vortex Cannon,3,0,0,0,55,5,5,-10,-10
+Vortex Cannon,4,0,0,0,65,10,10,-10,-10
+Vortex Cannon,5,0,0,0,90,10,10,-10,-10
+Deep Blue,1,0,0,15,0,0,0,0,0
+Deep Blue,2,0,0,25,10,0,0,0,0
+Deep Blue,3,0,0,35,20,0,0,0,0
+Deep Blue,4,0,0,50,30,0,0,0,0
+Deep Blue,5,0,0,70,40,0,0,0,0
+Mini Bomber,1,0,0,10,10,0,0,5,0
+Mini Bomber,2,0,5,20,20,0,0,10,0
+Mini Bomber,3,0,5,30,30,0,0,15,0
+Mini Bomber,4,0,10,40,40,0,0,20,0
+Mini Bomber,5,0,10,50,50,0,0,25,0
+Heavy Claw,1,5,0,20,0,5,0,0,-20
+Heavy Claw,2,10,0,30,0,10,0,0,-20
+Heavy Claw,3,15,0,40,0,15,0,0,-20
+Heavy Claw,4,20,0,50,0,20,0,0,-20
+Heavy Claw,5,25,0,65,0,25,0,0,-20
+God Hand,1,0,0,10,10,0,0,0,0
+God Hand,2,0,0,15,15,0,0,0,0
+God Hand,3,5,5,20,20,0,0,0,0
+God Hand,4,10,10,30,30,0,0,0,0
+God Hand,5,15,15,40,40,0,0,0,0
+Shadow Blaster,1,0,0,0,15,0,0,0,0
+Shadow Blaster,2,0,0,5,30,0,0,0,0
+Shadow Blaster,3,0,0,10,45,0,0,0,0
+Shadow Blaster,4,0,0,15,60,0,0,0,0
+Shadow Blaster,5,0,0,20,80,0,0,0,0
+Chainsaw Gun,1,0,0,20,0,0,0,0,0
+Chainsaw Gun,2,0,0,30,5,0,0,0,5
+Chainsaw Gun,3,0,0,45,10,0,0,0,5
+Chainsaw Gun,4,0,0,60,15,0,0,0,10
+Chainsaw Gun,5,0,0,75,20,0,0,0,10
+Ultra Zapper,1,0,10,20,20,0,0,0,0
+Ultra Zapper,2,0,15,30,30,0,0,0,0
+Ultra Zapper,3,0,20,40,40,0,0,0,0
+Ultra Zapper,4,0,25,50,50,0,0,0,0
+Ultra Zapper,5,0,30,60,60,0,0,0,0
+The Phantom,1,0,0,40,0,-50,-50,0,0
+The Phantom,2,0,0,55,10,-50,-50,0,0
+The Phantom,3,0,0,70,20,-50,-50,0,5
+The Phantom,4,0,0,90,30,-50,-50,0,5
+The Phantom,5,0,0,120,40,-50,-50,0,10
+Exterminator,1,0,0,0,10,0,0,0,0
+Exterminator,2,0,0,10,20,0,5,0,5
+Exterminator,3,0,0,20,30,0,5,0,5
+Exterminator,4,0,0,30,40,0,5,0,5
+Exterminator,5,0,0,40,50,0,10,0,10
+Accelerator,1,0,0,10,10,0,0,0,0
+Accelerator,2,0,0,20,20,0,0,0,0
+Accelerator,3,0,0,30,30,0,0,0,0
+Accelerator,4,0,0,45,45,0,0,0,0
+Accelerator,5,0,0,60,60,0,0,0,0

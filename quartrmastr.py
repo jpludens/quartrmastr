@@ -34,10 +34,14 @@ def read_equip_stats():
                     "EquipName AS equipName, "
                     "EquipSlot AS equipSlot, "
                     "Level AS level, "
+                    "HP AS healthPoints, "
+                    "MP AS magicPoints, "
                     "PAttack AS physicalAttack, "
                     "MAttack AS magicAttack, "
-                    "PDefense AS physicalDefense, "
-                    "MDefense AS magicDefense "
+                    "PDefence AS physicalDefence, "
+                    "MDefence AS magicDefence, "
+                    "Accuracy AS accuracy, "
+                    "Evade AS evade "
                     "FROM Equips "
                     "JOIN EquipLevels "
                     "ON EquipLevels.Equip = Equips.Id ")
@@ -78,10 +82,14 @@ def get_equips():
     # Keys at various hierarchy levels
     equip_keys = ["id", "equipName", "equipSlot"]
     stat_keys = [
+        "healthPoints",
+        "magicPoints",
         "physicalAttack",
         "magicAttack",
-        "physicalDefense",
-        "magicDefense"]
+        "physicalDefence",
+        "magicDefence",
+        "accuracy",
+        "evade"]
     upgrade_keys = ["materialName", "materialAmount"]
 
     # Initializing result

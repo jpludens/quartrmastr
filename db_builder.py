@@ -67,22 +67,32 @@ def build_table_equip_levels():
                     "Id INTEGER PRIMARY KEY AUTOINCREMENT, "
                     "Equip INTEGER, "
                     "Level INTEGER, "
+                    "HP INTEGER, "
+                    "MP INTEGER, "
                     "PAttack INTEGER, "
                     "MAttack INTEGER, "
-                    "PDefense INTEGER, "
-                    "MDefense INTEGER, "
+                    "PDefence INTEGER, "
+                    "MDefence INTEGER, "
+                    "Accuracy INTEGER, "
+                    "Evade INTEGER, "
                     "FOREIGN KEY(Equip) REFERENCES Equips(Id))")
 
         for row in get_from_datamaster('EquipLevels.csv'):
             cur.execute("INSERT INTO EquipLevels ("
-                        "Equip, Level, PAttack, MAttack, PDefense, MDefense) "
-                        "VALUES ('{}', '{}', '{}', '{}', '{}', '{}')".format(
+                        "Equip, Level, HP, MP, PAttack, MAttack, "
+                        "PDefence, MDefence, Accuracy, Evade) "
+                        "VALUES ('{}', '{}', '{}', '{}', '{}', '{}', "
+                        "'{}', '{}', '{}', '{}')".format(
                             foreign_keys[row['EquipName']],
                             row['Level'],
+                            row['HP'],
+                            row['MP'],
                             row['PAttack'],
                             row['MAttack'],
-                            row['PDefense'],
-                            row['MDefense']))
+                            row['PDefence'],
+                            row['MDefence'],
+                            row['Accuracy'],
+                            row['Evade']))
 
 
 def build_table_equip_upgrade_components():

@@ -1,11 +1,127 @@
 EquipName,Level,MaterialName,Amount
-Proto Sword,1,Metal,1
-Proto Sword,2,Metal,2
-Proto Sword,3,Metal,3
-Proto Sword,3,Wood,4
-Proto Sword,4,Metal,5
-Proto Sword,4,Gem,1
-Proto Armor,1,Steel Plate,5
-Proto Armor,2,Steel Plate,10
-Proto Armor,3,Steel Plate,15
-Proto Armor,4,Steel Plate,20
+Red Vulcan,1,Iron Ore,2
+Red Vulcan,2,Magma Sample,2
+Red Vulcan,3,Magma Sample,8
+Red Vulcan,3,Dragon Scales,7
+Red Vulcan,4,Ruby,8
+Red Vulcan,4,Dragon Scales,8
+Flamethrower,1,Springy Spring,1
+Flamethrower,2,Magma Sample,1
+Flamethrower,2,Steel Plate,2
+Flamethrower,3,Magma Sample,10
+Flamethrower,3,Steel Plate,8
+Flamethrower,4,Magma Sample,12
+Flamethrower,4,Titanium,1
+Thunder Core,1,Blank CD,2
+Thunder Core,2,Springy Spring,2
+Thunder Core,2,Glass,1
+Thunder Core,3,Plasma Ball,2
+Thunder Core,3,Glass,1
+Thunder Core,4,Plutonium Core,1
+Thunder Core,4,Glass,1
+Sub Zero,1,Snowball,3
+Sub Zero,1,Microcontroller,1
+Sub Zero,2,Solid Water,2
+Sub Zero,2,Microcontroller,1
+Sub Zero,3,Solid Water,6
+Sub Zero,3,Liquid Ice,6
+Sub Zero,4,Mythril Shards,1
+Quake Maker,1,Brick,5
+Quake Maker,2,Dirt Ball,15
+Quake Maker,2,Brick,5
+Quake Maker,3,Concrete,20
+Quake Maker,3,Geode,5
+Quake Maker,4,Plutonium Core,1
+Quake Maker,4,Concrete,10
+Destroyer,1,Ogle Berries,1
+Destroyer,1,Turnip,1
+Destroyer,1,Seaweed,1
+Destroyer,2,Bad Mushroom,2
+Destroyer,2,Red LED,3
+Destroyer,3,Bio Virus,8
+Destroyer,3,Bad Mushroom,6
+Destroyer,4,Bio Virus,40
+Super Snipe,1,Blank CD,1
+Super Snipe,1,Microcontroller,2
+Super Snipe,2,Steel Plate,3
+Super Snipe,2,Microcontroller,2
+Super Snipe,3,7-Segment Display,10
+Super Snipe,3,Microcontroller,10
+Super Snipe,3,Blank CD,1
+Super Snipe,4,Titanium,1
+Super Snipe,4,RAM Chip,1
+Vortex Cannon,1,Iron Ore,3
+Vortex Cannon,2,Steel Plate,4
+Vortex Cannon,3,Steel Plate,12
+Vortex Cannon,3,Silver Plate,5
+Vortex Cannon,4,Titanium,1
+Vortex Cannon,4,Silver Plate,3
+Deep Blue,1,Springy Spring,2
+Deep Blue,2,Steel Plate,3
+Deep Blue,3,Bubble Stone,3
+Deep Blue,3,Steel Plate,3
+Deep Blue,4,Mythril Shards,1
+Mini Bomber,1,Hand Bomb,1
+Mini Bomber,2,Gunpowder,2
+Mini Bomber,2,Red LED,3
+Mini Bomber,3,Gunpowder,5
+Mini Bomber,3,Hand Bomb,5
+Mini Bomber,3,RAM Chip,1
+Mini Bomber,4,Plutonium Core,1
+Mini Bomber,4,Hand Bomb,5
+Heavy Claw,1,Springy Spring,1
+Heavy Claw,2,Steel Plate,3
+Heavy Claw,3,Springy Spring,6
+Heavy Claw,3,Steel Plate,20
+Heavy Claw,4,Titanium,1
+Heavy Claw,4,Steel Plate,20
+God Hand,1,Iron Ore,2
+God Hand,2,Steel Plate,3
+God Hand,3,Silver Plate,5
+God Hand,3,Solid Spike,1
+God Hand,4,Elixir of Life,1
+Shadow Blaster,1,Springy Spring,2
+Shadow Blaster,2,Springy Spring,2
+Shadow Blaster,2,Red LED,3
+Shadow Blaster,3,Bottled Darkness,3
+Shadow Blaster,3,RAM Chip,1
+Shadow Blaster,3,Blank CD,1
+Shadow Blaster,4,Dark Matter,1
+Chainsaw Gun,1,Chain Link,2
+Chainsaw Gun,2,Springy Spring,2
+Chainsaw Gun,2,Chain Link,3
+Chainsaw Gun,3,RAM Chip,1
+Chainsaw Gun,3,Plasma Ball,1
+Chainsaw Gun,3,Chain Link,10
+Chainsaw Gun,4,Diamond,1
+Chainsaw Gun,4,Chain Link,10
+Ultra Zapper,1,Microcontroller,5
+Ultra Zapper,2,Plastic,3
+Ultra Zapper,2,Blank CD,3
+Ultra Zapper,3,RAM Chip,1
+Ultra Zapper,3,Plastic,5
+Ultra Zapper,4,RAM Chip,4
+Ultra Zapper,4,Plastic,2
+The Phantom,1,Steel Plate,2
+The Phantom,2,Steel Plate,2
+The Phantom,2,Red LED,3
+The Phantom,3,Bottled Darkness,5
+The Phantom,3,RAM Chip,1
+The Phantom,3,Steel Plate,3
+The Phantom,4,Dark Matter,1
+The Phantom,4,Steel Plate,12
+Exterminator,1,Microcontroller,5
+Exterminator,2,Glass,2
+Exterminator,2,Red LED,2
+Exterminator,3,Bio Virus,10
+Exterminator,3,Springy Spring,5
+Exterminator,3,Glass,2
+Exterminator,4,Bio Virus,10
+Exterminator,4,Plutonium Core,1
+Accelerator,1,Springy Spring,2
+Accelerator,2,Springy Spring,5
+Accelerator,2,Red LED,2
+Accelerator,3,Springy Spring,10
+Accelerator,3,Plasma Ball,4
+Accelerator,4,Springy Spring,10
+Accelerator,4,Plutonium Core,1
