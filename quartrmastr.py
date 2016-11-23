@@ -120,3 +120,22 @@ def get_equips():
             {k: entry[k] for k in upgrade_keys})
 
     return json.dumps(equips_by_id.values())
+
+
+@app.route('/', methods=['GET'])
+def index():
+    return flask.render_template('index.html')
+
+
+@app.route('/materials/', methods=['GET'])
+def materials_view():
+    return flask.render_template('materials.html')
+
+
+@app.route('/equips/', methods=['GET'])
+def equips_view():
+    return flask.render_template('equips.html')
+
+
+if __name__ == '__main__':
+    app.run(debug=True)

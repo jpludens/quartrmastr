@@ -42,7 +42,7 @@ def build_table_materials():
         cur.execute("CREATE TABLE Materials("
                     "Id INTEGER PRIMARY KEY AUTOINCREMENT, "
                     "MaterialName TEXT, "
-                    "MaterialPrice TEXT)")
+                    "MaterialPrice INTEGER)")
 
         for row in get_from_datamaster('Materials.csv'):
             cur.execute("INSERT INTO Materials ("
