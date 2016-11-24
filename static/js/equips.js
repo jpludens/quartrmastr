@@ -1,27 +1,40 @@
 
-
-var request = new Request(
-  '/api/v1/equips/',
-  {
-    method: 'GET',
-    headers: {
-     'Content-Type': 'application/json'
-    }
+const requestInit = {
+  method: 'GET',
+  headers: {
+   'Content-Type': 'application/json'
   }
-);
-fetch(request).then(function(response) {
-  response.json().then(function(json) {
-    let equips = json.map(e => new Equip(e));
-    ReactDOM.render(
-      <EquipSummariesContainer equips={equips} />,
-      document.getElementById('summaries')
-    );
-    ReactDOM.render(
-      <p>Click an Equip to view its details</p>,
-      document.getElementById('details')
-    );
+};
+
+const toJson = response => (response.json());
+const loadData = Promise.all([
+  fetch(new Request('/api/v1/equips/', requestInit)).then(toJson),
+  fetch(new Request('/api/v1/materials/', requestInit)).then(toJson)]);
+
+var materialCosts = new Map();
+loadData.then(values => {
+  // Extract the gold costs of each Material
+  let materials = values[1];
+  [...materials].forEach(material => {
+    materialCosts.set(material.name, material.gold)
   });
+
+  // Create equip objects and render the selector
+  let equips = values[0].map(e => new Equip(e));
+  ReactDOM.render(
+    <ul>
+      {equips.map(e => <li> <EquipPicker equip={e} /> </li> )}
+    </ul>,
+    document.getElementById('summaries')
+  );
+
+  // Render placeholder for details
+  ReactDOM.render(
+    <p>Click an Equip to view its details</p>,
+    document.getElementById('details')
+  );
 });
+
 
 class Equip {
   constructor(equipData) {
@@ -42,26 +55,17 @@ class Equip {
   }
 }
 
-// Equips Summary:
-// A list of each Equip. When clicked, its details are displayed.
-const EquipSummariesContainer = props => (
-  <ul>{renderEquipSummaries(props.equips)}</ul>
-);
 
-const renderEquipSummaries = equips => (
-    equips.map(equip => <EquipSummary equip={equip} />)
-);
-
-class EquipSummary extends React.Component {
+class EquipPicker extends React.Component {
   constructor(props) {
     super(props);
   }
 
   render () {
     return (
-      <li onClick={this.handleClick.bind(this)}>
+      <span onClick={this.handleClick.bind(this)}>
         {this.props.equip.name} ({this.props.equip.slot})
-      </li>
+      </span>
     );
   }
 
@@ -72,9 +76,11 @@ class EquipSummary extends React.Component {
     );
   }
 }
+EquipPicker.propTypes = {
+  equip: React.PropTypes.object.isRequired
+}
 
 
-// Equip Details
 class EquipDetails extends React.Component {
   constructor(props) {
     super(props);
@@ -83,6 +89,22 @@ class EquipDetails extends React.Component {
       currentLevel: 1,
       compareLevel: 2
     }
+  }
+
+  setCurrentLevel(newLevel) {
+    // Set the new current level.
+    this.setState({currentLevel: newLevel})
+    // If the new level is at max, we can no longer compare.
+    if (newLevel == this.props.equip.maxLevel) {
+      this.setState({compareLevel: null});
+    }
+    else if ((this.state.compareLevel || 0) <= newLevel) {
+      this.setState({compareLevel: newLevel + 1});
+    }
+  }
+
+  setCompareLevel(compareLevel) {
+    this.setState({compareLevel: compareLevel})
   }
 
   render() {
@@ -127,10 +149,12 @@ class EquipDetails extends React.Component {
       for (let l = this.state.currentLevel; l < this.state.compareLevel; l++) {
         upgradeMaterialsArray.push(this.props.equip.getUpgradeMaterialsAtLevel(l));
       }
+      let totalUpgradeMaterials = sumUpgradeMaterials(upgradeMaterialsArray);
       upgradeRequirements =
         <div>
           <h4>Total Upgrade Materials</h4>
-          {renderUpgradeMaterials(sumUpgradeMaterials(upgradeMaterialsArray))}
+          (Gold Cost: {getPriceForUpgradeMaterials(totalUpgradeMaterials)})
+          {renderUpgradeMaterials(totalUpgradeMaterials)}
         </div>;
     }
 
@@ -149,34 +173,19 @@ class EquipDetails extends React.Component {
       </div>
     );
   }
-
-  setCurrentLevel(newLevel) {
-    // Set the new current level.
-    this.setState({currentLevel: newLevel})
-    // If the new level is at max, we can no longer compare.
-    if (newLevel == this.props.equip.maxLevel) {
-      this.setState({compareLevel: null});
-    }
-    else if ((this.state.compareLevel || 0) <= newLevel) {
-      this.setState({compareLevel: newLevel + 1});
-    }
-  }
-
-  setCompareLevel(compareLevel) {
-    this.setState({compareLevel: compareLevel})
-  }
 }
 EquipDetails.propTypes = {
   equip: React.PropTypes.object.isRequired
 }
 
 
-// Display a set of buttons to select a particular level of an equip.
 class EquipLevelSelector extends React.Component {
   constructor(props) {
     super(props);
   }
 
+  // This uses a bunch of magic to produce the right number of buttons
+  // with the right labels and behaviors for all current use cases.
   render () {
     return (
       <div>
@@ -196,8 +205,7 @@ EquipLevelSelector.propTypes = {
 }
 
 
-// Display the stats, (effects), (resistances), and upgrade requirements
-// for a specific level of an equip.
+// Display stats, (effects), (resistances), and upgrade requirements.
 class EquipLevelData extends React.Component {
   constructor(props) {
     super(props);
@@ -230,9 +238,7 @@ EquipLevelData.propTypes = {
   mats: React.PropTypes.object
 }
 
-
-
-// Stats
+// Stats stuff
 const renderEquipStats = stats => (
   <ul>
     <li>Health Points: {stats.healthPoints}</li>
@@ -257,7 +263,7 @@ const diffStats = function (statsA, statsB) {
 }
 
 
-// Upgrade Materials
+// Upgrade Materials stuff
 const renderUpgradeMaterials = upgradeMaterials => (
   <ul>
     {upgradeMaterials.map(um => renderUpgradeMaterial(um))}
@@ -270,7 +276,7 @@ const renderUpgradeMaterial = upgradeMaterial => (
   </li>
 );
 
-function sumUpgradeMaterials(upgradeMaterialsArray) {
+const sumUpgradeMaterials = upgradeMaterialsArray => {
   let totals = new Map();
   [...upgradeMaterialsArray].forEach(function(upgradeMaterials) {
     [...upgradeMaterials].forEach(function(upgradeMaterial) {
@@ -288,3 +294,11 @@ function sumUpgradeMaterials(upgradeMaterialsArray) {
   });
   return [...totals.values()];
 };
+
+const getPriceForUpgradeMaterials = upgradeMaterials => {
+  let cost = 0;
+  [...upgradeMaterials].forEach(material => {
+    cost += material.materialAmount * materialCosts.get(material.materialName);
+  })
+  return cost;
+}
