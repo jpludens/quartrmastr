@@ -2,7 +2,7 @@
 
 import flask
 import json
-import db_loader as loaders
+import db.db_loader as loaders
 
 
 app = flask.Flask(__name__)
