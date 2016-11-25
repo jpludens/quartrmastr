@@ -1,0 +1,44 @@
+EquipName,Modifier,Scheme
+Red Vulcan,Fire,10per
+Red Vulcan,Water,30neg
+Red Vulcan,Freeze,20per
+Flamethrower,Fire,10per
+Flamethrower,Burn,20per
+Thunder Core,Thunder,10per
+Thunder Core,Stun,20per
+Sub Zero,Ice,10per
+Sub Zero,Water,10per
+Sub Zero,Burn,20per
+Quake Maker,Earth,10per
+Quake Maker,Wind,10per
+Quake Maker,Tired,20per
+Destroyer,PoisonE,10per
+Destroyer,PoisonA,20per
+Super Snipe,Stun,20per
+Super Snipe,Syphon,20per
+Vortex Cannon,Wind,10per
+Vortex Cannon,Stagger,20per
+Deep Blue,Fire,10per
+Deep Blue,Thunder,30neg
+Deep Blue,Water,10per
+Mini Bomber,Thunder,10per
+Mini Bomber,Stagger,20per
+Heavy Claw,Earth,10per
+Heavy Claw,Bomb,10per
+Heavy Claw,Dispel,20per
+God Hand,Holy,10per
+God Hand,Weaken,20per
+Shadow Blaster,Dark,10per
+Shadow Blaster,Death,20per
+Chainsaw Gun,Death,20per
+Ultra Zapper,Fire,10per
+Ultra Zapper,Thunder,10per
+Ultra Zapper,Ice,10per
+The Phantom,Death,20per
+The Phantom,Dispel,20per
+Exterminator,PoisonE,10per
+Exterminator,Dark,10per
+Exterminator,PoisonA,20per
+Accelerator,Fire,10per
+Accelerator,Thunder,10per
+Accelerator,Ice,10per

@@ -21,6 +21,7 @@ loadData.then(values => {
 
   // Create equip objects and render the selector
   let equips = values[0].map(e => new Equip(e));
+  // console.log(equips);
   ReactDOM.render(
     <ul>
       {equips.map(e => <li> <EquipPicker equip={e} /> </li> )}
@@ -40,17 +41,54 @@ class Equip {
   constructor(equipData) {
     this.name = equipData.equipName;
     this.slot = equipData.equipSlot;
-    this.levelsData = equipData.levels;
-    this.maxLevel = equipData.levels[equipData.levels.length-1].level
-  }
 
-  getStatsAtLevel(level) {
-    return this.levelsData[level - 1].stats;
+    this.levels = new Map();
+    equipData.levels.forEach(rawLevelData => {
+      this.levels.set(
+        rawLevelData.level,
+        new EquipLevel(rawLevelData, equipData)
+      );
+    });
+    
+    this.maxLevel = Math.max(...this.levels.keys());
   }
+}
 
-  getUpgradeMaterialsAtLevel(level) {
-    if (level < this.maxLevel) {
-      return this.levelsData[level - 1].upgradeMaterials;
+
+class EquipLevel {
+  constructor(rawLevelData, equipData) {
+    this.level = rawLevelData.level;
+    this.stats = rawLevelData.stats;
+
+    this.upgradeMaterials = new Map();
+    if (rawLevelData.hasOwnProperty("upgradeMaterials")) {
+      rawLevelData.upgradeMaterials.forEach(um => {
+        this.upgradeMaterials.set(um.materialName, um.materialAmount);
+      })
+    }
+
+    const resistanceValues = {
+      '10per': { 1:  10, 2:  20, 3:  30, 4:  40, 5:   50 },
+      '20per': { 1:  20, 2:  40, 3:  60, 4:  80, 5:  100 },
+      '30neg': { 1: -30, 2: -30, 3: -30, 4: -30, 5: - 30 }
+    }
+
+    this.elementalResistances = new Map();
+    if (equipData.hasOwnProperty("elementalResistances")) {
+      equipData.elementalResistances.forEach(r => {
+        this.elementalResistances.set(
+          r.elementName,
+          resistanceValues[r.scheme][this.level]);
+      });
+    }
+
+    this.statusResistances = new Map();
+    if (equipData.hasOwnProperty("ailmentResistances")) {
+      equipData.ailmentResistances.forEach(r => {
+        this.statusResistances.set(
+          r.ailmentName,
+          resistanceValues[r.scheme][this.level]);
+      });
     }
   }
 }
@@ -71,7 +109,7 @@ class EquipPicker extends React.Component {
 
   handleClick () {
     ReactDOM.render(
-      <EquipDetails equip={this.props.equip}/>,
+      <EquipDetailsComponent equip={this.props.equip}/>,
       document.getElementById('details')
     );
   }
@@ -81,7 +119,8 @@ EquipPicker.propTypes = {
 }
 
 
-class EquipDetails extends React.Component {
+class EquipDetailsComponent extends React.Component {
+  // TODO: Break this up
   constructor(props) {
     super(props);
 
@@ -98,6 +137,7 @@ class EquipDetails extends React.Component {
     if (newLevel == this.props.equip.maxLevel) {
       this.setState({compareLevel: null});
     }
+    // If compare level is null or too low, set it to one above current.
     else if ((this.state.compareLevel || 0) <= newLevel) {
       this.setState({compareLevel: newLevel + 1});
     }
@@ -108,53 +148,44 @@ class EquipDetails extends React.Component {
   }
 
   render() {
-    let compareLevelData = null;
-    let statComparison = <p>This Equip is now beyond compare!</p>;
-    let upgradeRequirements = <p>It cannae even be upgraded!</p>;
+    let comparisonContent = null;
+    let compareLevelContent = null;
 
-    let currentLevelData =
+    let currentLevelData = this.props.equip.levels.get(this.state.currentLevel);
+    let currentLevelContent =
       <div>
         <h4>Current Level</h4>
         <EquipLevelSelector
           min={1}
           max={this.props.equip.maxLevel}
           setter={this.setCurrentLevel.bind(this)} />
-        <EquipLevelData
+        <EquipLevelComponent
           level={this.state.currentLevel}
-          stats={this.props.equip.getStatsAtLevel(this.state.currentLevel)} />
+          stats={currentLevelData.stats}
+          eres={currentLevelData.elementalResistances}
+          sres={currentLevelData.statusResistances} />
       </div>;
 
     if (this.state.compareLevel) {
-      compareLevelData =
+      let compareLevelData = this.props.equip.levels.get(this.state.compareLevel);
+      comparisonContent =
+        <EquipLevelComparisonComponent
+          equip={this.props.equip}
+          currentData={currentLevelData}
+          compareData={compareLevelData} />
+
+      compareLevelContent =
         <div>
           <h4>Compared to Level</h4>
           <EquipLevelSelector
             min={this.state.currentLevel + 1}
             max={this.props.equip.maxLevel}
             setter={this.setCompareLevel.bind(this)} />
-          <EquipLevelData
+          <EquipLevelComponent
             level={this.state.compareLevel}
-            stats={this.props.equip.getStatsAtLevel(this.state.compareLevel)} />
-        </div>;
-
-      let currentStats = this.props.equip.getStatsAtLevel(this.state.currentLevel);
-      let compareStats = this.props.equip.getStatsAtLevel(this.state.compareLevel);
-      statComparison =
-        <div>
-          <h4>Stats Difference</h4>
-          {renderEquipStats(diffStats(compareStats, currentStats))}
-        </div>;
-
-      let upgradeMaterialsArray = [];
-      for (let l = this.state.currentLevel; l < this.state.compareLevel; l++) {
-        upgradeMaterialsArray.push(this.props.equip.getUpgradeMaterialsAtLevel(l));
-      }
-      let totalUpgradeMaterials = sumUpgradeMaterials(upgradeMaterialsArray);
-      upgradeRequirements =
-        <div>
-          <h4>Total Upgrade Materials</h4>
-          (Gold Cost: {getPriceForUpgradeMaterials(totalUpgradeMaterials)})
-          {renderUpgradeMaterials(totalUpgradeMaterials)}
+            stats={compareLevelData.stats}
+            eres={compareLevelData.elementalResistances}
+            sres={compareLevelData.statusResistances} />
         </div>;
     }
 
@@ -163,19 +194,75 @@ class EquipDetails extends React.Component {
         <h3>Details for {this.props.equip.name}</h3>
         <p>{this.props.equip.slot}</p>
         <div id="details">
-          {currentLevelData}
-          <div>
-            {statComparison}
-            {upgradeRequirements}
-          </div>
-          {compareLevelData}
+          {currentLevelContent}
+          {comparisonContent}
+          {compareLevelContent}
         </div>
       </div>
     );
   }
 }
-EquipDetails.propTypes = {
+EquipDetailsComponent.propTypes = {
   equip: React.PropTypes.object.isRequired
+}
+
+
+class EquipLevelComparisonComponent extends React.Component {
+  constructor(props) {
+    super(props);
+  }
+
+  render() {
+    const statComparison =
+      <div>
+        <h4>Stats Changes</h4>
+        {renderEquipStats(diffStats(
+          this.props.compareData.stats, this.props.currentData.stats))}
+      </div>;
+
+    const elementalComparison =
+      <div>
+        <h4>Elemental Resistance Changes</h4>
+        {renderMap(diffMaps(
+          this.props.compareData.elementalResistances,
+          this.props.currentData.elementalResistances))}
+      </div>
+
+    const statusComparison =
+      <div>
+        <h4>Status Resistance Changes</h4>
+        {renderMap(diffMaps(
+          this.props.compareData.statusResistances,
+          this.props.currentData.statusResistances))}
+      </div>
+
+    let upgradeMaterialsArray = [];
+    for (let l = this.props.currentData.level; l < this.props.compareData.level; l++) {
+      upgradeMaterialsArray.push(this.props.equip.levels.get(l).upgradeMaterials);
+    }
+    let totalUpgradeMaterials = sumMaps(upgradeMaterialsArray);
+    const upgradeRequirements =
+      <div>
+        <h4>Total Upgrade Materials</h4>
+        (Gold Cost: {getPriceForUpgradeMaterials(totalUpgradeMaterials)})
+        {renderMap(totalUpgradeMaterials)}
+      </div>;
+
+    return (
+      <div className="comparison">
+        {statComparison}
+        {elementalComparison}
+        {statusComparison}
+        {upgradeRequirements}
+      </div>
+    );
+  }
+}
+EquipLevelComparisonComponent.propTypes = {
+  // TODO: Drop requirement when comparing between different Equips
+  equip: React.PropTypes.object.isRequired,
+  currentData: React.PropTypes.object.isRequired,
+  compareData: React.PropTypes.object.isRequired
 }
 
 
@@ -206,18 +293,29 @@ EquipLevelSelector.propTypes = {
 
 
 // Display stats, (effects), (resistances), and upgrade requirements.
-class EquipLevelData extends React.Component {
+class EquipLevelComponent extends React.Component {
   constructor(props) {
     super(props);
   }
 
   render() {
-    let matsContent = null;
-    if (this.props.mats) {
-      matsContent =
+    // TODO: Add upgrade materials
+
+    let eresContent = null;
+    if (this.props.eres) {
+      eresContent =
         <div>
-          <h4>Upgrade to Level {this.props.level+1}</h4>
-          {renderUpgradeMaterials(this.props.mats)}
+          <h4>Elemental Resistances</h4>
+          {renderMap(this.props.eres)}
+        </div>;
+    }
+
+    let sresContent = null;
+    if (this.props.sres) {
+      sresContent =
+        <div>
+          <h4>Elemental Resistances</h4>
+          {renderMap(this.props.sres)}
         </div>;
     }
 
@@ -227,15 +325,18 @@ class EquipLevelData extends React.Component {
           <h4>Stats at Level {this.props.level}</h4>
           {renderEquipStats(this.props.stats)}
         </div>
-        {matsContent}
+        {eresContent}
+        {sresContent}
       </div>
     );
   }
 }
-EquipLevelData.propTypes = {
+EquipLevelComponent.propTypes = {
   level: React.PropTypes.number.isRequired,
   stats: React.PropTypes.object.isRequired,
-  mats: React.PropTypes.object
+  mats: React.PropTypes.object,
+  eres: React.PropTypes.object,
+  sres: React.PropTypes.object
 }
 
 // Stats stuff
@@ -263,42 +364,47 @@ const diffStats = function (statsA, statsB) {
 }
 
 
-// Upgrade Materials stuff
-const renderUpgradeMaterials = upgradeMaterials => (
+// Resistances
+const renderResistances = resistances => (
+  null // DONOW
+);
+
+const renderMap = theMap => (
   <ul>
-    {upgradeMaterials.map(um => renderUpgradeMaterial(um))}
+    {[...theMap.entries()].map(entry =>
+      <li>
+        {entry[0]}: {entry[1]}
+      </li>
+    )}
   </ul>
 );
 
-const renderUpgradeMaterial = upgradeMaterial => (
-  <li>
-    {upgradeMaterial.materialName}: {upgradeMaterial.materialAmount}
-  </li>
-);
-
-const sumUpgradeMaterials = upgradeMaterialsArray => {
-  let totals = new Map();
-  [...upgradeMaterialsArray].forEach(function(upgradeMaterials) {
-    [...upgradeMaterials].forEach(function(upgradeMaterial) {
-      // If this is a material that hasn't been seen, set a count for it to 0
-      let name = upgradeMaterial.materialName;
-      if (!totals.has(name)) {
-        totals.set(name, {
-            materialName: name,
-            materialAmount: 0
-        });
-      }
-      // Now add the amount for this material from this set
-      totals.get(name).materialAmount += upgradeMaterial.materialAmount;
-    });
-  });
-  return [...totals.values()];
-};
-
+// Upgrade materials
 const getPriceForUpgradeMaterials = upgradeMaterials => {
   let cost = 0;
-  [...upgradeMaterials].forEach(material => {
-    cost += material.materialAmount * materialCosts.get(material.materialName);
-  })
+  for (var [name, amount] of upgradeMaterials.entries()) {
+    cost += amount * materialCosts.get(name)
+  }
   return cost;
+}
+
+
+const sumMaps = mapsArray => {
+  let sums = new Map();
+  [...mapsArray].forEach(mapToSum => {
+    for (var [key, value] of mapToSum.entries()) {
+      let originalValue = sums.has(key) ? sums.get(key) : 0;
+      sums.set(key, originalValue + value);
+    }
+  });
+  return sums;
+}
+
+const diffMaps = function(mapA, mapB) {
+  // Ignores elements in B but not in A.
+  let diff = new Map();
+  mapA.forEach(function(value, key) {
+    diff.set(key, mapB.has(key) ? value - mapB.get(key) : value)
+  });
+  return diff;
 }

@@ -49,7 +49,26 @@ def build_table_materials():
                         "MaterialName, MaterialPrice) "
                         "VALUES ('{}', '{}')".format(
                             row['MaterialName'],
+                            # TODO: Change this. ItemPrice? ShopPrice? PurchaseCost?
                             row['Price']))
+
+
+def build_table_modifiers():
+    # No requirements
+    with get_connection() as con:
+        cur = con.cursor()
+        cur.execute("DROP TABLE IF EXISTS Modifiers")
+        cur.execute("CREATE TABLE Modifiers("
+                    "Id INTEGER PRIMARY KEY AUTOINCREMENT, "
+                    "ModifierName TEXT, "
+                    "ModifierType TEXT)")
+
+        for row in get_from_datamaster('Modifiers.csv'):
+            cur.execute("INSERT INTO Modifiers ("
+                        "ModifierName, ModifierType) "
+                        "VALUES ('{}', '{}')".format(
+                            row['ModifierName'],
+                            row['ModifierType']))
 
 
 def build_table_equip_levels():
@@ -95,6 +114,49 @@ def build_table_equip_levels():
                             row['Evade']))
 
 
+def build_table_equip_resistances():
+    # Requires Equips, Modifiers
+    with get_connection() as con:
+        con.row_factory = sqlite3.Row
+        cur = con.cursor()
+
+        cur.execute("SELECT Id, EquipName FROM Equips")
+        foreign_keys = {row['EquipName']: row['Id'] for row in cur.fetchall()}
+
+        # Get foreign keys for Element and Ailment modifiers.
+        # Handle Poison as a special case.
+        cur.execute("SELECT Id, ModifierName, ModifierType FROM Modifiers")
+        for row in cur.fetchall():
+            modifier_key = row['ModifierName']
+            if modifier_key == "Poison":
+                if row['ModifierType'] == "Element":
+                    modifier_key = "PoisonE"
+                elif row['ModifierType'] == "Ailment":
+                    modifier_key = "PoisonA"
+                else:
+                    raise ValueError("ModifierType for ModifierName 'Poison' "
+                                     "must be 'Element' or 'Ailment'")
+            foreign_keys[modifier_key] = row['Id']
+
+        cur.execute("PRAGMA foreign_keys = ON")
+        cur.execute("DROP TABLE IF EXISTS EquipResistances")
+        cur.execute("CREATE TABLE EquipResistances("
+                    "Id INTEGER PRIMARY KEY AUTOINCREMENT, "
+                    "Equip INTEGER, "
+                    "Modifier INTEGER, "
+                    "Scheme TEXT, "
+                    "FOREIGN KEY(Equip) REFERENCES Equips(Id), "
+                    "FOREIGN KEY(Modifier) REFERENCES Modifiers(Id))")
+
+        for row in get_from_datamaster('EquipResistances.csv'):
+            cur.execute("INSERT INTO EquipResistances ("
+                        "Equip, Modifier, Scheme)"
+                        "VALUES ('{}', '{}', '{}')".format(
+                            foreign_keys[row['EquipName']],
+                            foreign_keys[row['Modifier']],
+                            row['Scheme']))
+
+
 def build_table_equip_upgrade_components():
     # Requires EquipLevels, Materials
     def get_equip_level_tag(row):
@@ -135,5 +197,7 @@ def build_table_equip_upgrade_components():
 if __name__ == "__main__":
     build_table_equips()
     build_table_materials()
+    build_table_modifiers()
     build_table_equip_levels()
+    build_table_equip_resistances()
     build_table_equip_upgrade_components()

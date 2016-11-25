@@ -20,9 +20,46 @@ class EquipsTopographyTests(unittest.TestCase):
         self.data = json.loads(quartrmastr.get_equips())
 
     def test_get_equips__equips__contains_expected_keys(self):
-        actuals = [set(item.keys()) for item in self.data]
+        key_sets = [set(item.keys()) for item in self.data]
+        # We get something
+        self.assertTrue(key_sets != [])
+        expected_keys = {
+            'id',
+            'equipName',
+            'equipSlot',
+            'levels',
+            'elementalResistances',
+            'ailmentResistances'}
+        expected_diffs = [
+            set(),
+            {'elementalResistances'},
+            {'ailmentResistances'}]
+        # None of the items have keys we are not expecting
+        self.assertTrue(all(key_set.difference(expected_keys) == set() for key_set in key_sets))
+        # Items may be missing ONLY elemental resistances OR ONLY ailment resistances.
+        self.assertTrue(all(expected_keys.difference(key_set) in expected_diffs for key_set in key_sets))
+
+    def test_get_equips__elemental_resistances__contains_expected_keys(self):
+        resistance_sets = [e['elementalResistances'] for e in self.data
+                           if 'elementalResistances' in e]
+        actuals = [set(resistance.keys())
+                   for resistance_set in resistance_sets
+                   for resistance in resistance_set]
         self.assertTrue(actuals != [])
-        expected = {'id', 'equipName', 'equipSlot', 'levels'}
+        expected = {
+            "elementName",
+            "scheme"}
+        self.assertTrue(all(actual == expected for actual in actuals))
+
+    def test_get_equips__ailment_resistances__contains_expected_keys(self):
+        resistance_sets = [e['ailmentResistances'] for e in self.data
+                           if 'ailmentResistances' in e]
+        actuals = [set(resistance.keys())
+                   for resistance_set in resistance_sets
+                   for resistance in resistance_set]
+        expected = {
+            "ailmentName",
+            "scheme"}
         self.assertTrue(all(actual == expected for actual in actuals))
 
     # DEBT TODO Split into flair/nonflair versions
@@ -36,15 +73,20 @@ class EquipsTopographyTests(unittest.TestCase):
         actuals = [set(level.keys()) for level_set in equip_level_sets
                    for level in level_set if level['level'] < 5]
         self.assertTrue(actuals != [])
-        expected = {'level', 'upgradeMaterials', 'stats'}
+        expected = {
+            'level',
+            'upgradeMaterials',
+            'stats'}
         self.assertTrue(all(actual == expected for actual in actuals))
 
-    def test_get_equips__levels_max_elements_contain_expected_keys(self):
+    def test_get_equips__levels_max__elements_contain_expected_keys(self):
         equip_level_sets = [e['levels'] for e in self.data]
         actuals = [set(level.keys()) for level_set in equip_level_sets
                    for level in level_set if level['level'] == 5]
         self.assertTrue(actuals != [])
-        expected = {'level', 'stats'}
+        expected = {
+            'level',
+            'stats'}
         self.assertTrue(all(actual == expected for actual in actuals))
 
     # DEBT TODO Split into flair/nonflair versions
@@ -70,7 +112,7 @@ class EquipsTopographyTests(unittest.TestCase):
         equip_level_sets = [e['levels'] for e in self.data]
         actuals = [set(level["stats"].keys())
                    for level_set in equip_level_sets
-                   for level in level_set if level['level'] < 5]
+                   for level in level_set]
         self.assertTrue(actuals != [])
         expected = {
             'healthPoints',
