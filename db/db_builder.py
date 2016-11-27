@@ -29,7 +29,7 @@ def build_stats():
         for csv_row in get_from_datamaster('Stats.csv'):
             cur.execute("INSERT INTO Stats ("
                         "StatName) "
-                        "VALUES ('{}')".format(
+                        "VALUES (\"{}\")".format(
                             csv_row.get('StatName')))
 
 
@@ -46,7 +46,7 @@ def build_stat_modifiers():
         for csv_row in get_from_datamaster('StatModifiers.csv'):
             cur.execute("INSERT INTO StatModifiers ("
                         "StatModifierName, StatModifierType) "
-                        "VALUES ('{}', '{}')".format(
+                        "VALUES (\"{}\", \"{}\")".format(
                             csv_row.get('StatModifierName'),
                             csv_row.get('StatModifierType')))
 
@@ -63,7 +63,7 @@ def build_elements():
         for csv_row in get_from_datamaster('Elements.csv'):
             cur.execute("INSERT INTO Elements ("
                         "ElementName) "
-                        "VALUES ('{}')".format(
+                        "VALUES (\"{}\")".format(
                             csv_row.get('ElementName')))
 
 
@@ -80,7 +80,7 @@ def build_statuses():
         for csv_row in get_from_datamaster('Statuses.csv'):
             cur.execute("INSERT INTO Statuses ("
                         "StatusName, StatusType) "
-                        "VALUES ('{}', '{}')".format(
+                        "VALUES (\"{}\", \"{}\")".format(
                             csv_row.get('StatusName'),
                             csv_row.get('StatusType')))
 
@@ -98,7 +98,7 @@ def build_equips():
         for csv_row in get_from_datamaster('Equips.csv'):
             cur.execute("INSERT INTO Equips ("
                         "EquipName, EquipSlot) "
-                        "VALUES ('{}', '{}')".format(
+                        "VALUES (\"{}\", \"{}\")".format(
                             csv_row.get('EquipName'),
                             csv_row.get('EquipSlot')))
 
@@ -116,7 +116,7 @@ def build_materials():
         for csv_row in get_from_datamaster('Materials.csv'):
             cur.execute("INSERT INTO Materials ("
                         "MaterialName, MaterialPrice) "
-                        "VALUES ('{}', '{}')".format(
+                        "VALUES (\"{}\", \"{}\")".format(
                             csv_row.get('MaterialName'),
                             # TODO: Change this. ItemPrice? ShopPrice? PurchaseCost?
                             csv_row.get('Price')))
@@ -150,8 +150,8 @@ def build_equip_level_stats():
             cur.execute("INSERT INTO EquipLevels ("
                         "Equip, Level, HP, MP, PAttack, MAttack, "
                         "PDefence, MDefence, Accuracy, Evade) "
-                        "VALUES ('{}', '{}', '{}', '{}', '{}', '{}', "
-                        "'{}', '{}', '{}', '{}')".format(
+                        "VALUES (\"{}\", \"{}\", \"{}\", \"{}\", \"{}\", \"{}\", "
+                        "\"{}\", \"{}\", \"{}\", \"{}\")".format(
                             foreign_keys[csv_row.get('EquipName')],
                             csv_row.get('Level'),
                             csv_row.get('HP'),
@@ -189,7 +189,7 @@ def build_equip_elemental_resistances():
             if csv_row.get('Category') == 'Element':
                 cur.execute("INSERT INTO EquipElementalResistances ("
                             "Equip, Element, Scheme)"
-                            "VALUES ('{}', '{}', '{}')".format(
+                            "VALUES (\"{}\", \"{}\", \"{}\")".format(
                                 foreign_keys[csv_row.get('EquipName')],
                                 foreign_keys[csv_row.get('Resists')],
                                 csv_row.get('Scheme')))
@@ -220,7 +220,7 @@ def build_equip_status_resistances():
             if csv_row.get('Category') == 'Status':
                 cur.execute("INSERT INTO EquipStatusResistances ("
                             "Equip, Status, Scheme)"
-                            "VALUES ('{}', '{}', '{}')".format(
+                            "VALUES (\"{}\", \"{}\", \"{}\")".format(
                                 foreign_keys[csv_row.get('EquipName')],
                                 foreign_keys[csv_row.get('Resists')],
                                 csv_row.get('Scheme')))
@@ -250,7 +250,7 @@ def build_equip_element_imbue_traits():
             if csv_row.get('TraitTypeName') == 'ImbueElement':
                 cur.execute("INSERT INTO EquipElementImbueTraits ("
                             "Equip, Element)"
-                            "VALUES ('{}', '{}')".format(
+                            "VALUES (\"{}\", \"{}\")".format(
                                 foreign_keys[csv_row.get('EquipName')],
                                 foreign_keys[csv_row.get('KeyName')]))
 
@@ -279,7 +279,7 @@ def build_equip_element_boost_traits():
             if csv_row.get('TraitTypeName') == 'BoostElement':
                 cur.execute("INSERT INTO EquipElementBoostTraits ("
                             "Equip, Element)"
-                            "VALUES ('{}', '{}')".format(
+                            "VALUES (\"{}\", \"{}\")".format(
                                 foreign_keys[csv_row.get('EquipName')],
                                 foreign_keys[csv_row.get('KeyName')]))
 
@@ -308,13 +308,12 @@ def build_equip_stat_debuff_traits():
             if csv_row.get('TraitTypeName') == 'DebuffTarget':
                 cur.execute("INSERT INTO EquipStatDebuffTraits ("
                             "Equip, StatModifier)"
-                            "VALUES ('{}', '{}')".format(
+                            "VALUES (\"{}\", \"{}\")".format(
                                 foreign_keys[csv_row.get('EquipName')],
                                 foreign_keys[csv_row.get('KeyName')]))
 
 
-def build_equip_stat_buff_traits():
-    # TODO Confirm this works properly once BuffReflex Equips are added
+def build_equip_buff_reflex_traits():
     # Requires Equips, StatModifiers
     with sqlite3.connect(os.path.join('db', 'nolegsbase.db')) as con:
         con.row_factory = sqlite3.Row
@@ -326,8 +325,8 @@ def build_equip_stat_buff_traits():
         foreign_keys.update({row[1]: row[0] for row in cur.fetchall()})
 
         cur.execute("PRAGMA foreign_keys = ON")
-        cur.execute("DROP TABLE IF EXISTS EquipStatBuffTraits")
-        cur.execute("CREATE TABLE EquipStatBuffTraits("
+        cur.execute("DROP TABLE IF EXISTS EquipBuffReflexTraits")
+        cur.execute("CREATE TABLE EquipBuffReflexTraits("
                     "Id INTEGER PRIMARY KEY AUTOINCREMENT, "
                     "Equip INTEGER, "
                     "StatModifier INTEGER, "
@@ -336,9 +335,9 @@ def build_equip_stat_buff_traits():
 
         for csv_row in get_from_datamaster('EquipTraits.csv'):
             if csv_row.get('TraitTypeName') == 'BuffTarget':
-                cur.execute("INSERT INTO EquipStatBuffTraits ("
+                cur.execute("INSERT INTO EquipBuffReflexTraits ("
                             "Equip, StatModifier)"
-                            "VALUES ('{}', '{}')".format(
+                            "VALUES (\"{}\", \"{}\")".format(
                                 foreign_keys[csv_row.get('EquipName')],
                                 foreign_keys[csv_row.get('KeyName')]))
 
@@ -363,7 +362,7 @@ def build_equip_skill_beat_traits():
             if csv_row.get('TraitTypeName') == 'BeatSkill':
                 cur.execute("INSERT INTO EquipSkillBeatTraits ("
                             "Equip, SkillName)"
-                            "VALUES ('{}', '{}')".format(
+                            "VALUES (\"{}\", \"{}\")".format(
                                 foreign_keys[csv_row.get('EquipName')],
                                 csv_row.get('KeyName')))
 
@@ -388,7 +387,7 @@ def build_equip_skill_stack_traits():
             if csv_row.get('TraitTypeName') == 'StackSkill':
                 cur.execute("INSERT INTO EquipSkillStackTraits ("
                             "Equip, SkillName)"
-                            "VALUES ('{}', '{}')".format(
+                            "VALUES (\"{}\", \"{}\")".format(
                                 foreign_keys[csv_row.get('EquipName')],
                                 csv_row.get('KeyName')))
 
@@ -413,7 +412,7 @@ def build_equip_skill_counter_traits():
             if csv_row.get('TraitTypeName') == 'CounterSkill':
                 cur.execute("INSERT INTO EquipSkillCounterTraits ("
                             "Equip, SkillName)"
-                            "VALUES ('{}', '{}')".format(
+                            "VALUES (\"{}\", \"{}\")".format(
                                 foreign_keys[csv_row.get('EquipName')],
                                 csv_row.get('KeyName')))
 
@@ -442,7 +441,7 @@ def build_equip_status_on_target_traits():
             if csv_row.get('TraitTypeName') == 'InflictTarget':
                 cur.execute("INSERT INTO EquipStatusOnTargetTraits ("
                             "Equip, Status)"
-                            "VALUES ('{}', '{}')".format(
+                            "VALUES (\"{}\", \"{}\")".format(
                                 foreign_keys[csv_row.get('EquipName')],
                                 foreign_keys[csv_row.get('KeyName')]))
 
@@ -471,7 +470,36 @@ def build_equip_status_on_player_traits():
             if csv_row.get('TraitTypeName') == 'BestowPlayer':
                 cur.execute("INSERT INTO EquipStatusOnPlayerTraits ("
                             "Equip, Status)"
-                            "VALUES ('{}', '{}')".format(
+                            "VALUES (\"{}\", \"{}\")".format(
+                                foreign_keys[csv_row.get('EquipName')],
+                                foreign_keys[csv_row.get('KeyName')]))
+
+
+def build_equip_status_replace_traits():
+    # Requires Equips, Statuses
+    with sqlite3.connect(os.path.join('db', 'nolegsbase.db')) as con:
+        con.row_factory = sqlite3.Row
+        cur = con.cursor()
+
+        foreign_keys = get_equip_keys(cur)
+
+        cur.execute("SELECT Id, StatusName FROM Statuses")
+        foreign_keys.update({row[1]: row[0] for row in cur.fetchall()})
+
+        cur.execute("PRAGMA foreign_keys = ON")
+        cur.execute("DROP TABLE IF EXISTS EquipStatusReplaceTraits")
+        cur.execute("CREATE TABLE EquipStatusReplaceTraits("
+                    "Id INTEGER PRIMARY KEY AUTOINCREMENT, "
+                    "Equip INTEGER, "
+                    "Status INTEGER, "
+                    "FOREIGN KEY(Equip) REFERENCES Equips(Id), "
+                    "FOREIGN KEY(Status) REFERENCES Statuses(Id))")
+
+        for csv_row in get_from_datamaster('EquipTraits.csv'):
+            if csv_row.get('TraitTypeName') == 'BestowPlayer':
+                cur.execute("INSERT INTO EquipStatusReplaceTraits ("
+                            "Equip, Status)"
+                            "VALUES (\"{}\", \"{}\")".format(
                                 foreign_keys[csv_row.get('EquipName')],
                                 foreign_keys[csv_row.get('KeyName')]))
 
@@ -500,12 +528,12 @@ def build_equip_drain_traits():
             if csv_row.get('TraitTypeName') == 'DrainTarget':
                 cur.execute("INSERT INTO EquipDrainTraits ("
                             "Equip, Stat)"
-                            "VALUES ('{}', '{}')".format(
+                            "VALUES (\"{}\", \"{}\")".format(
                                 foreign_keys[csv_row.get('EquipName')],
                                 foreign_keys[csv_row.get('KeyName')]))
 
 
-def build_equip_action_traits():
+def build_equip_action_boost_traits():
     # Requires Equips, (Skills)
     with sqlite3.connect(os.path.join('db', 'nolegsbase.db')) as con:
         con.row_factory = sqlite3.Row
@@ -514,18 +542,18 @@ def build_equip_action_traits():
         foreign_keys = get_equip_keys(cur)
 
         cur.execute("PRAGMA foreign_keys = ON")
-        cur.execute("DROP TABLE IF EXISTS EquipActionTraits")
-        cur.execute("CREATE TABLE EquipActionTraits("
+        cur.execute("DROP TABLE IF EXISTS EquipActionBoostTraits")
+        cur.execute("CREATE TABLE EquipActionBoostTraits("
                     "Id INTEGER PRIMARY KEY AUTOINCREMENT, "
                     "Equip INTEGER, "
                     "ActionDesc TEXT, "
                     "FOREIGN KEY(Equip) REFERENCES Equips(Id))")
 
         for csv_row in get_from_datamaster('EquipTraits.csv'):
-            if csv_row.get('TraitTypeName') == 'BoostAction':
-                cur.execute("INSERT INTO EquipActionTraits ("
-                            "Equip, SkillName)"
-                            "VALUES ('{}', '{}')".format(
+            if csv_row.get('TraitTypeName') == 'ActionBoost':
+                cur.execute("INSERT INTO EquipActionBoostTraits ("
+                            "Equip, ActionDesc)"
+                            "VALUES (\"{}\", \"{}\")".format(
                                 foreign_keys[csv_row.get('EquipName')],
                                 csv_row.get('KeyName')))
 
@@ -561,7 +589,7 @@ def build_equip_level_upgrade_requirements():
         for csv_row in get_from_datamaster('EquipLevelUpgradeRequirements.csv'):
             cur.execute("INSERT INTO EquipLevelUpgradeRequirements ("
                         "EquipLevel, Material, Amount) "
-                        "VALUES ('{}', '{}', '{}')".format(
+                        "VALUES (\"{}\", \"{}\", \"{}\")".format(
                             foreign_keys[get_equip_level_tag(csv_row)],
                             foreign_keys[csv_row.get('MaterialName')],
                             csv_row.get('Amount')))

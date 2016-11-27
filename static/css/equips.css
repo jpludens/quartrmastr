@@ -5,3 +5,17 @@
 .comparison {
 	margin-top: 91.5px;
 }
+
+.equip-selector-listing {
+	cursor: pointer;
+	cursor: hand;
+}
+
+ul {
+	list-style: none;
+}
+
+button {
+	cursor: pointer;
+	cursor: hand;
+}

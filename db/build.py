@@ -21,13 +21,14 @@ def build():
     builders.build_equip_skill_counter_traits()
     builders.build_equip_status_on_target_traits()
     builders.build_equip_status_on_player_traits()
+    builders.build_equip_status_replace_traits()
     builders.build_equip_drain_traits()
-    # builders.build_equip_action_traits()
+    builders.build_equip_action_boost_traits()
     builders.build_equip_level_upgrade_requirements()
 
     # Build further dependent tables
     builders.build_equip_stat_debuff_traits()
-    # builders.build_equip_stat_buff_traits()
+    builders.build_equip_buff_reflex_traits()
 
 if __name__ == "__main__":
     build()

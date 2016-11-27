@@ -68,3 +68,269 @@ Vortex Cannon,ImbueElement,Wind
 Vortex Cannon,BoostElement,Wind
 Vortex Cannon,StackSkill,Shockwave
 Vortex Cannon,InflictTarget,Dispel
+Crystal Staff,InflictTarget,Dispel
+Flameheart,InflictTarget,Burn
+Flameheart,ImbueElement,Fire
+Flameheart,BoostElement,Fire
+Flameheart,StackSkill,Fireball
+Tribolt,ImbueElement,Thunder
+Tribolt,InflictTarget,Stun
+Tribolt,BoostElement,Thunder
+Tribolt,StackSkill,Thunderbolt
+Razorwind,ImbueElement,Ice
+Razorwind,InflictTarget,Freeze
+Razorwind,BoostElement,Ice
+Razorwind,StackSkill,Iceshard
+Flower Pot,ImbueElement,Earth
+Flower Pot,InflictTarget,Tired
+Flower Pot,BoostElement,Earth
+Flower Pot,StackSkill,Gaia Bloom
+Flower Pot,BeatSkill,Gaia Bloom
+Nirvana,ImbueElement,Poison
+Nirvana,InflictStatus,Poison
+Nirvana,BoostElement,Poison
+Nirvana,StackSkill,Vines
+Nirvana,BeatSkill,Bulb Blast
+Wrecking Rod,ImbueElement,Bomb
+Wrecking Rod,DebuffTarget,DefenceDown
+Wrecking Rod,BoostElement,Bomb
+Wrecking Rod,StackSkill,Blast
+Wrecking Rod,CounterSkill,Normal Attack
+Mystic Breeze,ImbueElement,Wind
+Mystic Breeze,InflictTarget,Syphon
+Mystic Breeze,DrainTarget,MagicPoints
+Mystic Breeze,BoostElement,Wind
+Mystic Breeze,StackSkill,Whirlwind
+Coral Staff,ImbueElement,Water
+Coral Staff,BoostElement,Water
+Coral Staff,StackSkill,Bubble Blast
+Seraphim,ImbueElement,Holy
+Seraphim,BoostElement,Holy
+Seraphim,StackSkill,Holy Fire
+Dreamcatcher,ImbueElement,Holy
+Dreamcatcher,DebuffTarget,MagicAttackDown
+Dreamcatcher,BoostElement,Holy
+Dreamcatcher,StackSkill,Talisman Seal
+Dreamcatcher,CounterSkill,Talisman Seal
+Hela's Staff,ImbueElement,Dark
+Hela's Staff,BestowPlayer,Curse
+Hela's Staff,InflictTarget,Curse
+Hela's Staff,BoostElement,Dark
+Alchemy Set,BestowPlayer,Regenerate
+Alchemy Set,InflictTarget,Random
+Alchemy Set,BoostElement,Non-elemental
+Alchemy Set,CounterSkill,Spectrum
+Road Sign,CounterSkill,Spectrum
+Epoch,DrainTarget,HealthPoints
+Epoch,StackSkill,Slow Down
+Oak Staff,ImbueElement,Earth
+Oak Staff,BestowPlayer,Bless
+Oak Staff,BoostElement,Earth
+Oak Staff,StackSkill,Lumber
+Shooting Star,BoostElement,Non-elemental
+Shooting Star,StackSkill,Lucky Star
+Shooting Star,BeatSkill,Star Shower
+Death Scythe,ImbueElement,Dark
+Death Scythe,BoostElement,Dark
+Death Scythe,StackSkill,Death Spike
+Death Scythe,BeatSkill,Grim Reaper
+Crimson Dragon,ImbueElement,Fire
+Crimson Dragon,InflictTarget,Burn
+Crimson Dragon,BoostElement,Fire
+Crimson Dragon,StackSkill,Dragon Flame
+Thor's Hammer,ImbueElement,Thunder
+Thor's Hammer,InflictStatus,Stun
+Thor's Hammer,BoostElement,Thunder
+Thor's Hammer,StackSkill,Spark Arrow
+Juggernaut,ImbueElement,Bomb
+Juggernaut,BoostElement,Bomb
+Juggernaut,StackSkill,Big Blast
+Sky Feather,ImbueElement,Wind
+Sky Feather,InflictTarget,Syphon
+Sky Feather,DrainTarget,MagicPoints
+Sky Feather,BoostElement,Wind
+Sky Feather,StackSkill,Gust
+Atlantis,ImbueElement,Water
+Atlantis,InflictStatus,Wet
+Atlantis,BoostElement,Water
+Atlantis,StackSkill,Aqua Arrow
+Black Widow,ImbueElement,Dark
+Black Widow,InflictTarget,Curse
+Black Widow,BoostElement,Dark
+Black Widow,StackSkill,Dark Spikes
+Black Widow,CounterSkill,Normal Attack
+Eagle Eye,CounterSkill,Piercing Shot
+Iron Tooth,InflictTarget,Stagger
+Iron Tooth,CounterSkill,Combo Shot
+Fenrir's Jaw,ImbueElement,Holy
+Fenrir's Jaw,DrainTarget,HealthPoints
+Fenrir's Jaw,BoostElement,Holy
+Fenrir's Jaw,CounterSkill,Normal Attack
+The Departed,InflictTarget,Doom
+The Departed,DebuffTarget,MagicDefenceDown
+The Departed,CounterSkill,Normal Attack
+The Departed,StackSkill,Bones
+Alchemist's Bow,InflictTarget,Random
+Crystal Bow,StackSkill,Frost Arrow
+Crystal Bow,BeatSkill,Fire Crystals
+Crystal Bow,CounterSkill,Spark Arrow
+Thorn Bow,ImbueElement,Poison
+Thorn Bow,BoostElement,Poison
+Thorn Bow,StackSkill,Thorny Vines
+Thorn Bow,BeatSkill,Thorny Vines
+Angel Wing,ImbueElement,Holy
+Angel Wing,InflictTarget,Weaken
+Angel Wing,BoostElement,Holy
+Angel Wing,BeatSkill,ArrowRain
+Emerald Cyclone,ImbueElement,Wind
+Emerald Cyclone,InflictTarget,Dispel
+Emerald Cyclone,BoostElement,Wind
+Emerald Cyclone,StackSkill,Shockwave
+Emerald Cyclone,CounterSkill,Piercing Shot
+Frozen Tears,ImbueElement,Ice
+Frozen Tears,InflictStatus,Freeze
+Frozen Tears,BoostElement,Ice
+Frozen Tears,StackSkill,Ice Spike
+Gaia's Bow,ImbueElement,Earth
+Gaia's Bow,InflictTarget,Stun
+Gaia's Bow,BoostElement,Earth
+Gaia's Bow,StackSkill,Bulb Blast
+Fairy Bow,ImbueElement,Poison
+Fairy Bow,InflictTarget,Poison
+Fairy Bow,BoostElement,Poison
+Fairy Bow,StackSkill,Vines
+Magma Hammer,ImbueElement,Fire
+Magma Hammer,InflictTarget,Burn
+Magma Hammer,BoostElement,Fire
+Magma Hammer,StackSkill,Fume
+Ice Needle,ImbueElement,Ice
+Ice Needle,InflictTarget,Freeze
+Ice Needle,BoostElement,Ice
+Ice Needle,StackSkill,Tundra
+Golden Dragon,ImbueElement,Thunder
+Golden Dragon,InflictTarget,Stun
+Golden Dragon,BoostElement,Thunder
+Golden Dragon,StackSkill,Spark
+Golden Dragon,CounterSkill,Normal Attack
+Gash Club,ImbueElement,Earth
+Gash Club,InflictTarget,Poison
+Gash Club,BoostElement,Earth
+Gash Club,StackSkill,Log
+Gash Club,CounterSkill,Normal Attack
+Dragon Claw,ImbueElement,Poison
+Dragon Claw,BestowPlayer,Poison
+Dragon Claw,InflictTarget,Poison
+Dragon Claw,BoostElement,Poison
+Dragon Claw,StackSkill,Toxic
+Dragon Claw,CounterSkill,Normal Attack
+G*bson EB0,ImbueElement,Wind
+G*bson EB0,BoostElement,Wind
+G*bson EB0,BeatSkill,Power Metal
+Silver Blade,ImbueElement,Wind
+Silver Blade,DebuffTarget,EvadeDown
+Silver Blade,BoostElement,Wind
+Silver Blade,CounterSkill,Swift Slash
+Sapphire Giant,ImbueElement,Water
+Sapphire Giant,BoostElement,Water
+Sapphire Giant,StackSkill,Flood
+Heaven's Gate,ImbueElement,Holy
+Heaven's Gate,BoostElement,Holy
+Heaven's Gate,StackSkill,Holy Sword
+Heaven's Gate,CounterSkill,Normal Attack
+Anarchy,ImbueElement,Dark
+Anarchy,BoostElement,Dark
+Anarchy,CounterSkill,Revenge
+Devil's Sunrise,ImbueElement,Dark
+Devil's Sunrise,BoostElement,Dark
+Devil's Sunrise,CounterSkill,Quick Slash
+Devil's Sunrise,StackSkill,Haunt
+Bone Blade,InflictTarget,Weaken
+Bone Blade,DebuffTarget,DefenceDown
+Bone Blade,StackSkill,Fright
+Blood Blade,InflictTarget,Tired
+Blood Blade,DrainTarget,HealthPoints
+Rune Blade,ImbueElement,Holy
+Rune Blade,InflictTarget,Syphon
+Rune Blade,DrainTarget,MagicPoints
+Rune Blade,BoostElement,Holy
+Rune Blade,StackSkill,Glitter
+Chainsaw Blade,InflictTarget,Death
+Chainsaw Blade,StackSkill,Sawblades
+Equilibrium,BestowPlayer,Auto-Revive
+Equilibrium,InflictTarget,Syphon
+Equilibrium,CounterSkill,Legend
+Fusion Sword,ImbueElement,Bomb
+Fusion Sword,InflictTarget,Burn
+Fusion Sword,BoostElement,Bomb
+Fusion Sword,StackSkill,Big Blast
+Drill Lance,ImbueElement,Earth
+Drill Lance,InflictTarget,Stagger
+Drill Lance,BoostElement,Earth
+Drill Lance,StackSkill,Rock Fall
+Drill Lance,CounterSkill,Quake
+Casual Cap,BuffReflex,EvadeUp
+Knight Helmet,BeatSkill,NoLegs
+Dragon Helm,BestowPlayer,Morale
+Viking Helmet,BestowPlayer,Berserk
+Army Helmet,BeatSkill,Medipack
+Officer's Hat,BeatSkill,Tank Cannon
+Gas Mask,BeatSkill,Poison Gas
+Mage Hat,ActionBoost,Healing Spells
+Demon Skull,BestowPlayer,Curse
+Headband,BestowPlayer,Brave
+Puppy Hat,BeatSkill,Friend Dog
+Death Mask,BuffReflex,PhysicalAttackUp
+Casual Shirt,ActionBoost,Healing Items
+Knight Armor,BestowPlayer,Tired
+Genji Armor,BuffReflex,PhysicalAttackUp
+Dragon Armor,BestowPlayer,Brave
+Viking Fur,BeatSkill,Wooly Mammoth
+Ninja Gear,ActionBoost,AttackItems
+Space Suit,BeatSkill,Scanbot
+Army Jacket,BeatSkill,Air Strike
+Officer's Coat,BeatSkill,Tank Guns
+Red Jacket,BuffReflex,MagicAttackUp
+Bone Armor,BestowPlayer,Curse
+Karate Gi,BuffReflex,EvadeUp
+Leather Armor,BeatSkill,Temper
+Dark Armor,BuffReflex,MagicDefenceUp
+Golden Armor,BuffReflex,PhysicalDefenceUp
+Pink Flower,BestowPlayer,Bless
+Gold Crown,BestowPlayer,Brave
+Slime Bunny Ears,BestowPlayer,Tired
+Nurse Hat,ActionBoost,Healing Spells
+Fur Hat,BeatSkill,Wooly Mammoth
+Red Dress,BuffReflex,MagicAttackUp
+Green Dress,BeatSkill,Ivy
+White Mage Dress,BuffReflex,MagicDefenceUp
+Shrine Maiden Dress,ActionBoost,Healing Items
+Shrine Maiden Dress,BeatSkill,Talisman Seal
+Blue Dress,BeatSkill,Cloudburst
+Fur Dress,BeatSkill,Wooly Mammoth
+Camo Skirt,BeatSkill,Medipack
+Pirate Dress,BuffReflex,PhysicalAttack
+Cow Costume,BuffReflex,PhysicalDefenceUp
+Dark Gown,BuffReflex,MagicAttackUp
+Pope's Dress,BeatSkill,Revive
+Ninja Skirt,ActionBoost,Attack Itemms
+Ninja Skirt,BeatSkill,Bind
+School Uniform,ActionBoost,Healing Items
+School Uniform,BuffReflex,EvadeUp
+Maid Outfit,BeatSkill,Cleanse
+The Tr*force,BestowPlayer,Morale
+Angel Pin,BestowPlayer,Auto-Revive
+Green Cross,BestowPlayer,Regenerate
+Clover Pin,BestowPlayer,Bless
+Broccoli Sticker,ReplaceInflict,Poison
+Peace Sticker,ReplaceInflict,Weaken
+Cursed Charm,ReplaceInflict,Curse
+Fr*ezie Badge,ReplaceInflict,Freeze
+Crossbone Pin,ReplaceInflict,Doom
+Diamond Pin,ReplaceInflict,Stagger
+Bowling Ball Badge,BuffReflex,PhysicalDefenceUp
+Ancient Rune,BuffReflex,MagicDefenceUp
+P*chu Sticker,BeatSkill,Thunderbolt
+Clown Fish Sticker,BeatSkill,Geyser
+Beast Badge,BeatSkill,Quake
+Pocket Clock,BeatSkill,Slow Down
+Cat Badge,BeatSkill,NoLegs

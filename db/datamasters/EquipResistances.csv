@@ -42,3 +42,317 @@ Exterminator,Poison,Status,20per
 Accelerator,Fire,Element,10per
 Accelerator,Thunder,Element,10per
 Accelerator,Ice,Element,10per
+Crystal Staff,Fire,Element,10per
+Crystal Staff,Thunder,Element,10per
+Crystal Staff,Ice,Element,10per
+Flameheart,Fire,Element,10per
+Flameheart,Freeze,Status,20per
+Flameheart,Wet,Status,20per
+Tribolt,Thunder,Element,10per
+Tribolt,Earth,Element,30neg
+Tribolt,Wind,Element,10per
+Razorwind,Ice,Element,10per
+Razorwind,Wind,Element,10per
+Razorwind,Water,Element,10per
+Flower Pot,Thunder,Element,10per
+Flower Pot,Earth,Element,10per
+Flower Pot,Tired,Status,20per
+Nirvana,Earth,Element,10per
+Nirvana,Poison,Element,10per
+Nirvana,Poison,Status,20per
+Wrecking Rod,Thunder,Element,30neg
+Wrecking Rod,Bomb,Element,10per
+Wrecking Rod,Stagger,Status,20per
+Mystic Breeze,Wind,Element,10per
+Mystic Breeze,Syphon,Status,20per
+Coral Staff,Fire,Element,10per
+Coral Staff,Water,Element,10per
+Coral Staff,Burn,Status,20per
+Seraphim,Holy,Element,10per
+Seraphim,Weaken,Status,20per
+Dreamcatcher,Curse,Status,20per
+Dreamcatcher,Syphon,Status,20per
+Dreamcatcher,Dispel,Status,20per
+Hela's Staff,Dark,Element,10per
+Alchemy Set,Curse,Status,20per
+Road Sign,Death,Status,20per
+Road Sign,Stagger,Status,20per
+Epoch,Tired,Status,20per
+Oak Staff,Earth,Element,10per
+Oak Staff,Wind,Element,10per
+Oak Staff,Poison,Element,10per
+Shooting Star,Syphon,Status,20per
+Shooting Star,Dispel,Status,20per
+Death Scythe,Holy,Element,30neg
+Death Scythe,Dark,Element,10per
+Death Scythe,Death,Status,20per
+Crimson Dragon,Fire,Element,10per
+Crimson Dragon,Water,Element,30neg
+Crimson Dragon,Freeze,Status,20per
+Thor's Hammer,Thunder,Element,10per
+Thor's Hammer,Stun,Status,20per
+Frozen Tears,Fire,Element,30neg
+Frozen Tears,Ice,Element,10per
+Frozen Tears,Freeze,Status,20per
+Gaia's Bow,Earth,Element,10per
+Gaia's Bow,Poison,Element,10per
+Gaia's Bow,Tired,Status,20per
+Fairy Bow,Poison,Element,10per
+Fairy Bow,Poison,Status,20per
+Fairy Bow,Burn,Status,30neg
+Juggernaut,Earth,Element,30neg
+Juggernaut,Bomb,Element,10per
+Sky Feather,Death,Status,20per
+Sky Feather,Syphon,Status,20per
+Sky Feather,Dispel,Status,20per
+Atlantis,Fire,Element,10per
+Atlantis,Water,Element,10per
+Atlantis,Freeze,Status,50neg
+Black Widow,Dark,Element,10per
+Black Widow,Curse,Status,20per
+Eagle Eye,Stagger,Status,20per
+Iron Tooth,Stagger,Status,20per
+Fenrir's Jaw,Death,Status,20per
+The Departed,Death,Status,20per
+Alchemist's Bow,Syphon,Status,20per
+Crystal Bow,Fire,Element,10per
+Crystal Bow,Thunder,Element,10per
+Crystal Bow,Ice,Element,10per
+Thorn Bow,Poison,Element,10per
+Thorn Bow,Poison,Status,20per
+Angel Wing,Earth,Element,10per
+Angel Wing,Holy,Element,10per
+Angel Wing,Weaken,Status,20per
+Emerald Cyclone,Earth,Element,10per
+Emerald Cyclone,Wind,Element,10per
+Emerald Cyclone,Tired,Status,20per
+Magma Hammer,Fire,Element,10per
+Magma Hammer,Bomb,Element,10per
+Magma Hammer,Freeze,Status,20per
+Ice Needle,Ice,Element,10per
+Ice Needle,Wind,Element,10per
+Ice Needle,Water,Element,10per
+Golden Dragon,Thunder,Element,10per
+Golden Dragon,Stun,Status,20per
+Gash Club,Earth,Element,10per
+Gash Club,Poison,Element,10per
+Gash Club,Poison,Status,20per
+Dragon Claw,Fire,Element,10per
+Dragon Claw,Poison,Element,10per
+G*bson EB0,Thunder,Element,10per
+G*bson EB0,Wind,Element,10per
+Silver Blade,Earth,Element,10per
+Silver Blade,Wind,Element,10per
+Sapphire Giant,Fire,Element,10per
+Sapphire Giant,Water,Element,10per
+Heaven's Gate,Holy,Element,10per
+Heaven's Gate,Weaken,Status,20per
+Heaven's Gate,Dispel,Status,20per
+Anarchy,Dark,Element,10per
+Anarchy,Death,Status,20per
+Devil's Sunrise,Fire,Element,10per
+Devil's Sunrise,Thunder,Element,10per
+Devil's Sunrise,Ice,Element,10per
+Bone Blade,Curse,Status,20per
+Bone Blade,Weaken,Status,20per
+Bone Blade,Tired,Status,20per
+Blood Blade,Tired,Status,20per
+Blood Blade,Stun,Status,20per
+Rune Blade,Syphon,Status,20per
+Rune Blade,Dispel,Status,20per
+Chainsaw Blade,Death,Status,20per
+Equilibrium,Holy,Element,10per
+Equilibrium,Dark,Element,10per
+Equilibrium,Dispel,Status,20per
+Fusion Sword,Fire,Element,10per
+Fusion Sword,Bomb,Element,10per
+Drill Lance,Thunder,Element,30neg
+Drill Lance,Earth,Element,10per
+Casual Cap,Death,Status,20per
+Casual Cap,Stun,Status,20per
+Casual Cap,Syphon,Status,20per
+Knight Helmet,Fire,Element,30neg
+Knight Helmet,Water,Element,30neg
+Genji Helmet,Earth,Element,10per
+Genji Helmet,Wind,Element,10per
+Dragon Helm,Fire,Element,10per
+Dragon Helm,Burn,Status,20per
+Viking Helmet,Ice,Element,10per
+Viking Helmet,Wind,Element,10per
+Captain's Hat,Water,Element,10per
+Captain's Hat,Bomb,Element,10per
+Ninja Hood,Thunder,Element,10per
+Ninja Hood,Weaken,Status,20per
+Ninja Hood,Tired,Status,20per
+Space Helmet,Thunder,Element,20per
+Space Helmet,Poison,Status,20per
+Space Helmet,Burn,Status,20per
+Cowboy Hat,Bomb,Element,10per
+Cowboy Hat,Stagger,Status,20per
+Army Helmet,Bomb,Element,10per
+Army Helmet,Stagger,Status,20per
+Officer's Hat,Dark,Element,10per
+Officer's Hat,Death,Status,20per
+Gas Mask,Poison,Element,10per
+Gas Mask,Poison,Status,20per
+Mage Hat,Syphon,Status,20per
+Demon Skull,Fire,Element,50neg
+Demon Skull,Holy,Element,50neg
+Demon Skull,Dark,Element,10per
+Headband,Fire,Element,10per
+Headband,Wind,Element,10per
+Headband,Holy,Element,10per
+Puppy Hat,Freeze,Status,20per
+Puppy Hat,Dispel,Status,20per
+Death Mask,Dark,Element,10per
+Death Mask,Death,Status,20per
+Casual Shirt,Stun,Status,20per
+Casual Shirt,Syphon,Status,20per
+Knight Armor,Fire,Element,30neg
+Knight Armor,Thunder,Element,30neg
+Genji Armor,Earth,Element,10per
+Genji Armor,Wind,Element,10per
+Dragon Armor,Fire,Element,10per
+Dragon Armor,Burn,Status,20per
+Viking Fur,Ice,Element,10per
+Viking Fur,Water,Element,10per
+Viking Fur,Freeze,Status,20per
+Captain's Shirt,Water,Element,10per
+Captain's Shirt,Bomb,Element,10per
+Ninja Gear,Thunder,Element,10per
+Ninja Gear,Wind,Element,10per
+Space Suit,Thunder,Element,20per
+Space Suit,Freeze,Status,20per
+Space Suit,Stun,Status,20per
+Cowboy Shirt,Bomb,Element,10per
+Cowboy Shirt,Stun,Status,20per
+Army Jacket,Bomb,Element,10per
+Army Jacket,Stagger,Status,20per
+Officer's Coat,Dark,Element,10per
+Officer's Coat,Curse,Status,20per
+Red Jacket,Stun,Status,20per
+Bone Armor,Fire,Element,50neg
+Bone Armor,Holy,Element,50neg
+Bone Armor,Dark,Element,10per
+Karate Gi,Earth,Element,10per
+Karate Gi,Dark,Element,10per
+Karate Gi,Tired,Status,10per
+Leather Armor,Curse,Status,20per
+Leather Armor,Weaken,Status,20per
+Leather Armor,Tired,Status,20per
+Dark Armor,Holy,Element,10per
+Dark Armor,Dark,Element,10per
+Dark Armor,Dispel,Status,20per
+Golden Armor,Fire,Element,20per
+Golden Armor,Thunder,Element,20per
+Golden Armor,Ice,Element,20per
+Red Ribbon,Fire,Element,10per
+Yellow Bauble,Thunder,Element,10per
+Yellow Bauble,Stun,Status,20per
+Leaf Clip,Fire,Element,10per
+Leaf Clip,Poison,Element,10per
+Leaf Clip,Poison,Status,20per
+Pink Flower,Fire,Element,30neg
+Pink Flower,Earth,Element,10per
+Pink Flower,Tired,Status,20per
+Ice Shards,Ice,Element,10per
+Ice Shards,Wind,Element,10per
+Coral Clip,Water,Element,10per
+Coral Clip,Wet,Status,20per
+Dark Bauble,Dark,Element,10per
+Dark Bauble,Death,Status,20per
+Pirate Hat,Water,Element,10per
+Pirate Hat,Bomb,Element,10per
+Drill Bits,Thunder,Element,30neg
+Drill Bits,Stun,Status,30neg
+Gold Crown,Curse,Status,20per
+Gold Crown,Weaken,Status,20per
+Cow Horns,Dispel,Status,20per
+Cat Ears,Curse,Status,20per
+Slime Bunny Ears,Stun,Status,20per
+Nurse Hat,Death,Status,20per
+Nurse Hat,Syphon,Status,20per
+Pope's Hat,Holy,Element,10per
+Pope's Hat,Dark,Element,10per
+Pope's Hat,Weaken,Status,20per
+Fur Hat,Ice,Element,10per
+Fur Hat,Wind,Element,10per
+Fur Hat,Water,Element,10per
+Slime Hat,Earth,Element,10per
+Slime Hat,Poison,Element,10per
+Slime Hat,Bomb,Element,10per
+Ranger Skirt,Poison,Status,20per
+Ranger Skirt,Tired,Status,20per
+Red Dress,Fire,Element,10per
+Red Dress,Thunder,Element,10per
+Red Dress,Ice,Element,10per
+Green Dress,Earth,Element,10per
+Green Dress,Poison,Element,10per
+Green Dress,Poison,Status,20per
+White Mage Dress,Dark,Element,10per
+White Mage Dress,Freeze,Status,20per
+Breastplate,Fire,Element,30neg
+Breastplate,Water,Element,30neg
+Shrine Maiden Dress,Curse,Status,20per
+Shrine Maiden Dress,Syphon,Status,20per
+Shrine Maiden Dress,Dispel,Status,20per
+Flame Skirt,Fire,Element,10per
+Flame Skirt,Burn,Status,20per
+Blue Dress,Water,Element,10per
+Blue Dress,Wet,Status,20per
+Fur Dress,Ice,Element,10per
+Fur Dress,Wind,Element,10per
+Fur Dress,Water,Element,10per
+Camo Skirt,Bomb,Element,10per
+Camo Skirt,Stagger,Status,20per
+Pirate Dress,Water,Element,10per
+Pirate Dress,Bomb,Element,10per
+Cow Costume,Dispel,Status,20per
+Dark Gown,Dark,Element,10per
+Dark Gown,Death,Status,20per
+Pope's Dress,Holy,Element,10per
+Pope's Dress,Dark,Element,10per
+Pope's Dress,Curse,Status,20per
+Ninja Skirt,Earth,Element,10per
+Ninja Skirt,Wind,Element,10per
+School Uniform,Tired,Status,20per
+School Uniform,Stun,Status,20per
+Maid Outfit,Earth,Element,10per
+Maid Outfit,Wind,Element,10per
+Flame Badge,Fire,Element,fhalf
+Flame Badge,Burn,Status,ffull
+Lightning Badge,Thunder,Element,fhalf
+Lightning Badge,Stun,Status,ffull
+Frost Badge,Ice,Element,fhalf
+Frost Badge,Freeze,Status,ffull
+Rock Badge,Earth,Element,fhalf
+Rock Badge,Tired,Status,ffull
+Venom Badge,Poison,Element,fhalf
+Venom Badge,Poison,Status,ffull
+Air Badge,Wind,Element,fhalf
+Air Badge,Syphon,Status,ffull
+Bubble Badge,Water,Element,fhalf
+Bubble Badge,Wet,Status,ffull
+Iron Cross,Bomb,Element,fhalf
+Iron Cross,Stagger,Status,ffull
+Silver Cross,Dark,Element,fhalf
+Silver Cross,Curse,Status,ffull
+Golden Pentagram,Holy,Element,fhalf
+Golden Pentagram,Weaken,Status,ffull
+The Tr*force,Dispel,Status,ffull
+Angel Pin,Holy,Element,ftrip
+Broccoli Sticker,Poison,Element,ftrip
+Peace Sticker,Curse,Status,ftrip
+Peace Sticker,Weaken,Status,ftrip
+Peace Sticker,Tired,Status,ftrip
+Cursed Charm,Dark,Element,ftrip
+Fr*ezie Badge,Ice,Element,ftrip
+Crossbone Pin,Death,Status,ftrip
+Diamond Pin,Bomb,Element,ftrip
+Bowling Ball Badge,Wind,Element,ftrip
+Ancient Rune,Fire,Element,ftrip
+P*chu Sticker,Thunder,Element,ftrip
+Clown Fish Sticker,Water,Element,ftrip
+Beast Badge,Earth,Element,ftrip
+Pocket Clock,Stun,Status,ftrip
+Cat Badge,Wet,Status,ftrip

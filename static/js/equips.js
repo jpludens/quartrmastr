@@ -22,9 +22,7 @@ loadData.then(values => {
   // Create equip objects and render the selector
   let equips = values[0].map(e => new Equip(e));
   ReactDOM.render(
-    <ul>
-      {equips.map(e => <li> <EquipPicker equip={e} /> </li> )}
-    </ul>,
+    <EquipSelector equips={equips} />,
     document.getElementById('summaries')
   );
 
@@ -70,7 +68,11 @@ class EquipLevel {
     const resistanceValues = {
       '10per': { 1:  10, 2:  20, 3:  30, 4:  40, 5:   50 },
       '20per': { 1:  20, 2:  40, 3:  60, 4:  80, 5:  100 },
-      '30neg': { 1: -30, 2: -30, 3: -30, 4: -30, 5: - 30 }
+      '30neg': { 1: -30, 2: -30, 3: -30, 4: -30, 5:  -30 },
+      '50neg': { 1: -50, 2: -50, 3: -50, 4: -50, 5:  -50 },
+      'ftrip': { 1:  10, 2:  10, 3:  30 },
+      'fhalf': { 1:  20, 2:  35, 3:  50 },
+      'ffull': { 1:  40, 2:  70, 3: 100 }
     }
 
     this.elementalResistances = new Map();
@@ -94,14 +96,150 @@ class EquipLevel {
 }
 
 
-class EquipPicker extends React.Component {
+class EquipSelector extends React.Component {
+  constructor(props) {
+    super(props);
+
+    let slots = new Set();
+    slots.add("Bow");
+    slots.add("Sword");
+    slots.add("Staff");
+    slots.add("Gun");
+    slots.add("Female Hats");
+    slots.add("Female Armor");
+    slots.add("Male Hats");
+    slots.add("Male Armor");
+    slots.add("Flair");
+    this.state = {
+      showSlots: slots
+    }
+  }
+
+  setSlots(slots) {
+    this.setState({showSlots: slots})
+  }
+
+  render() {
+    var slots = this.state.showSlots;
+    let equipsToShow = this.props.equips.filter(function(equip) {
+      return slots.has(equip.slot);
+    });
+    let listings = equipsToShow.map(equip => {
+      return (
+        <li>
+          <EquipSelectorListing equip={equip} />
+        </li>
+      );
+    });
+
+    return (
+      <div>
+        <EquipSelectorFilter setSlots={this.setSlots.bind(this)} />
+        <ul>
+          {listings}
+        </ul>
+      </div>
+    );
+  }
+}
+EquipSelector.propTypes = {
+  filter: React.PropTypes.object.isRequired,
+  equips: React.PropTypes.array.isRequired
+}
+
+
+class EquipSelectorFilter extends React.Component {
+  constructor(props) {
+    super(props);
+  }
+
+  render() {
+    return (
+      <select onChange={this.handleChange.bind(this)}>
+        <option selected value="All">Show All Equips</option>
+        <option value="Weapon">Show All Weapons</option>
+        <option value="Bow">Bows Only</option>
+        <option value="Sword">Swords Only</option>
+        <option value="Staff">Staves Only</option>
+        <option value="Gun">Guns Only</option>
+        <option value="Armor">All Armors</option>
+        <option value="Female Hat">Female Hats Only</option>
+        <option value="Female Armor">Female Armor Only</option>
+        <option value="Male Hat">Male Hats Only</option>
+        <option value="Male Armor">Male Armor Only</option>
+        <option value="Flair">Flair Only</option>
+      </select>
+    );
+  }
+
+  handleChange(event) {
+    let slots = new Set();
+
+    switch (event.target.value) {
+      case "Weapon":
+        slots.add("Bow");
+        slots.add("Sword");
+        slots.add("Staff");
+        slots.add("Gun");
+        break;
+      case "Bow":
+        slots.add("Bow");
+        break;
+      case "Sword":
+        slots.add("Sword");
+        break;
+      case "Staff":
+        slots.add("Staff");
+        break;
+      case "Gun":
+        slots.add("Gun");
+        break;
+      case "Female Hat":
+        slots.add("Female Hat");
+        break;
+      case "Female Armor":
+        slots.add("Female Armor");
+        break;
+      case "Male Hat":
+        slots.add("Male Hat");
+        break;
+      case "Male Armor":
+        slots.add("Male Armor");
+        break;
+      case "Armor":
+        slots.add("Female Hat");
+        slots.add("Female Armor");
+        slots.add("Male Hat");
+        slots.add("Male Armor");
+      case "Flair":
+        slots.add("Flair");
+        break;
+      default:
+        slots.add("Bow");
+        slots.add("Sword");
+        slots.add("Staff");
+        slots.add("Gun");
+        slots.add("Female Hat");
+        slots.add("Female Armor");
+        slots.add("Male Hat");
+        slots.add("Male Armor");
+        slots.add("Flair"); ;
+    }
+    this.props.setSlots(slots)
+  }
+}
+
+
+class EquipSelectorListing extends React.Component {
   constructor(props) {
     super(props);
   }
 
   render () {
     return (
-      <span onClick={this.handleClick.bind(this)}>
+      <span
+        className="equip-selector-listing"
+        onClick={this.handleClick.bind(this)}>
         {this.props.equip.name} ({this.props.equip.slot})
       </span>
     );
@@ -114,7 +252,7 @@ class EquipPicker extends React.Component {
     );
   }
 }
-EquipPicker.propTypes = {
+EquipSelectorListing.propTypes = {
   equip: React.PropTypes.object.isRequired
 }
 
@@ -224,6 +362,9 @@ class EquipTraitsBlurb extends React.Component {
             case "boostElement":
               return <span>Boosts the power of {trait.elementName} Skills. </span>;
               break;
+            case "actionBoost":
+              return <span>Boosts the power of {actionDesc}. </span>;
+              break;
             case "beatSkill":
               return <span>Randomly casts {trait.skillName} between turns. </span>;
               break;
@@ -234,16 +375,23 @@ class EquipTraitsBlurb extends React.Component {
               return <span>Counter attacks with {trait.skillName}. </span>;
               break;
             case "statusOnTarget":
-              return <span>May inflict {trait.statusName} on targets. </span>;
+              let status = trait.statusName == "Random" ? "random status effects" : trait.statusName
+              return <span>May inflict {status} on targets. </span>;
               break;
             case "statusOnPlayer":
               return <span>Randomly gives the player {trait.statusName}. </span>;
+              break;
+            case "statusReplace":
+              return <span>Replaces weapon effect with {trait.statusName}. </span>;
               break;
             case "drain":
               return <span>Drains {trait.statName == "healthPoints" ? "HP" : "MP"} from foes with certain Skills. </span>;
               break;
             case "statDebuff":
               return <span>May slap targets with {trait.statModifierName}. </span>;
+              break;
+            case "buffReflex":
+              return <span>Grants player {trait.statModifierName} when hit with a powerful attack. </span>;
               break;
             default:
               return <span>Um... </span>;
@@ -364,7 +512,7 @@ class EquipLevelComponent extends React.Component {
     if (this.props.sres) {
       sresContent =
         <div>
-          <h4>Elemental Resistances</h4>
+          <h4>Status Resistances</h4>
           {renderMap(this.props.sres)}
         </div>;
     }

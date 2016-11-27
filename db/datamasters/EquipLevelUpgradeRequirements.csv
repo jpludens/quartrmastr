@@ -125,3 +125,968 @@ Accelerator,3,Springy Spring,10
 Accelerator,3,Plasma Ball,4
 Accelerator,4,Springy Spring,10
 Accelerator,4,Plutonium Core,1
+Crystal Staff,1,Soft Wood,1
+Crystal Staff,2,Rainbow Gems,2
+Crystal Staff,2,Glass,1
+Crystal Staff,3,Emerald,1
+Crystal Staff,3,Ruby,1
+Crystal Staff,3,Topaz,1
+Crystal Staff,4,Emerald,4
+Crystal Staff,4,Ruby,4
+Crystal Staff,4,Topaz,4
+Flameheart,1,Red Feather,2
+Flameheart,2,Magma Sample,2
+Flameheart,3,Magma Sample,8
+Flameheart,3,Dragon Scales,7
+Flameheart,4,Ruby,8
+Flameheart,4,Dragon Scales,8
+Tribolt,1,Iron Ore,2
+Tribolt,2,Steel Plate,3
+Tribolt,3,Topaz,2
+Tribolt,3,Steel Plate,6
+Tribolt,4,Topaz,1
+Tribolt,4,Plutonium Core,1
+Razorwind,1,Snowball,6
+Razorwind,2,Liquid Ice,1
+Razorwind,2,Solid Water,1
+Razorwind,3,Liquid Ice,8
+Razorwind,3,Solid Water,8
+Razorwind,4,Liquid Ice,55
+Razorwind,4,Solid Water,55
+Flower Pot,1,Dirt Ball,2
+Flower Pot,2,Dirt Ball,5
+Flower Pot,2,Lanky Root,1
+Flower Pot,3,Jungle Flower,3
+Flower Pot,3,Lanky Root,10
+Flower Pot,4,Jungle Flower,4
+Flower Pot,4,Lanky Root,3
+Nirvana,1,Ogle Berries,3
+Nirvana,2,Seaweed,3
+Nirvana,2,Soft Wood,5
+Nirvana,3,Geode,5
+Nirvana,3,Lanky Root,5
+Nirvana,4,Emerald,4
+Nirvana,4,Opal,2
+Wrecking Rod,1,Iron Ore,3
+Wrecking Rod,2,Gunpowder,2
+Wrecking Rod,2,Steel Plate,2
+Wrecking Rod,3,Gunpowder,5
+Wrecking Rod,3,Steel Plate,1
+Wrecking Rod,3,Hand Bomb,5
+Wrecking Rod,4,Steel Plate,2
+Wrecking Rod,4,Titanium,1
+Mystic Breeze,1,Soft Wood,1
+Mystic Breeze,2,Rainbow Gems,1
+Mystic Breeze,2,Soft Wood,1
+Mystic Breeze,3,Amethyst,6
+Mystic Breeze,3,Soft Wood,5
+Mystic Breeze,4,Amethyst,20
+Mystic Breeze,4,Soft Wood,5
+Coral Staff,1,Sea Shell,1
+Coral Staff,2,Liquid Ice,1
+Coral Staff,2,Sea Shell,2
+Coral Staff,3,Bubble Stone,8
+Coral Staff,3,Sea Shell,6
+Coral Staff,4,Mercury,2
+Coral Staff,4,Bubble Stone,5
+Seraphim,1,Soft Wood,1
+Seraphim,2,Silk,1
+Seraphim,3,Gold Plate,2
+Seraphim,3,Silver Plate,3
+Seraphim,4,Elixir of Life,1
+Dreamcatcher,1,Red Feather,1
+Dreamcatcher,1,Bug Wing,1
+Dreamcatcher,2,Paper Talisman,3
+Dreamcatcher,2,Soft Wood,2
+Dreamcatcher,3,Jungle Flower,4
+Dreamcatcher,3,Soft Wood,10
+Dreamcatcher,4,Elixir of Life,1
+Hela's Staff,1,Iron Ore,2
+Hela's Staff,2,Curly Horn,2
+Hela's Staff,3,Bottled Darkness,3
+Hela's Staff,3,Curly Horn,4
+Hela's Staff,4,Bottled Darkness,4
+Hela's Staff,4,Dark Matter,1
+Alchemy Set,1,Turnip,2
+Alchemy Set,1,Seaweed,2
+Alchemy Set,2,Glass,2
+Alchemy Set,2,Gunpowder,2
+Alchemy Set,3,Pink Potion,3
+Alchemy Set,3,Magma Sample,3
+Alchemy Set,3,Liquid Ice,3
+Alchemy Set,4,Pink Potion,12
+Alchemy Set,4,Bottled Darkness,12
+Alchemy Set,4,Glass,12
+Road Sign,1,Brick,3
+Road Sign,2,Red LED,3
+Road Sign,3,7-Segment Display,8
+Road Sign,3,Steel Plate,10
+Road Sign,4,Titanium,1
+Road Sign,4,7-Segment Display,10
+Epoch,1,Springy Spring,1
+Epoch,2,Springy Spring,5
+Epoch,3,Plastic,6
+Epoch,3,Plasma Ball,1
+Epoch,4,Plutonium Core,1
+Epoch,4,Springy Spring,10
+Oak Staff,1,Soft Wood,2
+Oak Staff,2,Soft Wood,12
+Oak Staff,3,Soft Wood,6
+Oak Staff,3,Geode,6
+Oak Staff,4,Emerald,7
+Oak Staff,4,Geode,6
+Oak Staff,4,Ruby,2
+Shooting Star,1,Rainbow Gems,1
+Shooting Star,2,Rainbow Gems,3
+Shooting Star,3,Gold Plate,4
+Shooting Star,3,Rainbow Gems,3
+Shooting Star,4,Gold Plate,14
+Death Scythe,1,Iron Ore,2
+Death Scythe,2,Steel Plate,3
+Death Scythe,3,Solid Spike,2
+Death Scythe,3,Bottled Darkness,5
+Death Scythe,4,Titanium,1
+Death Scythe,4,Bottled Darkness,10
+Crimson Dragon,1,Iron Ore,2
+Crimson Dragon,2,Magma Sample,3
+Crimson Dragon,3,Magma Sample,10
+Crimson Dragon,3,Ruby,2
+Crimson Dragon,4,Ruby,10
+Crimson Dragon,4,Dark Rune,1
+Thor's Hammer,1,Soft Wood,1
+Thor's Hammer,2,Amber,2
+Thor's Hammer,2,Soft Wood,1
+Thor's Hammer,3,Plasma Ball,2
+Thor's Hammer,4,Plasma Ball,4
+Thor's Hammer,4,Topaz,4
+Frozen Tears,1,Snowball,6
+Frozen Tears,2,Liquid Ice,1
+Frozen Tears,2,Solid Water,2
+Frozen Tears,3,Liquid Ice,4
+Frozen Tears,3,Solid Water,4
+Frozen Tears,3,Bubble Stone,3
+Frozen Tears,4,Bubble Stone,8
+Frozen Tears,4,Mercury,2
+Gaia's Bow,1,Dirt Ball,2
+Gaia's Bow,2,Dirt Ball,5
+Gaia's Bow,2,Lanky Root,1
+Gaia's Bow,3,Jungle Flower,4
+Gaia's Bow,3,Lanky Root,5
+Gaia's Bow,3,Cactus,5
+Gaia's Bow,4,Jungle Flower,5
+Gaia's Bow,4,Opal,3
+Fairy Bow,1,Soft Wood,3
+Fairy Bow,2,Lanky Root,1
+Fairy Bow,2,Soft Wood,2
+Fairy Bow,3,Geode,5
+Fairy Bow,3,Lanky Root,5
+Fairy Bow,4,Opal,3
+Fairy Bow,4,Lanky Root,5
+Fairy Bow,4,Soft Wood,5
+Juggernaut,1,Iron Ore,3
+Juggernaut,2,Hand Bomb,8
+Juggernaut,2,Gunpowder,2
+Juggernaut,3,Steel Plate,18
+Juggernaut,3,Gunpowder,18
+Juggernaut,3,Hand Bomb,18
+Juggernaut,4,Titanium,1
+Juggernaut,4,Hand Bomb,30
+Sky Feather,1,Red Feather,1
+Sky Feather,1,Bug Wing,2
+Sky Feather,2,Soft Wood,6
+Sky Feather,2,Red Feather,6
+Sky Feather,3,Amethyst,5
+Sky Feather,3,Soft Wood,10
+Sky Feather,3,Red Feather,10
+Sky Feather,4,Amethyst,18
+Sky Feather,4,Soft Wood,15
+Sky Feather,4,Red Feather,15
+Atlantis,1,Rainbow Gems,1
+Atlantis,2,Rainbow Gems,3
+Atlantis,3,Rainbow Gems,10
+Atlantis,3,Bubble Stone,3
+Atlantis,4,Mercury,3
+Black Widow,1,Iron Ore,2
+Black Widow,2,Solid Spike,2
+Black Widow,3,Solid Spike,1
+Black Widow,3,Bottled Darkness,5
+Black Widow,4,Dark Rune,4
+Black Widow,4,Bottled Darkness,5
+Eagle Eye,1,Springy Spring,1
+Eagle Eye,2,Chain Link,3
+Eagle Eye,3,Springy Spring,15
+Eagle Eye,3,Chain Link,15
+Eagle Eye,4,Mythril Shards,1
+Iron Tooth,1,Iron Ore,3
+Iron Tooth,2,Steel Plate,3
+Iron Tooth,2,Concrete,3
+Iron Tooth,3,Steel Plate,20
+Iron Tooth,3,Springy Spring,20
+Iron Tooth,3,Chain Link,20
+Iron Tooth,4,Titanium,1
+Iron Tooth,4,Chain Link,30
+Fenrir's Jaw,1,Springy Spring,2
+Fenrir's Jaw,2,Springy Spring,6
+Fenrir's Jaw,2,Chain Link,2
+Fenrir's Jaw,3,Silver Plate,5
+Fenrir's Jaw,3,Chain Link,10
+Fenrir's Jaw,4,Silver Plate,20
+Fenrir's Jaw,4,Chain Link,20
+The Departed,1,Curly Horn,1
+The Departed,2,Curly Horn,3
+The Departed,3,Solid Spike,4
+The Departed,3,Bottled Darkness,3
+The Departed,4,Bottled Darkness,5
+The Departed,4,Curly Horn,15
+The Departed,4,Solid Spike,15
+Alchemist's Bow,1,Turnip,3
+Alchemist's Bow,1,Ogle Berries,3
+Alchemist's Bow,2,Glass,2
+Alchemist's Bow,2,Gunpowder,1
+Alchemist's Bow,3,Pink Potion,3
+Alchemist's Bow,3,Magma Sample,3
+Alchemist's Bow,3,Liquid Ice,3
+Alchemist's Bow,4,Pink Potion,10
+Alchemist's Bow,4,Amethyst,12
+Alchemist's Bow,4,Glass,6
+Crystal Bow,1,Concrete,1
+Crystal Bow,2,Amber,3
+Crystal Bow,3,Amber,12
+Crystal Bow,3,Bubble Stone,6
+Crystal Bow,4,Bubble Stone,12
+Crystal Bow,4,Ruby,4
+Crystal Bow,4,Topaz,4
+Thorn Bow,1,Cactus,1
+Thorn Bow,2,Cactus,5
+Thorn Bow,3,Cactus,3
+Thorn Bow,3,Solid Spike,3
+Thorn Bow,3,Jungle Flower,4
+Thorn Bow,4,Cactus,20
+Thorn Bow,4,Jungle Flower,16
+Thorn Bow,4,Solid Spike,18
+Angel Wing,1,Soft Wood,1
+Angel Wing,2,Silk,1
+Angel Wing,3,Silk,4
+Angel Wing,3,Silver Plate,6
+Angel Wing,4,Elixir of Life,1
+Angel Wing,4,Silk,12
+Emerald Cyclone,1,Soft Wood,1
+Emerald Cyclone,2,Soft Wood,6
+Emerald Cyclone,3,Emerald,2
+Emerald Cyclone,3,Geode,4
+Emerald Cyclone,4,Emerald,12
+Emerald Cyclone,4,Geode,6
+Magma Hammer,1,Brick,5
+Magma Hammer,2,Iron Ore,3
+Magma Hammer,2,Concrete,6
+Magma Hammer,3,Magma Sample,2
+Magma Hammer,3,Gold Plate,3
+Magma Hammer,4,Titanium,1
+Magma Hammer,4,Magma Sample,12
+Ice Needle,1,Iron Ore,2
+Ice Needle,2,Steel Plate,2
+Ice Needle,2,Solid Water,1
+Ice Needle,3,Liquid Ice,7
+Ice Needle,3,Solid Water,7
+Ice Needle,4,Mythril Shards,1
+Golden Dragon,1,Amber,1
+Golden Dragon,2,Amber,3
+Golden Dragon,3,Gold Plate,2
+Golden Dragon,3,Topaz,1
+Golden Dragon,4,Topaz,4
+Golden Dragon,4,Plasma Ball,4
+Gash Club,1,Ogle Berries,6
+Gash Club,2,Gash Nut,2
+Gash Club,2,Cactus,3
+Gash Club,3,Opal,1
+Gash Club,3,Lanky Root,5
+Gash Club,3,Gash Nut,10
+Gash Club,4,Opal,3
+Gash Club,4,Gash Nut,10
+Gash Club,4,Cactus,2
+Dragon Claw,1,Bad Mushroom,2
+Dragon Claw,2,Bio Virus,1
+Dragon Claw,2,Bad Mushroom,2
+Dragon Claw,3,Bio Virus,5
+Dragon Claw,3,Dragon Scales,5
+Dragon Claw,4,Bio Virus,10
+Dragon Claw,4,Solid Spike,10
+Dragon Claw,4,Dragon Scales,10
+G*bson EB0,1,Microcontroller,5
+G*bson EB0,2,Red LED,3
+G*bson EB0,2,Microcontroller,2
+G*bson EB0,3,7-Segment Display,4
+G*bson EB0,3,Springy Spring,4
+G*bson EB0,4,Plasma Ball,2
+G*bson EB0,4,RAM Chip,4
+Silver Blade,1,Iron Ore,2
+Silver Blade,2,Silver Plate,1
+Silver Blade,3,Silver Plate,4
+Silver Blade,4,Mythril Shards,1
+Sapphire Giant,1,Liquid Ice,1
+Sapphire Giant,2,Bubble Stone,1
+Sapphire Giant,3,Bubble Stone,4
+Sapphire Giant,3,Steel Plate,4
+Sapphire Giant,4,Titanium,1
+Sapphire Giant,4,Bubble Stone,8
+Heaven's Gate,1,Iron Ore,2
+Heaven's Gate,2,Steel Plate,3
+Heaven's Gate,3,Gold Plate,3
+Heaven's Gate,3,Steel Plate,5
+Heaven's Gate,4,Diamond,1
+Heaven's Gate,4,Ruby,2
+Anarchy,1,Iron Ore,2
+Anarchy,2,Steel Plate,2
+Anarchy,3,Dark Rune,2
+Anarchy,3,Bottled Darkness,1
+Anarchy,4,Titanium,1
+Anarchy,4,Dark Rune,1
+Devil's Sunrise,1,Iron Ore,2
+Devil's Sunrise,2,Steel Plate,2
+Devil's Sunrise,3,Bottled Darkness,6
+Devil's Sunrise,4,Dark Matter,1
+Devil's Sunrise,4,Ruby,1
+Bone Blade,1,Curly Horn,1
+Bone Blade,2,Curly Horn,1
+Bone Blade,2,Iron Ore,2
+Bone Blade,3,Solid Spike,2
+Bone Blade,3,Bottled Darkness,2
+Bone Blade,4,Bottled Darkness,4
+Bone Blade,4,Dark Rune,4
+Bone Blade,4,Solid Spike,4
+Blood Blade,1,Dirt Ball,2
+Blood Blade,2,Amber,1
+Blood Blade,2,Dirt Ball,2
+Blood Blade,3,Ruby,2
+Blood Blade,3,Geode,1
+Blood Blade,4,Ruby,8
+Blood Blade,4,Geode,8
+Rune Blade,1,Paper Talisman,1
+Rune Blade,2,Paper Talisman,3
+Rune Blade,3,Silver Plate,8
+Rune Blade,3,Paper Talisman,4
+Rune Blade,4,Silver Plate,8
+Rune Blade,4,Mercury,1
+Chainsaw Blade,1,Springy Spring,1
+Chainsaw Blade,2,Red LED,2
+Chainsaw Blade,2,Springy Spring,2
+Chainsaw Blade,2,Chain Link,2
+Chainsaw Blade,3,7-Segment Display,3
+Chainsaw Blade,3,Plasma Ball,1
+Chainsaw Blade,3,Chain Link,2
+Chainsaw Blade,4,Diamond,1
+Chainsaw Blade,4,Plasma Ball,2
+Chainsaw Blade,4,Chain Link,2
+Equilibrium,1,Bottled Darkness,1
+Equilibrium,1,Silver Plate,1
+Equilibrium,2,Bottled Darkness,3
+Equilibrium,2,Silver Plate,3
+Equilibrium,3,Bottled Darkness,5
+Equilibrium,3,Silver Plate,5
+Equilibrium,4,Dark Matter,1
+Equilibrium,4,Diamond,1
+Fusion Sword,1,Iron Ore,3
+Fusion Sword,2,Gunpowder,2
+Fusion Sword,2,Steel Plate,3
+Fusion Sword,3,Gunpowder,8
+Fusion Sword,3,Plasma Ball,2
+Fusion Sword,4,Titanium,1
+Fusion Sword,4,Gunpowder,10
+Fusion Sword,4,Plasma Ball,2
+Drill Lance,1,Iron Ore,3
+Drill Lance,2,Steel Plate,4
+Drill Lance,3,Steel Plate,15
+Drill Lance,3,Silver Plate,6
+Drill Lance,4,Titanium,1
+Drill Lance,4,Silver Plate,12
+Casual Cap,1,Wool,3
+Casual Cap,2,Red Feather,1
+Casual Cap,3,Red Feather,1
+Casual Cap,3,Silk,2
+Casual Cap,4,Silk,5
+Knight Helmet,1,Iron Ore,2
+Knight Helmet,2,Iron Ore,10
+Knight Helmet,3,Steel Plate,1
+Knight Helmet,3,Silver Plate,2
+Knight Helmet,4,Silver Plate,5
+Knight Helmet,4,Iron Ore,20
+Genji Helmet,1,Iron Ore,2
+Genji Helmet,2,Iron Ore,8
+Genji Helmet,3,Gold Plate,1
+Genji Helmet,4,Gold Plate,3
+Genji Helmet,4,Silk,1
+Dragon Helm,1,Red Feather,2
+Dragon Helm,2,Dragon Scales,1
+Dragon Helm,3,Dragon Scales,3
+Dragon Helm,4,Dragon Scales,9
+Viking Helmet,1,Iron Ore,2
+Viking Helmet,2,Steel Plate,3
+Viking Helmet,3,Fine Fur,6
+Viking Helmet,3,Curly Horn,3
+Viking Helmet,4,Solid Spike,7
+Viking Helmet,4,Curly Horn,6
+Captain's Hat,1,Tentacle,2
+Captain's Hat,2,Gunpowder,1
+Captain's Hat,2,Tentacle,3
+Captain's Hat,2,Seaweed,2
+Captain's Hat,3,Gunpowder,6
+Captain's Hat,3,Tentacle,10
+Captain's Hat,3,Sea Shell,6
+Captain's Hat,4,Gunpowder,12
+Captain's Hat,4,Bottled Darkness,5
+Ninja Hood,1,Shuriken,1
+Ninja Hood,1,Bug Wing,1
+Ninja Hood,2,Shuriken,5
+Ninja Hood,2,Bug Wing,2
+Ninja Hood,3,Shuriken,6
+Ninja Hood,3,Bottled Darkness,2
+Ninja Hood,4,Shuriken,12
+Ninja Hood,4,Bottled Darkness,6
+Space Helmet,1,Microcontroller,3
+Space Helmet,2,Blank CD,1
+Space Helmet,2,Glass,3
+Space Helmet,3,Plastic,3
+Space Helmet,3,7-Segment Display,5
+Space Helmet,4,RAM Chip,1
+Space Helmet,4,7-Segment Display,7
+Space Helmet,4,Red LED,5
+Cowboy Hat,1,Wool,5
+Cowboy Hat,2,Wool,15
+Cowboy Hat,3,Silk,7
+Cowboy Hat,4,Gold Plate,2
+Cowboy Hat,4,Silk,2
+Army Helmet,1,Microcontroller,5
+Army Helmet,2,Plastic,2
+Army Helmet,2,Blank CD,1
+Army Helmet,3,Steel Plate,7
+Army Helmet,3,Plastic,4
+Army Helmet,4,Plastic,10
+Army Helmet,4,RAM Chip,1
+Officer's Hat,1,Wool,3
+Officer's Hat,2,Silk,1
+Officer's Hat,3,Silk,5
+Officer's Hat,4,Bottled Darkness,2
+Officer's Hat,4,Silver Plate,5
+Gas Mask,1,Bottled Darkness,5
+Gas Mask,2,Glass,2
+Gas Mask,3,Glass,5
+Gas Mask,3,Plastic,5
+Gas Mask,4,Plastic,2
+Gas Mask,4,RAM Chip,1
+Mage Hat,1,Wool,5
+Mage Hat,2,Wool,5
+Mage Hat,2,Paper Talisman,6
+Mage Hat,3,Silk,4
+Mage Hat,3,Paper Talisman,12
+Mage Hat,4,Dark Rune,1
+Mage Hat,4,Silk,3
+Demon Skull,1,Curly Horn,1
+Demon Skull,2,Curly Horn,2
+Demon Skull,3,Curly Horn,5
+Demon Skull,3,Solid Spike,2
+Demon Skull,4,Curly Horn,7
+Demon Skull,4,Solid Spike,5
+Headband,1,Wool,3
+Headband,2,Wool,2
+Headband,2,Silk,1
+Headband,3,Wool,2
+Headband,3,Silk,5
+Headband,4,Silk,15
+Puppy Hat,1,Fine Fur,1
+Puppy Hat,2,Fine Fur,3
+Puppy Hat,3,Fine Fur,10
+Puppy Hat,3,Silk,5
+Puppy Hat,4,Silk,20
+Death Mask,1,Brick,5
+Death Mask,2,Concrete,3
+Death Mask,2,Brick,3
+Death Mask,3,Bottled Darkness,2
+Death Mask,3,Concrete,10
+Death Mask,4,Bottled Darkness,7
+Death Mask,4,Solid Spike,5
+Casual Shirt,1,Wool,6
+Casual Shirt,2,Red Feather,3
+Casual Shirt,2,Silk,1
+Casual Shirt,3,Red Feather,5
+Casual Shirt,3,Silk,8
+Casual Shirt,4,Silk,24
+Knight Armor,1,Iron Ore,4
+Knight Armor,2,Iron Ore,10
+Knight Armor,3,Steel Plate,1
+Knight Armor,3,Silver Plate,4
+Knight Armor,4,Silver Plate,8
+Knight Armor,4,Iron Ore,40
+Genji Armor,1,Iron Ore,3
+Genji Armor,2,Iron Ore,1
+Genji Armor,3,Gold Plate,2
+Genji Armor,4,Gold Plate,5
+Dragon Armor,1,Red Feather,3
+Dragon Armor,2,Dragon Scales,2
+Dragon Armor,3,Dragon Scales,2
+Dragon Armor,3,Gold Plate,1
+Dragon Armor,4,Dragon Scales,12
+Dragon Armor,4,Gold Plate,1
+Viking Fur,1,Fine Fur,1
+Viking Fur,2,Fine Fur,4
+Viking Fur,2,Iron Ore,2
+Viking Fur,3,Fine Fur,10
+Viking Fur,3,Silk,2
+Viking Fur,3,Solid Spike,2
+Viking Fur,4,Fine Fur,12
+Viking Fur,4,Solid Spike,15
+Captain's Shirt,1,Tentacle,1
+Captain's Shirt,1,Seaweed,5
+Captain's Shirt,2,Gunpowder,2
+Captain's Shirt,2,Tentacle,3
+Captain's Shirt,3,Gunpowder,10
+Captain's Shirt,3,Bubble Stone,3
+Captain's Shirt,3,Sea Shell,2
+Captain's Shirt,4,Gunpowder,15
+Captain's Shirt,4,Bottled Darkness,9
+Ninja Gear,1,Shuriken,1
+Ninja Gear,1,Bug Wing,2
+Ninja Gear,2,Shuriken,6
+Ninja Gear,2,Bug Wing,4
+Ninja Gear,3,Shuriken,15
+Ninja Gear,3,Bottled Darkness,3
+Ninja Gear,4,Shuriken,30
+Ninja Gear,4,Bottled Darkness,9
+Space Suit,1,Microcontroller,6
+Space Suit,2,Blank CD,2
+Space Suit,2,Glass,4
+Space Suit,3,Plastic,5
+Space Suit,3,7-Segment Display,7
+Space Suit,3,Blank CD,2
+Space Suit,4,RAM Chip,2
+Space Suit,4,7-Segment Display,2
+Space Suit,4,Red LED,5
+Cowboy Shirt,1,Wool,6
+Cowboy Shirt,2,Silk,1
+Cowboy Shirt,3,Silk,6
+Cowboy Shirt,3,Gunpowder,2
+Cowboy Shirt,4,Gold Plate,2
+Cowboy Shirt,4,Silk,12
+Cowboy Shirt,4,Gunpowder,4
+Army Jacket,1,Microcontroller,6
+Army Jacket,2,Plastic,2
+Army Jacket,2,Wool,5
+Army Jacket,3,Silk,6
+Army Jacket,3,Plastic,6
+Army Jacket,4,Silk,8
+Army Jacket,4,Hand Bomb,10
+Army Jacket,4,RAM Chip,1
+Officer's Coat,1,Wool,6
+Officer's Coat,2,Silk,1
+Officer's Coat,2,Wool,6
+Officer's Coat,3,Silk,8
+Officer's Coat,4,Bottled Darkness,4
+Officer's Coat,4,Silver Plate,8
+Red Jacket,1,Wool,6
+Red Jacket,2,Wool,8
+Red Jacket,2,Paper Talisman,4
+Red Jacket,3,Paper Talisman,10
+Red Jacket,3,Silk,6
+Red Jacket,4,Silk,6
+Red Jacket,4,Dark Rune,2
+Bone Armor,1,Iron Ore,4
+Bone Armor,2,Curly Horn,2
+Bone Armor,2,Iron Ore,2
+Bone Armor,3,Curly Horn,6
+Bone Armor,3,Solid Spike,3
+Bone Armor,4,Curly Horn,10
+Bone Armor,4,Solid Spike,12
+Karate Gi,1,Wool,6
+Karate Gi,2,Silk,1
+Karate Gi,3,Silk,7
+Karate Gi,3,Red Feather,2
+Karate Gi,4,Silk,16
+Karate Gi,4,Dragon Scales,6
+Leather Armor,1,Wool,10
+Leather Armor,2,Dragon Scales,1
+Leather Armor,2,Wool,5
+Leather Armor,3,Gold Plate,1
+Leather Armor,3,Dragon Scales,1
+Leather Armor,4,Gold Plate,4
+Leather Armor,4,Satin,2
+Dark Armor,1,Wool,4
+Dark Armor,1,Iron Ore,2
+Dark Armor,2,Steel Plate,3
+Dark Armor,3,Steel Plate,8
+Dark Armor,3,Bottled Darkness,2
+Dark Armor,4,Dark Rune,4
+Golden Armor,1,Iron Ore,4
+Golden Armor,2,Gold Plate,1
+Golden Armor,3,Gold Plate,2
+Golden Armor,4,Gold Plate,6
+Golden Armor,4,Topaz,1
+Red Ribbon,1,Wool,2
+Red Ribbon,1,Red Feather,1
+Red Ribbon,2,Silk,1
+Red Ribbon,2,Red Feather,1
+Red Ribbon,3,Silk,3
+Red Ribbon,3,Satin,1
+Red Ribbon,4,Silk,2
+Red Ribbon,4,Satin,5
+Yellow Bauble,1,Amber,1
+Yellow Bauble,2,Amber,3
+Yellow Bauble,3,Gold Plate,1
+Yellow Bauble,4,Topaz,3
+Yellow Bauble,4,Gold Plate,1
+Leaf Clip,1,Seaweed,3
+Leaf Clip,2,Seaweed,3
+Leaf Clip,2,Cactus,2
+Leaf Clip,3,Lanky Root,2
+Leaf Clip,3,Jungle Flower,3
+Leaf Clip,4,Jungle Flower,2
+Leaf Clip,4,Opal,1
+Pink Flower,1,Ogle Berries,5
+Pink Flower,2,Lanky Root,3
+Pink Flower,2,Ogle Berries,2
+Pink Flower,3,Jungle Flower,3
+Pink Flower,4,Jungle Flower,6
+Pink Flower,4,Pink Potion,3
+Ice Shards,1,Snowball,4
+Ice Shards,2,Solid Water,2
+Ice Shards,2,Snowball,4
+Ice Shards,3,Solid Water,4
+Ice Shards,3,Liquid Ice,4
+Ice Shards,4,Bubble Stone,8
+Ice Shards,4,Solid Water,6
+Coral Clip,1,Sea Shell,1
+Coral Clip,2,Sea Shell,5
+Coral Clip,2,Seaweed,2
+Coral Clip,3,Sea Shell,10
+Coral Clip,3,Bubble Stone,3
+Coral Clip,4,Sea Shell,15
+Coral Clip,4,Bubble Stone,8
+Dark Bauble,1,Glass,1
+Dark Bauble,2,Glass,4
+Dark Bauble,3,Bottled Darkness,2
+Dark Bauble,3,Glass,2
+Dark Bauble,4,Dark Rune,2
+Pirate Hat,1,Tentacle,1
+Pirate Hat,1,Seaweed,2
+Pirate Hat,2,Tentacle,5
+Pirate Hat,2,Sea Shell,3
+Pirate Hat,3,Sea Shell,6
+Pirate Hat,3,Bubble Stone,4
+Pirate Hat,4,Bubble Stone,5
+Pirate Hat,4,Bottled Darkness,2
+Drill Bits,1,Iron Ore,2
+Drill Bits,2,Steel Plate,2
+Drill Bits,2,Springy Spring,1
+Drill Bits,3,Steel Plate,3
+Drill Bits,3,Silver Plate,2
+Drill Bits,4,Steel Plate,5
+Drill Bits,4,Silver Plate,6
+Gold Crown,1,Rainbow Gems,1
+Gold Crown,2,Rainbow Gems,3
+Gold Crown,3,Topaz,1
+Gold Crown,3,Ruby,1
+Gold Crown,4,Topaz,2
+Gold Crown,4,Ruby,1
+Gold Crown,4,Rainbow Gems,2
+Cow Horns,1,Milk,1
+Cow Horns,2,Curly Horn,2
+Cow Horns,3,Curly Horn,7
+Cow Horns,3,Milk,4
+Cow Horns,4,Curly Horn,8
+Cow Horns,4,Milk,5
+Cow Horns,4,Solid Spike,4
+Cat Ears,1,Wool,3
+Cat Ears,2,Silk,1
+Cat Ears,3,Bottled Darkness,1
+Cat Ears,3,Silk,2
+Cat Ears,4,Bottled Darkness,4
+Cat Ears,4,Silk,6
+Slime Bunny Ears,1,Wool,3
+Slime Bunny Ears,2,Silk,1
+Slime Bunny Ears,3,Silk,5
+Slime Bunny Ears,4,Silk,14
+Nurse Hat,1,Cupcake,1
+Nurse Hat,2,Silk,1
+Nurse Hat,3,Cupcake,8
+Nurse Hat,3,Silk,3
+Nurse Hat,4,Cupcake,10
+Nurse Hat,4,Silk,5
+Pope's Hat,1,Paper Talisman,1
+Pope's Hat,2,Paper Talisman,6
+Pope's Hat,3,Silk,4
+Pope's Hat,3,Paper Talisman,8
+Pope's Hat,4,Silk,4
+Pope's Hat,4,Paper Talisman,10
+Pope's Hat,4,Gold Plate,2
+Fur Hat,1,Fine Fur,1
+Fur Hat,2,Fine Fur,5
+Fur Hat,2,Curly Horn,1
+Fur Hat,3,Fine Fur,10
+Fur Hat,3,Curly Horn,8
+Fur Hat,4,Curly Horn,10
+Fur Hat,4,Solid Spike,6
+Slime Hat,1,Seaweed,5
+Slime Hat,2,Liquid Ice,3
+Slime Hat,3,Liquid Ice,10
+Slime Hat,3,Emerald,1
+Slime Hat,4,Liquid Ice,10
+Slime Hat,4,Emerald,4
+Slime Hat,4,Seaweed,5
+Ranger Skirt,1,Wool,5
+Ranger Skirt,1,Ogle Berries,1
+Ranger Skirt,2,Fine Fur,2
+Ranger Skirt,3,Silk,6
+Ranger Skirt,3,Fine Fur,2
+Ranger Skirt,4,Silk,12
+Ranger Skirt,4,Fine Fur,8
+Ranger Skirt,4,Solid Spike,8
+Red Dress,1,Wool,4
+Red Dress,1,Red Feather,2
+Red Dress,2,Silk,1
+Red Dress,2,Red Feather,5
+Red Dress,3,Silk,4
+Red Dress,3,Satin,2
+Red Dress,4,Silk,4
+Red Dress,4,Satin,8
+Green Dress,1,Wool,4
+Green Dress,1,Seaweed,2
+Green Dress,2,Silk,1
+Green Dress,2,Turnip,1
+Green Dress,3,Silk,6
+Green Dress,3,Seaweed,8
+Green Dress,4,Satin,5
+Green Dress,4,Emerald,4
+White Mage Dress,1,Cupcake,1
+White Mage Dress,1,Wool,3
+White Mage Dress,2,Silk,1
+White Mage Dress,2,Wool,2
+White Mage Dress,3,Cupcake,12
+White Mage Dress,3,Silk,5
+White Mage Dress,3,Wool,5
+White Mage Dress,4,Cupcake,12
+White Mage Dress,4,Silk,6
+White Mage Dress,4,Satin,2
+Breastplate,1,Iron Ore,3
+Breastplate,2,Steel Plate,3
+Breastplate,2,Chain Link,2
+Breastplate,3,Steel Plate,5
+Breastplate,3,Silver Plate,4
+Breastplate,3,Chain Link,2
+Breastplate,4,Steel Plate,1
+Breastplate,4,Silver Plate,8
+Breastplate,4,Coconut,2
+Shrine Maiden Dress,1,Wool,5
+Shrine Maiden Dress,2,Paper Talisman,5
+Shrine Maiden Dress,2,Wool,2
+Shrine Maiden Dress,3,Paper Talisman,15
+Shrine Maiden Dress,3,Silk,4
+Shrine Maiden Dress,4,Paper Talisman,30
+Shrine Maiden Dress,4,Silk,14
+Flame Skirt,1,Wool,4
+Flame Skirt,1,Red Feather,2
+Flame Skirt,2,Silk,1
+Flame Skirt,2,Red Feather,5
+Flame Skirt,3,Ruby,2
+Flame Skirt,3,Bottled Darkness,1
+Flame Skirt,4,Ruby,4
+Flame Skirt,4,Bottled Darkness,4
+Blue Dress,1,Sea Shell,1
+Blue Dress,2,Sea Shell,4
+Blue Dress,2,Wool,8
+Blue Dress,3,Satin,1
+Blue Dress,3,Bubble Stone,3
+Blue Dress,4,Satin,5
+Blue Dress,4,Bubble Stone,8
+Fur Dress,1,Fine Fur,1
+Fur Dress,2,Fine Fur,5
+Fur Dress,2,Curly Horn,1
+Fur Dress,3,Fine Fur,10
+Fur Dress,3,Curly Horn,8
+Fur Dress,4,Fine Fur,6
+Fur Dress,4,Curly Horn,12
+Fur Dress,4,Solid Spike,6
+Camo Skirt,1,Wool,5
+Camo Skirt,1,Seaweed,1
+Camo Skirt,2,Silk,1
+Camo Skirt,2,Gunpowder,1
+Camo Skirt,3,Silk,6
+Camo Skirt,3,Gunpowder,8
+Camo Skirt,4,Silk,1
+Camo Skirt,4,Gunpowder,15
+Camo Skirt,4,Hand Bomb,8
+Pirate Dress,1,Tentacle,2
+Pirate Dress,1,Seaweed,2
+Pirate Dress,2,Tentacle,7
+Pirate Dress,2,Sea Shell,6
+Pirate Dress,3,Sea Shell,10
+Pirate Dress,3,Bubble Stone,6
+Pirate Dress,4,Bubble Stone,8
+Pirate Dress,4,Bottled Darkness,3
+Cow Costume,1,Milk,2
+Cow Costume,2,Curly Horn,4
+Cow Costume,2,Milk,2
+Cow Costume,3,Curly Horn,10
+Cow Costume,3,Milk,6
+Cow Costume,4,Curly Horn,12
+Cow Costume,4,Milk,10
+Cow Costume,4,Solid Spike,7
+Dark Gown,1,Wool,6
+Dark Gown,2,Satin,1
+Dark Gown,3,Satin,2
+Dark Gown,3,Bottled Darkness,2
+Dark Gown,4,Dark Rune,2
+Dark Gown,4,Bottled Darkness,3
+Pope's Dress,1,Paper Talisman,3
+Pope's Dress,2,Silk,2
+Pope's Dress,2,Paper Talisman,2
+Pope's Dress,3,Paper Talisman,8
+Pope's Dress,3,Silk,3
+Pope's Dress,3,Gold Plate,1
+Pope's Dress,4,Silk,6
+Pope's Dress,4,Gold Plate,3
+Pope's Dress,4,Rainbow Gems,1
+Ninja Skirt,1,Shuriken,1
+Ninja Skirt,1,Bug Wing,2
+Ninja Skirt,2,Shuriken,6
+Ninja Skirt,2,Bug Wing,4
+Ninja Skirt,3,Shuriken,15
+Ninja Skirt,3,Bottled Darkness,3
+Ninja Skirt,4,Shuriken,30
+Ninja Skirt,4,Bottled Darkness,9
+School Uniform,1,Wool,5
+School Uniform,2,Silk,1
+School Uniform,2,Wool,4
+School Uniform,3,Silk,7
+School Uniform,3,Pink Potion,2
+School Uniform,4,Silk,12
+School Uniform,4,Pink Potion,6
+Maid Outfit,1,Muffin,4
+Maid Outfit,2,Muffin,6
+Maid Outfit,2,Cupcake,2
+Maid Outfit,2,Milk,3
+Maid Outfit,3,Cupcake,8
+Maid Outfit,3,Coffee,6
+Maid Outfit,3,Ice Cream,3
+Maid Outfit,4,Ice Cream,8
+Maid Outfit,4,Coffee,12
+Maid Outfit,4,Watermelon,12
+Flame Badge,1,Magma Sample,6
+Lightning Badge,1,Plasma Ball,1
+Frost Badge,1,Solid Water,10
+Rock Badge,1,Dirt Ball,4
+Rock Badge,1,Geode,1
+Venom Badge,1,Cactus,12
+Air Badge,1,Amethyst,2
+Air Badge,1,Rainbow Gems,2
+Bubble Badge,1,Liquid Ice,10
+Iron Cross,1,Iron Ore,10
+Iron Cross,1,Steel Plate,5
+Silver Cross,1,Silver Plate,2
+Golden Pentagram,1,Gold Plate,1
+Golden Pentagram,1,Bottled Darkness,1
+Flame Badge,2,Magma Sample,8
+Flame Badge,2,Ruby,2
+Lightning Badge,2,Plasma Ball,1
+Lightning Badge,2,Topaz,1
+Frost Badge,2,Solid Water,10
+Frost Badge,2,Bubble Stone,5
+Rock Badge,2,Dirt Ball,6
+Rock Badge,2,Geode,5
+Venom Badge,2,Bio Virus,10
+Venom Badge,2,Cactus,12
+Air Badge,2,Amethyst,6
+Air Badge,2,Rainbow Gems,2
+Bubble Badge,2,Liquid Ice,10
+Bubble Badge,2,Bubble Stone,5
+Iron Cross,2,Iron Ore,10
+Iron Cross,2,Steel Plate,10
+Iron Cross,2,Silver Plate,3
+Silver Cross,2,Silver Plate,6
+Golden Pentagram,2,Gold Plate,2
+Golden Pentagram,2,Bottled Darkness,1
+The Tr*force,1,Gold Plate,1
+Angel Pin,1,Silver Plate,1
+Angel Pin,1,Silk,2
+Green Cross,1,Silver Plate,2
+Clover Pin,1,Emerald,1
+The Tr*force,2,Gold Plate,3
+Angel Pin,2,Silk,8
+Angel Pin,2,Paper Talisman,8
+Green Cross,2,Emerald,1
+Green Cross,2,Silver Plate,4
+Clover Pin,2,Emerald,2
+Clover Pin,2,Geode,1
+Broccoli Sticker,1,Turnip,5
+Broccoli Sticker,2,Seaweed,5
+Broccoli Sticker,2,Bio Virus,10
+Peace Sticker,1,Paper Talisman,8
+Peace Sticker,2,Paper Talisman,40
+Cursed Charm,1,Curly Horn,2
+Cursed Charm,1,Bottled Darkness,1
+Cursed Charm,2,Solid Spike,4
+Cursed Charm,2,Bottled Darkness,2
+Fr*ezie Badge,1,Solid Water,6
+Fr*ezie Badge,2,Solid Water,12
+Fr*ezie Badge,2,Liquid Ice,12
+Crossbone Pin,1,Silver Plate,2
+Crossbone Pin,2,Silver Plate,3
+Crossbone Pin,2,Bottled Darkness,2
+Diamond Pin,1,Silver Plate,1
+Diamond Pin,1,Steel Plate,4
+Diamond Pin,2,Silver Plate,4
+Diamond Pin,2,Steel Plate,4
+Bowling Ball Badge,1,Plastic,2
+Bowling Ball Badge,1,Concrete,2
+Bowling Ball Badge,2,Plastic,8
+Bowling Ball Badge,2,Concrete,10
+Ancient Rune,1,Paper Talisman,8
+Ancient Rune,1,Concrete,3
+Ancient Rune,2,Dark Rune,1
+Ancient Rune,2,Concrete,3
+P*chu Sticker,1,Silk,1
+P*chu Sticker,2,Plasma Ball,2
+Clown Fish Sticker,1,Tentacle,5
+Clown Fish Sticker,1,Seaweed,5
+Clown Fish Sticker,2,Tentacle,12
+Clown Fish Sticker,2,Sea Shell,12
+Clown Fish Sticker,2,Bubble Stone,7
+Beast Badge,1,Dirt Ball,5
+Beast Badge,1,Brick,5
+Beast Badge,1,Geode,1
+Beast Badge,2,Brick,6
+Beast Badge,2,Concrete,6
+Beast Badge,2,Geode,3
+Pocket Clock,1,Springy Spring,10
+Pocket Clock,2,Springy Spring,10
+Pocket Clock,2,7-Segment Display,5
+Pocket Clock,2,Plastic,5
+Cat Badge,1,Silk,4
+Cat Badge,2,Silk,10
+Cat Badge,2,Fine Fur,5
+Heart Pin,1,Red Feather,5
+Heart Pin,1,Dragon Scales,2
+Heart Pin,2,Dragon Scales,4
+Heart Pin,2,Ruby,2
+Potion Badge,1,Magma Sample,3
+Potion Badge,1,Liquid Ice,3
+Potion Badge,2,Pink Potion,5
+Target Badge,1,Plastic,3
+Target Badge,2,Plastic,10
+Ghost Sticker,1,Bottled Darkness,2
+Ghost Sticker,2,Bottled Darkness,5
+Balance Badge,1,Silver Plate,1
+Balance Badge,1,Bottled Darkness,1
+Balance Badge,2,Silver Plate,3
+Balance Badge,2,Bottled Darkness,3
+Sword Medal,1,Silver Plate,1
+Sword Medal,1,Gold Plate,1
+Sword Medal,2,Silver Plate,3
+Sword Medal,2,Gold Plate,3
+Shield Medal,1,Silver Plate,1
+Shield Medal,1,Gold Plate,1
+Shield Medal,2,Silver Plate,3
+Shield Medal,2,Gold Plate,3
+Gold Star,1,Gold Plate,1
+Gold Star,1,Rainbow Gems,5
+Gold Star,2,Gold Plate,4
+Platinum Star,1,Silver Plate,2
+Platinum Star,1,Rainbow Gems,5
+Platinum Star,2,Silver Plate,10

@@ -138,6 +138,19 @@ def read_equip_element_boost_traits():
         return [dict(row) for row in cur.fetchall()]
 
 
+def read_equip_action_boost_traits():
+    db_location = os.path.join('db', 'nolegsbase.db')
+    con = sqlite3.connect(db_location)
+    con.row_factory = sqlite3.Row
+    with con:
+        cur = con.cursor()
+        cur.execute("SELECT "
+                    "Equip AS id, "
+                    "ActionDesc AS actionDesc "
+                    "FROM EquipActionBoostTraits")
+        return [dict(row) for row in cur.fetchall()]
+
+
 def read_equip_skill_beat_traits():
     db_location = os.path.join('db', 'nolegsbase.db')
     con = sqlite3.connect(db_location)
@@ -192,6 +205,21 @@ def read_equip_status_on_target_traits():
         return [dict(row) for row in cur.fetchall()]
 
 
+def read_equip_status_replace_traits():
+    db_location = os.path.join('db', 'nolegsbase.db')
+    con = sqlite3.connect(db_location)
+    con.row_factory = sqlite3.Row
+    with con:
+        cur = con.cursor()
+        cur.execute("SELECT "
+                    "EquipStatusReplaceTraits.Equip AS id, "
+                    "StatusName AS statusName "
+                    "FROM EquipStatusReplaceTraits "
+                    "JOIN Statuses "
+                    "WHERE EquipStatusReplaceTraits.Status = Statuses.Id")
+        return [dict(row) for row in cur.fetchall()]
+
+
 def read_equip_status_on_player_traits():
     db_location = os.path.join('db', 'nolegsbase.db')
     con = sqlite3.connect(db_location)
@@ -234,4 +262,19 @@ def read_equip_stat_debuff_traits():
                     "FROM EquipStatDebuffTraits "
                     "JOIN StatModifiers "
                     "WHERE EquipStatDebuffTraits.StatModifier = StatModifiers.Id")
+        return [dict(row) for row in cur.fetchall()]
+
+
+def read_equip_buff_reflex_traits():
+    db_location = os.path.join('db', 'nolegsbase.db')
+    con = sqlite3.connect(db_location)
+    con.row_factory = sqlite3.Row
+    with con:
+        cur = con.cursor()
+        cur.execute("SELECT "
+                    "EquipBuffReflexTraits.Equip AS id, "
+                    "StatModifierName AS statModifierName "
+                    "FROM EquipBuffReflexTraits "
+                    "JOIN StatModifiers "
+                    "WHERE EquipBuffReflexTraits.StatModifier = StatModifiers.Id")
         return [dict(row) for row in cur.fetchall()]

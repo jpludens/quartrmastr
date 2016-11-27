@@ -18,6 +18,7 @@ Bless,Boon
 Brave,Boon
 Charged,Boon
 Morale,Boon
-Regen,Boon
+Regenerate,Boon
 Auto-Revive,Boon
 Defend,Boon
+Random,Ailment

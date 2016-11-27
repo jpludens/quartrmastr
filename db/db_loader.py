@@ -77,6 +77,11 @@ def load_equips():
             data[boost['id']]['traits'].append({
                 'traitType': 'boostElement',
                 'elementName': boost['elementName']})
+
+        for boost in readers.read_equip_action_boost_traits():
+            data[boost['id']]['traits'].append({
+                'traitType': 'actionBoost',
+                'actionDesc': boost['actionDesc']})
             
         for beat in readers.read_equip_skill_beat_traits():
             data[beat['id']]['traits'].append({
@@ -103,6 +108,11 @@ def load_equips():
                 'traitType': 'statusOnPlayer',
                 'statusName': onPlayer['statusName']})
 
+        for onTarget in readers.read_equip_status_replace_traits():
+            data[onTarget['id']]['traits'].append({
+                'traitType': 'statusReplace',
+                'statusName': onTarget['statusName']})
+
         for drain in readers.read_equip_drain_traits():
             data[drain['id']]['traits'].append({
                 'traitType': 'drain',
@@ -111,6 +121,11 @@ def load_equips():
         for debuff in readers.read_equip_stat_debuff_traits():
             data[debuff['id']]['traits'].append({
                 'traitType': 'statDebuff',
+                'statModifierName': debuff['statModifierName']})
+
+        for debuff in readers.read_equip_buff_reflex_traits():
+            data[debuff['id']]['traits'].append({
+                'traitType': 'buffReflex',
                 'statModifierName': debuff['statModifierName']})
 
     # End helper functions, start load_equips

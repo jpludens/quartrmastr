@@ -1,91 +1,809 @@
-EquipName,Level,HP,MP,PAttack,MAttack,PDefence,MDefence,Accuracy,Evade
-Red Vulcan,1,0,0,10,10,0,0,0,0
-Red Vulcan,2,0,0,20,20,0,5,0,0
-Red Vulcan,3,0,0,30,30,0,5,0,0
-Red Vulcan,4,0,0,45,45,0,10,0,0
-Red Vulcan,5,0,0,60,60,0,10,0,0
-Flamethrower,1,5,0,0,10,0,0,0,0
-Flamethrower,2,5,0,10,20,0,0,0,0
-Flamethrower,3,10,0,20,30,0,0,0,0
-Flamethrower,4,10,0,30,40,0,0,0,0
-Flamethrower,5,15,0,40,50,0,0,0,0
-Thunder Core,1,0,0,10,10,0,0,0,0
-Thunder Core,2,0,5,20,20,0,0,0,0
-Thunder Core,3,0,10,30,30,0,0,0,0
-Thunder Core,4,0,15,40,45,0,0,0,0
-Thunder Core,5,0,20,50,60,0,0,0,0
-Sub Zero,1,0,10,10,10,0,10,0,0
-Sub Zero,2,0,10,20,20,0,10,0,0
-Sub Zero,3,0,15,30,30,0,15,0,0
-Sub Zero,4,0,15,45,45,0,15,0,0
-Sub Zero,5,0,20,60,60,0,20,0,0
-Quake Maker,1,10,0,20,20,0,0,0,0
-Quake Maker,2,10,0,30,30,5,5,0,0
-Quake Maker,3,15,0,40,40,5,5,0,0
-Quake Maker,4,15,0,50,50,10,10,0,0
-Quake Maker,5,20,0,60,60,10,10,0,0
-Destroyer,1,0,0,10,10,0,0,0,0
-Destroyer,2,0,0,20,20,0,0,5,5
-Destroyer,3,0,0,30,30,0,0,5,5
-Destroyer,4,0,0,40,40,0,0,10,10
-Destroyer,5,0,0,50,50,0,0,10,10
-Super Snipe,1,0,0,0,0,0,0,25,0
-Super Snipe,2,0,0,5,5,0,0,30,5
-Super Snipe,3,0,0,10,10,0,0,35,10
-Super Snipe,4,0,0,20,20,0,0,40,15
-Super Snipe,5,0,0,30,30,0,0,50,20
-Vortex Cannon,1,0,0,0,25,0,0,-10,-10
-Vortex Cannon,2,0,0,0,40,5,5,-10,-10
-Vortex Cannon,3,0,0,0,55,5,5,-10,-10
-Vortex Cannon,4,0,0,0,65,10,10,-10,-10
-Vortex Cannon,5,0,0,0,90,10,10,-10,-10
-Deep Blue,1,0,0,15,0,0,0,0,0
-Deep Blue,2,0,0,25,10,0,0,0,0
-Deep Blue,3,0,0,35,20,0,0,0,0
-Deep Blue,4,0,0,50,30,0,0,0,0
-Deep Blue,5,0,0,70,40,0,0,0,0
-Mini Bomber,1,0,0,10,10,0,0,5,0
-Mini Bomber,2,0,5,20,20,0,0,10,0
-Mini Bomber,3,0,5,30,30,0,0,15,0
-Mini Bomber,4,0,10,40,40,0,0,20,0
-Mini Bomber,5,0,10,50,50,0,0,25,0
-Heavy Claw,1,5,0,20,0,5,0,0,-20
-Heavy Claw,2,10,0,30,0,10,0,0,-20
-Heavy Claw,3,15,0,40,0,15,0,0,-20
-Heavy Claw,4,20,0,50,0,20,0,0,-20
-Heavy Claw,5,25,0,65,0,25,0,0,-20
-God Hand,1,0,0,10,10,0,0,0,0
-God Hand,2,0,0,15,15,0,0,0,0
-God Hand,3,5,5,20,20,0,0,0,0
-God Hand,4,10,10,30,30,0,0,0,0
-God Hand,5,15,15,40,40,0,0,0,0
-Shadow Blaster,1,0,0,0,15,0,0,0,0
-Shadow Blaster,2,0,0,5,30,0,0,0,0
-Shadow Blaster,3,0,0,10,45,0,0,0,0
-Shadow Blaster,4,0,0,15,60,0,0,0,0
-Shadow Blaster,5,0,0,20,80,0,0,0,0
-Chainsaw Gun,1,0,0,20,0,0,0,0,0
-Chainsaw Gun,2,0,0,30,5,0,0,0,5
-Chainsaw Gun,3,0,0,45,10,0,0,0,5
-Chainsaw Gun,4,0,0,60,15,0,0,0,10
-Chainsaw Gun,5,0,0,75,20,0,0,0,10
-Ultra Zapper,1,0,10,20,20,0,0,0,0
-Ultra Zapper,2,0,15,30,30,0,0,0,0
-Ultra Zapper,3,0,20,40,40,0,0,0,0
-Ultra Zapper,4,0,25,50,50,0,0,0,0
-Ultra Zapper,5,0,30,60,60,0,0,0,0
-The Phantom,1,0,0,40,0,-50,-50,0,0
-The Phantom,2,0,0,55,10,-50,-50,0,0
-The Phantom,3,0,0,70,20,-50,-50,0,5
-The Phantom,4,0,0,90,30,-50,-50,0,5
-The Phantom,5,0,0,120,40,-50,-50,0,10
-Exterminator,1,0,0,0,10,0,0,0,0
-Exterminator,2,0,0,10,20,0,5,0,5
-Exterminator,3,0,0,20,30,0,5,0,5
-Exterminator,4,0,0,30,40,0,5,0,5
-Exterminator,5,0,0,40,50,0,10,0,10
-Accelerator,1,0,0,10,10,0,0,0,0
-Accelerator,2,0,0,20,20,0,0,0,0
-Accelerator,3,0,0,30,30,0,0,0,0
-Accelerator,4,0,0,45,45,0,0,0,0
-Accelerator,5,0,0,60,60,0,0,0,0
+EquipName,Level,HP,PAttack,MAttack,Accuracy,MP,PDefence,MDefence,Evade
+Red Vulcan,1,0,10,10,0,0,0,0,0
+Red Vulcan,2,0,20,20,0,0,0,5,0
+Red Vulcan,3,0,30,30,0,0,0,5,0
+Red Vulcan,4,0,45,45,0,0,0,10,0
+Red Vulcan,5,0,60,60,0,0,0,10,0
+Flamethrower,1,5,0,10,0,0,0,0,0
+Flamethrower,2,5,10,20,0,0,0,0,0
+Flamethrower,3,10,20,30,0,0,0,0,0
+Flamethrower,4,10,30,40,0,0,0,0,0
+Flamethrower,5,15,40,50,0,0,0,0,0
+Thunder Core,1,0,10,10,0,0,0,0,0
+Thunder Core,2,0,20,20,0,5,0,0,0
+Thunder Core,3,0,30,30,0,10,0,0,0
+Thunder Core,4,0,40,45,0,15,0,0,0
+Thunder Core,5,0,50,60,0,20,0,0,0
+Sub Zero,1,0,10,10,0,10,0,10,0
+Sub Zero,2,0,20,20,0,10,0,10,0
+Sub Zero,3,0,30,30,0,15,0,15,0
+Sub Zero,4,0,45,45,0,15,0,15,0
+Sub Zero,5,0,60,60,0,20,0,20,0
+Quake Maker,1,10,20,20,0,0,0,0,0
+Quake Maker,2,10,30,30,0,0,5,5,0
+Quake Maker,3,15,40,40,0,0,5,5,0
+Quake Maker,4,15,50,50,0,0,10,10,0
+Quake Maker,5,20,60,60,0,0,10,10,0
+Destroyer,1,0,10,10,0,0,0,0,0
+Destroyer,2,0,20,20,5,0,0,0,5
+Destroyer,3,0,30,30,5,0,0,0,5
+Destroyer,4,0,40,40,10,0,0,0,10
+Destroyer,5,0,50,50,10,0,0,0,10
+Super Snipe,1,0,0,0,25,0,0,0,0
+Super Snipe,2,0,5,5,30,0,0,0,5
+Super Snipe,3,0,10,10,35,0,0,0,10
+Super Snipe,4,0,20,20,40,0,0,0,15
+Super Snipe,5,0,30,30,50,0,0,0,20
+Vortex Cannon,1,0,0,25,-10,0,0,0,-10
+Vortex Cannon,2,0,0,40,-10,0,5,5,-10
+Vortex Cannon,3,0,0,55,-10,0,5,5,-10
+Vortex Cannon,4,0,0,65,-10,0,10,10,-10
+Vortex Cannon,5,0,0,90,-10,0,10,10,-10
+Deep Blue,1,0,15,0,0,0,0,0,0
+Deep Blue,2,0,25,10,0,0,0,0,0
+Deep Blue,3,0,35,20,0,0,0,0,0
+Deep Blue,4,0,50,30,0,0,0,0,0
+Deep Blue,5,0,70,40,0,0,0,0,0
+Mini Bomber,1,0,10,10,5,0,0,0,0
+Mini Bomber,2,0,20,20,10,5,0,0,0
+Mini Bomber,3,0,30,30,15,5,0,0,0
+Mini Bomber,4,0,40,40,20,10,0,0,0
+Mini Bomber,5,0,50,50,25,10,0,0,0
+Heavy Claw,1,5,20,0,0,0,5,0,-20
+Heavy Claw,2,10,30,0,0,0,10,0,-20
+Heavy Claw,3,15,40,0,0,0,15,0,-20
+Heavy Claw,4,20,50,0,0,0,20,0,-20
+Heavy Claw,5,25,65,0,0,0,25,0,-20
+God Hand,1,0,10,10,0,0,0,0,0
+God Hand,2,0,15,15,0,0,0,0,0
+God Hand,3,5,20,20,0,5,0,0,0
+God Hand,4,10,30,30,0,10,0,0,0
+God Hand,5,15,40,40,0,15,0,0,0
+Shadow Blaster,1,0,0,15,0,0,0,0,0
+Shadow Blaster,2,0,5,30,0,0,0,0,0
+Shadow Blaster,3,0,10,45,0,0,0,0,0
+Shadow Blaster,4,0,15,60,0,0,0,0,0
+Shadow Blaster,5,0,20,80,0,0,0,0,0
+Chainsaw Gun,1,0,20,0,0,0,0,0,0
+Chainsaw Gun,2,0,30,5,0,0,0,0,5
+Chainsaw Gun,3,0,45,10,0,0,0,0,5
+Chainsaw Gun,4,0,60,15,0,0,0,0,10
+Chainsaw Gun,5,0,75,20,0,0,0,0,10
+Ultra Zapper,1,0,20,20,0,10,0,0,0
+Ultra Zapper,2,0,30,30,0,15,0,0,0
+Ultra Zapper,3,0,40,40,0,20,0,0,0
+Ultra Zapper,4,0,50,50,0,25,0,0,0
+Ultra Zapper,5,0,60,60,0,30,0,0,0
+The Phantom,1,0,40,0,0,0,-50,-50,0
+The Phantom,2,0,55,10,0,0,-50,-50,0
+The Phantom,3,0,70,20,0,0,-50,-50,5
+The Phantom,4,0,90,30,0,0,-50,-50,5
+The Phantom,5,0,120,40,0,0,-50,-50,10
+Exterminator,1,0,0,10,0,0,0,0,0
+Exterminator,2,0,10,20,0,0,0,5,5
+Exterminator,3,0,20,30,0,0,0,5,5
+Exterminator,4,0,30,40,0,0,0,5,5
+Exterminator,5,0,40,50,0,0,0,10,10
+Accelerator,1,0,10,10,0,0,0,0,0
+Accelerator,2,0,20,20,0,0,0,0,0
+Accelerator,3,0,30,30,0,0,0,0,0
+Accelerator,4,0,45,45,0,0,0,0,0
+Accelerator,5,0,60,60,0,0,0,0,0
+Crystal Staff,1,0,0,15,0,0,0,0,0
+Crystal Staff,2,0,0,30,0,5,0,0,0
+Crystal Staff,3,0,0,40,0,10,0,0,0
+Crystal Staff,4,0,0,50,0,15,0,0,0
+Crystal Staff,5,0,0,65,0,20,0,0,0
+Flameheart,1,5,0,10,0,0,0,0,0
+Flameheart,2,5,0,20,0,0,5,0,0
+Flameheart,3,5,0,30,0,0,5,0,0
+Flameheart,4,10,0,40,0,0,10,0,0
+Flameheart,5,10,0,50,0,0,10,0,0
+Tribolt,1,5,0,10,0,0,5,5,-20
+Tribolt,2,5,0,20,0,0,5,5,-20
+Tribolt,3,5,0,30,0,0,5,5,-20
+Tribolt,4,10,0,40,0,0,10,10,-20
+Tribolt,5,10,0,50,0,0,10,10,-20
+Razorwind,1,0,0,10,0,0,0,0,0
+Razorwind,2,0,0,20,0,5,0,0,5
+Razorwind,3,0,0,30,0,5,0,0,5
+Razorwind,4,0,0,40,0,10,0,0,10
+Razorwind,5,0,0,50,0,10,0,0,10
+Flower Pot,1,0,0,0,0,0,5,5,0
+Flower Pot,2,5,0,10,0,5,10,10,0
+Flower Pot,3,5,0,20,0,5,15,15,0
+Flower Pot,4,10,0,30,0,10,20,20,0
+Flower Pot,5,10,0,40,0,10,25,25,0
+Nirvana,1,0,0,10,5,0,0,5,0
+Nirvana,2,0,0,20,5,0,0,5,0
+Nirvana,3,0,0,30,10,0,0,10,0
+Nirvana,4,0,0,40,15,0,0,15,0
+Nirvana,5,0,0,50,20,0,0,20,0
+Wrecking Rod,1,5,0,5,-10,0,5,0,-20
+Wrecking Rod,2,10,0,10,-10,0,10,0,-20
+Wrecking Rod,3,15,0,20,-10,0,20,0,-20
+Wrecking Rod,4,20,0,30,-10,0,30,0,-20
+Wrecking Rod,5,25,0,40,-10,0,40,0,-20
+Mystic Breeze,1,5,0,0,0,10,0,0,0
+Mystic Breeze,2,5,0,10,0,20,0,0,0
+Mystic Breeze,3,10,0,20,0,30,0,0,0
+Mystic Breeze,4,10,0,30,0,40,0,0,0
+Mystic Breeze,5,15,0,40,0,50,0,0,0
+Coral Staff,1,0,0,10,0,0,0,0,0
+Coral Staff,2,5,0,20,0,5,0,0,0
+Coral Staff,3,5,0,30,0,5,0,0,0
+Coral Staff,4,10,0,40,0,10,0,0,0
+Coral Staff,5,10,0,50,0,10,0,0,0
+Seraphim,1,0,0,10,0,0,0,0,0
+Seraphim,2,0,0,20,0,5,0,0,0
+Seraphim,3,0,0,30,0,5,0,0,5
+Seraphim,4,0,0,40,0,10,0,0,5
+Seraphim,5,0,0,50,0,10,0,0,10
+Dreamcatcher,1,0,0,5,5,5,0,0,5
+Dreamcatcher,2,0,0,10,5,5,0,0,5
+Dreamcatcher,3,0,0,20,5,10,0,0,5
+Dreamcatcher,4,0,0,30,10,15,0,0,5
+Dreamcatcher,5,0,0,40,10,20,0,0,10
+Hela's Staff,1,-35,0,30,0,-35,0,0,0
+Hela's Staff,2,-35,0,45,0,-35,0,0,0
+Hela's Staff,3,-35,0,60,0,-35,0,0,0
+Hela's Staff,4,-35,0,80,0,-35,0,0,0
+Hela's Staff,5,-35,0,100,0,-35,0,0,0
+Alchemy Set,1,0,0,0,0,0,0,0,0
+Alchemy Set,2,0,0,10,0,5,0,0,0
+Alchemy Set,3,0,0,20,0,10,0,0,0
+Alchemy Set,4,0,0,30,0,15,0,0,0
+Alchemy Set,5,0,0,40,0,20,0,0,0
+Road Sign,1,0,0,0,40,0,0,0,5
+Road Sign,2,0,0,10,50,0,0,0,10
+Road Sign,3,0,0,20,60,0,0,0,15
+Road Sign,4,0,0,30,75,0,0,0,20
+Road Sign,5,0,0,40,90,0,0,0,25
+Epoch,1,0,0,0,0,0,0,0,0
+Epoch,2,5,0,10,0,0,0,0,0
+Epoch,3,10,0,20,0,0,0,0,0
+Epoch,4,15,0,30,0,0,0,0,0
+Epoch,5,20,0,40,0,0,0,0,0
+Oak Staff,1,10,-40,-40,0,10,10,10,0
+Oak Staff,2,20,-40,-40,0,20,15,15,0
+Oak Staff,3,30,-40,-40,0,30,20,20,0
+Oak Staff,4,40,-40,-40,0,40,30,30,0
+Oak Staff,5,50,-40,-40,0,50,40,40,0
+Shooting Star,1,0,0,10,0,0,0,0,0
+Shooting Star,2,0,0,25,0,0,0,0,0
+Shooting Star,3,0,0,40,0,0,0,0,0
+Shooting Star,4,0,0,55,0,0,0,0,0
+Shooting Star,5,0,0,70,0,0,0,0,0
+Death Scythe,1,0,5,5,0,0,0,0,0
+Death Scythe,2,0,15,15,5,0,0,0,5
+Death Scythe,3,0,30,30,10,0,0,0,10
+Death Scythe,4,0,40,40,10,0,0,0,10
+Death Scythe,5,0,45,45,15,0,0,0,15
+Crimson Dragon,1,0,15,15,0,0,0,0,0
+Crimson Dragon,2,0,30,30,0,0,0,0,0
+Crimson Dragon,3,0,40,40,0,0,0,0,0
+Crimson Dragon,4,0,50,50,0,0,0,0,0
+Crimson Dragon,5,0,65,65,0,0,0,0,0
+Thor's Hammer,1,0,0,10,10,0,0,0,0
+Thor's Hammer,2,0,10,20,15,0,0,0,0
+Thor's Hammer,3,0,20,30,20,0,0,0,0
+Thor's Hammer,4,0,30,45,25,0,0,0,0
+Thor's Hammer,5,0,40,60,30,0,0,0,0
+Frozen Tears,1,0,10,10,0,0,0,0,0
+Frozen Tears,2,0,20,20,0,0,5,5,0
+Frozen Tears,3,0,30,30,0,0,5,5,0
+Frozen Tears,4,0,40,40,0,0,10,10,0
+Frozen Tears,5,0,50,50,0,0,10,10,0
+Gaia's Bow,1,5,0,0,0,0,5,5,0
+Gaia's Bow,2,5,5,5,0,0,5,5,0
+Gaia's Bow,3,10,10,10,0,0,10,10,0
+Gaia's Bow,4,15,20,20,0,0,10,10,0
+Gaia's Bow,5,20,30,30,0,0,15,15,0
+Fairy Bow,1,0,10,0,0,0,5,0,0
+Fairy Bow,2,0,20,10,0,0,5,0,0
+Fairy Bow,3,0,30,20,0,0,10,0,5
+Fairy Bow,4,0,40,30,0,0,10,0,10
+Fairy Bow,5,0,50,40,0,0,15,0,15
+Juggernaut,1,0,20,5,0,0,5,5,-20
+Juggernaut,2,0,30,10,0,0,10,10,-20
+Juggernaut,3,0,40,15,0,0,15,15,-20
+Juggernaut,4,0,55,20,0,0,20,20,-20
+Juggernaut,5,0,70,25,0,0,25,25,-20
+Sky Feather,1,0,0,0,0,5,0,0,0
+Sky Feather,2,0,10,10,5,10,0,0,5
+Sky Feather,3,0,20,20,5,15,0,0,5
+Sky Feather,4,0,30,30,10,20,0,0,10
+Sky Feather,5,0,40,40,10,25,0,0,10
+Atlantis,1,0,0,20,0,0,0,0,0
+Atlantis,2,0,10,30,0,0,5,5,0
+Atlantis,3,0,20,40,0,0,5,5,0
+Atlantis,4,0,30,50,0,0,10,10,0
+Atlantis,5,0,40,65,0,0,10,10,0
+Black Widow,1,0,15,0,0,0,0,0,0
+Black Widow,2,0,25,5,0,0,0,0,0
+Black Widow,3,0,35,10,0,0,0,0,0
+Black Widow,4,0,50,20,0,0,0,0,0
+Black Widow,5,0,65,30,0,0,0,0,0
+Eagle Eye,1,0,10,0,30,0,0,0,0
+Eagle Eye,2,0,20,10,45,0,0,0,5
+Eagle Eye,3,0,30,20,60,0,0,0,10
+Eagle Eye,4,0,40,30,75,0,0,0,15
+Eagle Eye,5,0,50,40,100,0,0,0,20
+Iron Tooth,1,0,20,0,-10,0,0,0,-10
+Iron Tooth,2,0,35,5,-10,0,5,0,-10
+Iron Tooth,3,0,50,10,-10,0,10,0,-10
+Iron Tooth,4,0,65,15,-10,0,15,0,-10
+Iron Tooth,5,0,80,20,-10,0,20,0,-10
+Fenrir's Jaw,1,0,10,0,0,0,0,0,0
+Fenrir's Jaw,2,5,20,10,5,0,0,0,5
+Fenrir's Jaw,3,5,30,20,5,0,0,0,5
+Fenrir's Jaw,4,10,40,30,10,0,0,0,10
+Fenrir's Jaw,5,10,50,40,10,0,0,0,10
+The Departed,1,0,0,0,0,0,0,0,0
+The Departed,2,0,10,10,0,0,0,0,0
+The Departed,3,0,20,20,0,0,0,0,0
+The Departed,4,0,30,30,0,0,0,0,0
+The Departed,5,0,40,40,0,0,0,0,0
+Alchemist's Bow,1,0,0,0,0,5,0,0,0
+Alchemist's Bow,2,0,0,5,0,10,0,0,0
+Alchemist's Bow,3,0,0,10,0,15,0,0,0
+Alchemist's Bow,4,0,0,15,0,20,0,0,0
+Alchemist's Bow,5,0,0,20,0,25,0,0,0
+Crystal Bow,1,0,20,20,0,0,0,0,0
+Crystal Bow,2,0,30,30,0,0,0,0,0
+Crystal Bow,3,0,40,40,0,0,0,0,0
+Crystal Bow,4,0,55,55,0,0,0,0,0
+Crystal Bow,5,0,75,75,0,0,0,0,0
+Thorn Bow,1,0,20,0,0,0,0,0,0
+Thorn Bow,2,0,30,5,0,0,0,0,0
+Thorn Bow,3,0,40,10,0,0,0,0,0
+Thorn Bow,4,0,55,15,0,0,0,0,0
+Thorn Bow,5,0,70,20,0,0,0,0,0
+Angel Wing,1,0,10,10,0,0,0,0,0
+Angel Wing,2,0,20,20,5,0,0,0,0
+Angel Wing,3,0,30,30,5,0,0,0,0
+Angel Wing,4,0,40,40,10,0,0,0,0
+Angel Wing,5,0,50,50,15,0,0,0,0
+Emerald Cyclone,1,0,10,10,0,0,0,0,0
+Emerald Cyclone,2,0,20,20,0,0,0,0,5
+Emerald Cyclone,3,0,30,30,0,0,0,0,5
+Emerald Cyclone,4,0,45,45,0,0,0,0,10
+Emerald Cyclone,5,0,60,60,0,0,0,0,15
+Magma Hammer,1,5,20,10,-10,0,0,0,-10
+Magma Hammer,2,5,30,20,-10,0,5,5,-10
+Magma Hammer,3,5,40,30,-10,0,5,5,-10
+Magma Hammer,4,10,50,40,-10,0,10,10,-10
+Magma Hammer,5,10,60,50,-10,0,15,15,-10
+Ice Needle,1,0,10,10,0,0,0,0,0
+Ice Needle,2,0,20,20,0,0,5,0,5
+Ice Needle,3,0,30,30,0,0,5,0,5
+Ice Needle,4,0,40,40,0,0,10,0,10
+Ice Needle,5,0,50,50,0,0,15,0,15
+Golden Dragon,1,0,10,10,0,0,0,0,0
+Golden Dragon,2,0,20,20,0,0,0,0,5
+Golden Dragon,3,0,30,30,5,0,0,0,5
+Golden Dragon,4,0,40,40,5,0,0,0,10
+Golden Dragon,5,0,50,50,10,0,0,0,15
+Gash Club,1,0,15,0,0,0,0,0,0
+Gash Club,2,0,25,5,0,0,0,0,0
+Gash Club,3,0,35,10,0,0,0,0,0
+Gash Club,4,0,45,20,0,0,0,0,0
+Gash Club,5,0,60,30,0,0,0,0,0
+Dragon Claw,1,0,10,10,0,0,0,0,0
+Dragon Claw,2,0,20,20,0,0,0,0,0
+Dragon Claw,3,0,30,30,0,0,0,0,0
+Dragon Claw,4,0,40,40,0,0,0,0,0
+Dragon Claw,5,0,50,50,0,0,0,0,0
+G*bson EB0,1,0,0,15,0,0,0,0,0
+G*bson EB0,2,0,10,25,0,5,0,5,0
+G*bson EB0,3,0,20,40,0,10,0,10,0
+G*bson EB0,4,0,30,55,0,15,0,15,0
+G*bson EB0,5,0,40,70,0,20,0,20,0
+Silver Blade,1,0,10,0,5,0,0,5,0
+Silver Blade,2,0,20,5,10,0,0,10,0
+Silver Blade,3,0,30,10,10,0,0,15,0
+Silver Blade,4,0,40,20,15,0,0,15,0
+Silver Blade,5,0,50,30,20,0,0,20,0
+Sapphire Giant,1,0,20,0,-10,0,0,0,0
+Sapphire Giant,2,0,35,5,-10,0,5,0,0
+Sapphire Giant,3,0,50,10,-10,0,10,0,0
+Sapphire Giant,4,0,65,15,-10,0,15,0,0
+Sapphire Giant,5,0,80,20,-10,0,20,0,0
+Heaven's Gate,1,0,15,15,0,0,0,0,0
+Heaven's Gate,2,0,30,30,0,0,0,0,5
+Heaven's Gate,3,0,40,40,0,0,0,0,5
+Heaven's Gate,4,0,50,50,0,0,0,0,10
+Heaven's Gate,5,0,60,60,0,0,0,0,10
+Anarchy,1,0,30,0,0,0,-50,-50,0
+Anarchy,2,0,50,0,0,0,-50,-50,0
+Anarchy,3,0,70,0,0,0,-50,-50,0
+Anarchy,4,0,95,0,0,0,-50,-50,0
+Anarchy,5,0,120,0,0,0,-50,-50,0
+Devil's Sunrise,1,0,10,10,0,0,0,0,0
+Devil's Sunrise,2,0,20,20,5,0,0,0,5
+Devil's Sunrise,3,0,30,30,5,0,0,0,5
+Devil's Sunrise,4,0,40,40,10,0,0,0,10
+Devil's Sunrise,5,0,50,50,15,0,0,0,15
+Bone Blade,1,0,0,0,0,0,0,0,0
+Bone Blade,2,0,10,10,5,0,0,0,5
+Bone Blade,3,0,20,20,5,0,0,0,5
+Bone Blade,4,0,30,30,10,0,0,0,10
+Bone Blade,5,0,40,40,10,0,0,0,10
+Blood Blade,1,0,0,0,0,0,0,0,0
+Blood Blade,2,0,10,10,0,0,0,0,0
+Blood Blade,3,0,20,20,0,0,0,0,0
+Blood Blade,4,0,30,30,0,0,0,0,0
+Blood Blade,5,0,40,40,0,0,0,0,0
+Rune Blade,1,0,0,30,0,5,0,0,0
+Rune Blade,2,0,5,40,5,10,0,5,5
+Rune Blade,3,0,10,50,5,15,0,10,5
+Rune Blade,4,0,15,65,10,20,0,15,10
+Rune Blade,5,0,20,80,10,25,0,25,10
+Chainsaw Blade,1,0,20,0,0,0,0,0,0
+Chainsaw Blade,2,0,30,5,0,0,0,0,0
+Chainsaw Blade,3,0,40,10,0,0,0,0,0
+Chainsaw Blade,4,0,55,15,0,0,0,0,0
+Chainsaw Blade,5,0,70,20,0,0,0,0,0
+Equilibrium,1,0,30,30,-10,0,0,0,-10
+Equilibrium,2,0,45,45,-10,0,0,0,-10
+Equilibrium,3,0,60,60,-10,0,0,0,-10
+Equilibrium,4,0,80,80,-10,0,0,0,-10
+Equilibrium,5,0,100,100,-10,0,0,0,-10
+Fusion Sword,1,5,10,10,0,0,5,0,-30
+Fusion Sword,2,5,25,20,0,0,5,0,-30
+Fusion Sword,3,5,40,30,0,0,5,0,-30
+Fusion Sword,4,10,55,40,0,0,10,0,-30
+Fusion Sword,5,10,70,50,0,0,10,0,-30
+Drill Lance,1,0,20,0,0,0,0,0,0
+Drill Lance,2,0,35,0,0,0,0,0,0
+Drill Lance,3,0,45,0,0,0,0,0,0
+Drill Lance,4,0,65,0,0,0,0,0,0
+Drill Lance,5,0,80,0,0,0,0,0,0
+Casual Cap,1,0,0,0,5,0,0,0,5
+Casual Cap,2,0,0,5,5,0,5,5,5
+Casual Cap,3,0,0,10,10,0,5,10,10
+Casual Cap,4,0,0,10,15,0,10,10,15
+Casual Cap,5,0,0,10,20,0,10,10,20
+Knight Helmet,1,5,0,0,0,0,15,5,0
+Knight Helmet,2,5,0,0,0,0,20,5,0
+Knight Helmet,3,5,0,0,0,0,25,10,0
+Knight Helmet,4,10,0,0,0,0,30,15,0
+Knight Helmet,5,10,0,0,0,0,40,20,0
+Genji Helmet,1,0,5,0,0,0,5,0,5
+Genji Helmet,2,0,5,0,0,0,10,0,5
+Genji Helmet,3,0,10,0,0,0,15,0,5
+Genji Helmet,4,0,15,0,0,0,20,0,5
+Genji Helmet,5,0,20,0,0,0,25,0,5
+Dragon Helm,1,0,0,0,0,0,5,5,0
+Dragon Helm,2,0,5,5,0,0,10,10,0
+Dragon Helm,3,0,5,5,0,0,15,15,0
+Dragon Helm,4,0,5,5,0,0,20,20,0
+Dragon Helm,5,0,10,10,0,0,25,25,0
+Viking Helmet,1,0,0,-20,0,0,5,5,0
+Viking Helmet,2,0,5,-20,0,0,10,10,0
+Viking Helmet,3,0,10,-20,0,0,15,15,0
+Viking Helmet,4,0,15,-20,0,0,20,20,0
+Viking Helmet,5,0,20,-20,0,0,25,25,0
+Captain's Hat,1,5,0,0,0,0,0,0,0
+Captain's Hat,2,5,0,0,0,0,5,5,0
+Captain's Hat,3,5,0,0,0,0,10,10,0
+Captain's Hat,4,5,0,0,0,0,15,15,5
+Captain's Hat,5,10,0,0,0,0,20,20,10
+Ninja Hood,1,0,0,0,5,0,0,0,5
+Ninja Hood,2,0,0,0,5,0,5,5,5
+Ninja Hood,3,0,0,0,10,0,10,5,10
+Ninja Hood,4,0,0,0,15,0,10,10,15
+Ninja Hood,5,0,0,0,15,0,10,10,15
+Space Helmet,1,5,0,0,0,5,10,10,0
+Space Helmet,2,5,0,0,0,5,15,15,0
+Space Helmet,3,10,0,0,0,10,20,20,0
+Space Helmet,4,10,0,0,0,10,30,30,0
+Space Helmet,5,15,0,0,0,15,40,40,0
+Cowboy Hat,1,0,0,0,20,0,0,0,0
+Cowboy Hat,2,0,0,0,25,0,5,5,0
+Cowboy Hat,3,0,0,0,30,0,10,10,0
+Cowboy Hat,4,0,0,0,35,0,15,15,0
+Cowboy Hat,5,0,0,0,40,0,20,20,0
+Army Helmet,1,0,0,0,0,0,5,5,0
+Army Helmet,2,0,0,0,0,0,10,10,0
+Army Helmet,3,0,0,0,0,0,15,15,0
+Army Helmet,4,0,0,0,0,0,20,20,0
+Army Helmet,5,0,0,0,0,0,25,25,0
+Officer's Hat,1,0,0,0,0,0,0,0,0
+Officer's Hat,2,0,0,0,0,0,5,5,0
+Officer's Hat,3,0,0,0,0,0,5,10,0
+Officer's Hat,4,0,5,5,0,0,10,10,0
+Officer's Hat,5,0,10,10,0,0,10,10,0
+Gas Mask,1,0,0,0,-10,0,0,0,-10
+Gas Mask,2,0,0,0,-10,0,5,5,-10
+Gas Mask,3,0,0,0,-10,0,10,10,-10
+Gas Mask,4,0,0,0,-10,0,15,15,-10
+Gas Mask,5,0,0,0,-10,0,20,20,-10
+Mage Hat,1,0,0,5,0,25,0,5,0
+Mage Hat,2,0,0,10,0,30,0,10,0
+Mage Hat,3,0,0,15,0,35,0,15,0
+Mage Hat,4,0,0,20,0,40,0,20,0
+Mage Hat,5,0,0,25,0,50,0,25,0
+Demon Skull,1,0,20,20,0,0,20,20,0
+Demon Skull,2,5,25,25,0,5,25,25,0
+Demon Skull,3,5,30,30,0,5,30,30,0
+Demon Skull,4,10,35,35,0,10,35,35,0
+Demon Skull,5,10,40,40,0,10,40,40,0
+Headband,1,0,5,5,0,0,0,0,0
+Headband,2,0,10,10,5,0,0,0,5
+Headband,3,0,15,15,10,0,0,0,10
+Headband,4,0,20,20,15,0,0,0,15
+Headband,5,0,25,25,20,0,0,0,20
+Puppy Hat,1,0,0,0,0,0,5,0,0
+Puppy Hat,2,0,0,0,0,0,5,5,0
+Puppy Hat,3,5,0,0,0,5,10,10,0
+Puppy Hat,4,5,0,0,0,5,15,15,0
+Puppy Hat,5,10,0,0,0,10,20,20,0
+Death Mask,1,0,20,0,-20,0,0,0,0
+Death Mask,2,0,25,0,-20,0,5,0,0
+Death Mask,3,0,30,0,-20,0,10,0,0
+Death Mask,4,0,40,0,-20,0,10,0,0
+Death Mask,5,0,50,0,-20,0,10,0,0
+Casual Shirt,1,0,0,5,0,0,0,0,5
+Casual Shirt,2,0,0,5,0,0,5,5,5
+Casual Shirt,3,0,0,5,0,0,10,10,10
+Casual Shirt,4,0,0,10,0,0,15,15,10
+Casual Shirt,5,0,0,15,0,0,20,20,15
+Knight Armor,1,10,0,0,0,0,20,10,-20
+Knight Armor,2,15,0,0,0,0,30,15,-20
+Knight Armor,3,20,0,0,0,0,40,20,-20
+Knight Armor,4,25,0,0,0,0,50,30,-20
+Knight Armor,5,30,0,0,0,0,60,40,-20
+Genji Armor,1,0,5,0,0,0,10,0,0
+Genji Armor,2,0,5,0,0,0,20,0,0
+Genji Armor,3,0,10,0,0,0,30,0,5
+Genji Armor,4,0,15,0,0,0,35,0,5
+Genji Armor,5,0,20,0,0,0,40,0,10
+Dragon Armor,1,0,0,0,0,0,15,15,0
+Dragon Armor,2,0,5,5,0,0,20,20,0
+Dragon Armor,3,0,5,5,0,0,25,25,0
+Dragon Armor,4,0,10,10,0,0,35,35,0
+Dragon Armor,5,0,10,10,0,0,40,40,0
+Viking Fur,1,0,0,-20,0,0,10,10,0
+Viking Fur,2,0,5,-20,0,0,15,15,0
+Viking Fur,3,0,10,-20,0,0,20,20,0
+Viking Fur,4,0,15,-20,0,0,25,25,0
+Viking Fur,5,0,20,-20,0,0,30,30,0
+Captain's Shirt,1,0,0,0,0,0,5,5,5
+Captain's Shirt,2,0,5,5,0,0,10,10,5
+Captain's Shirt,3,0,5,5,0,0,15,15,5
+Captain's Shirt,4,0,10,10,0,0,20,20,5
+Captain's Shirt,5,0,10,10,0,0,25,25,10
+Ninja Gear,1,0,0,0,10,0,0,0,10
+Ninja Gear,2,0,0,0,15,0,5,5,10
+Ninja Gear,3,0,0,0,15,0,5,5,15
+Ninja Gear,4,0,0,0,20,0,10,10,20
+Ninja Gear,5,0,0,0,25,0,15,15,25
+Space Suit,1,5,0,0,0,5,10,10,0
+Space Suit,2,5,0,0,0,5,15,15,0
+Space Suit,3,5,0,0,0,5,20,20,0
+Space Suit,4,10,0,0,0,10,30,30,0
+Space Suit,5,15,0,0,0,15,40,40,0
+Cowboy Shirt,1,0,0,0,20,0,10,10,0
+Cowboy Shirt,2,0,0,0,25,0,15,15,5
+Cowboy Shirt,3,0,0,0,30,0,20,20,5
+Cowboy Shirt,4,0,0,0,40,0,25,25,10
+Cowboy Shirt,5,0,0,0,50,0,30,30,10
+Army Jacket,1,0,0,0,0,0,10,10,0
+Army Jacket,2,0,0,0,0,0,15,15,5
+Army Jacket,3,0,0,0,0,0,20,20,5
+Army Jacket,4,0,0,0,0,0,25,25,10
+Army Jacket,5,0,0,0,0,0,30,30,10
+Officer's Coat,1,0,0,0,0,0,5,5,0
+Officer's Coat,2,0,0,5,5,0,10,10,0
+Officer's Coat,3,0,0,5,5,0,15,15,0
+Officer's Coat,4,0,0,10,10,0,25,25,0
+Officer's Coat,5,0,0,10,10,0,30,30,0
+Red Jacket,1,-10,-20,15,0,5,5,5,0
+Red Jacket,2,-10,-20,20,0,10,10,10,0
+Red Jacket,3,-10,-20,25,0,15,15,15,0
+Red Jacket,4,-10,-20,30,0,20,20,20,0
+Red Jacket,5,-10,-20,40,0,25,25,25,0
+Bone Armor,1,10,20,20,0,10,20,20,0
+Bone Armor,2,10,25,25,5,10,25,25,5
+Bone Armor,3,15,30,30,5,15,30,30,5
+Bone Armor,4,15,35,35,10,15,35,35,10
+Bone Armor,5,20,40,40,10,20,40,40,10
+Karate Gi,1,5,0,0,0,0,0,0,5
+Karate Gi,2,10,0,0,0,0,5,5,10
+Karate Gi,3,15,0,0,0,0,5,5,15
+Karate Gi,4,20,0,0,0,0,10,10,20
+Karate Gi,5,25,0,0,0,0,10,10,25
+Leather Armor,1,0,0,0,5,0,5,5,5
+Leather Armor,2,0,0,0,5,0,10,10,5
+Leather Armor,3,0,0,0,5,0,15,15,5
+Leather Armor,4,0,0,0,5,0,20,20,5
+Leather Armor,5,0,0,0,10,0,25,25,10
+Dark Armor,1,0,5,5,0,0,10,10,5
+Dark Armor,2,0,5,5,0,0,15,20,5
+Dark Armor,3,0,5,5,0,0,20,30,5
+Dark Armor,4,0,10,10,0,0,25,40,10
+Dark Armor,5,0,10,10,0,0,30,50,10
+Golden Armor,1,5,0,0,0,0,10,10,0
+Golden Armor,2,5,0,0,0,0,20,15,0
+Golden Armor,3,5,0,0,0,0,30,20,0
+Golden Armor,4,10,0,0,0,0,40,25,0
+Golden Armor,5,10,0,0,0,0,50,30,0
+Red Ribbon,1,0,0,0,0,0,0,0,0
+Red Ribbon,2,0,0,0,0,0,5,5,0
+Red Ribbon,3,0,0,0,0,0,10,10,0
+Red Ribbon,4,0,5,5,0,0,15,15,0
+Red Ribbon,5,0,10,10,0,0,20,20,0
+Yellow Bauble,1,0,0,0,0,0,0,0,5
+Yellow Bauble,2,0,0,0,0,5,0,5,5
+Yellow Bauble,3,0,0,0,0,10,0,10,5
+Yellow Bauble,4,0,0,0,0,15,0,15,10
+Yellow Bauble,5,0,0,0,0,20,0,20,10
+Leaf Clip,1,0,0,5,0,0,0,0,0
+Leaf Clip,2,0,0,5,0,0,5,5,0
+Leaf Clip,3,0,0,10,0,0,10,10,0
+Leaf Clip,4,0,0,10,0,0,15,15,0
+Leaf Clip,5,0,0,15,0,0,20,20,0
+Pink Flower,1,0,0,0,0,0,0,5,0
+Pink Flower,2,0,0,0,0,0,5,10,0
+Pink Flower,3,0,0,0,0,0,10,15,0
+Pink Flower,4,0,0,0,0,0,15,20,0
+Pink Flower,5,0,0,0,0,0,20,25,5
+Ice Shards,1,0,0,0,0,0,0,0,0
+Ice Shards,2,0,0,0,0,0,5,5,0
+Ice Shards,3,0,0,0,0,0,10,10,0
+Ice Shards,4,0,0,0,0,0,15,15,5
+Ice Shards,5,0,0,0,0,0,20,20,10
+Coral Clip,1,0,0,0,0,5,0,0,0
+Coral Clip,2,0,0,0,0,5,5,5,0
+Coral Clip,3,0,0,0,0,10,10,10,0
+Coral Clip,4,0,0,0,0,15,15,15,0
+Coral Clip,5,0,0,0,0,20,20,20,0
+Dark Bauble,1,0,0,10,0,0,0,0,0
+Dark Bauble,2,0,0,15,0,0,0,0,0
+Dark Bauble,3,0,0,20,0,0,0,5,0
+Dark Bauble,4,0,0,25,0,0,0,10,0
+Dark Bauble,5,0,0,30,0,0,0,15,0
+Pirate Hat,1,0,0,0,0,0,0,0,0
+Pirate Hat,2,0,0,0,0,0,5,5,0
+Pirate Hat,3,0,0,0,0,0,10,10,0
+Pirate Hat,4,0,0,0,0,5,15,15,0
+Pirate Hat,5,5,0,0,0,5,20,20,5
+Drill Bits,1,0,15,0,0,0,15,0,0
+Drill Bits,2,0,20,0,0,0,20,5,0
+Drill Bits,3,0,25,0,0,0,25,5,0
+Drill Bits,4,0,30,0,0,0,30,10,0
+Drill Bits,5,0,35,0,0,0,35,15,0
+Gold Crown,1,0,0,0,0,0,0,0,0
+Gold Crown,2,0,5,5,0,0,0,0,0
+Gold Crown,3,0,10,10,0,0,0,0,0
+Gold Crown,4,0,15,15,0,0,0,0,0
+Gold Crown,5,0,20,20,0,0,0,0,0
+Cow Horns,1,0,0,0,0,0,5,5,0
+Cow Horns,2,5,0,0,0,0,10,10,0
+Cow Horns,3,5,0,0,0,0,15,15,0
+Cow Horns,4,10,0,0,0,0,20,20,0
+Cow Horns,5,10,0,0,0,0,25,25,0
+Cat Ears,1,0,0,0,5,0,0,0,5
+Cat Ears,2,0,0,0,5,0,5,5,5
+Cat Ears,3,0,0,0,10,0,5,5,10
+Cat Ears,4,0,0,0,10,0,10,10,10
+Cat Ears,5,0,0,0,15,0,10,10,15
+Slime Bunny Ears,1,0,0,0,0,0,0,0,20
+Slime Bunny Ears,2,0,0,0,0,0,0,0,25
+Slime Bunny Ears,3,0,0,0,0,0,0,0,30
+Slime Bunny Ears,4,0,0,0,0,0,0,0,35
+Slime Bunny Ears,5,0,0,0,0,0,0,0,40
+Nurse Hat,1,0,0,0,0,0,0,0,0
+Nurse Hat,2,0,0,0,0,0,5,5,0
+Nurse Hat,3,0,0,0,0,0,10,10,0
+Nurse Hat,4,0,0,0,0,0,15,15,0
+Nurse Hat,5,5,0,0,0,5,20,20,0
+Pope's Hat,1,0,0,0,0,0,0,10,0
+Pope's Hat,2,0,0,0,0,0,0,20,0
+Pope's Hat,3,0,0,0,0,0,0,30,0
+Pope's Hat,4,0,0,0,0,0,0,40,0
+Pope's Hat,5,0,0,0,0,0,0,50,0
+Fur Hat,1,0,0,0,0,0,10,10,0
+Fur Hat,2,0,5,5,0,0,15,15,0
+Fur Hat,3,0,5,5,0,0,20,20,0
+Fur Hat,4,0,5,10,0,0,25,25,0
+Fur Hat,5,0,10,10,0,0,30,30,0
+Slime Hat,1,5,0,0,0,5,5,5,0
+Slime Hat,2,5,0,0,0,5,10,10,0
+Slime Hat,3,10,0,0,0,10,15,15,0
+Slime Hat,4,15,0,0,0,15,20,20,0
+Slime Hat,5,20,0,0,0,20,25,25,0
+Ranger Skirt,1,0,5,0,0,0,10,10,0
+Ranger Skirt,2,0,5,0,0,0,15,15,5
+Ranger Skirt,3,0,10,0,0,0,20,20,5
+Ranger Skirt,4,0,15,0,0,0,25,25,10
+Ranger Skirt,5,0,20,0,0,0,30,30,15
+Red Dress,1,0,0,10,0,0,0,15,0
+Red Dress,2,0,0,10,0,0,5,20,0
+Red Dress,3,0,0,15,0,0,10,25,0
+Red Dress,4,0,0,20,0,0,15,30,0
+Red Dress,5,0,0,25,0,0,20,40,0
+Green Dress,1,0,0,0,0,0,10,10,0
+Green Dress,2,0,0,0,0,0,15,15,0
+Green Dress,3,0,0,0,0,0,20,20,0
+Green Dress,4,0,0,0,0,0,30,30,0
+Green Dress,5,0,0,0,0,0,40,40,0
+White Mage Dress,1,0,0,0,0,0,10,10,0
+White Mage Dress,2,5,0,0,0,5,15,15,0
+White Mage Dress,3,5,0,0,0,5,20,20,0
+White Mage Dress,4,10,0,0,0,10,25,25,0
+White Mage Dress,5,10,0,0,0,10,30,30,0
+Breastplate,1,0,0,0,0,0,20,15,-20
+Breastplate,2,5,0,0,0,0,30,20,-20
+Breastplate,3,10,0,0,0,0,40,25,-20
+Breastplate,4,15,0,0,0,0,50,30,-20
+Breastplate,5,20,0,0,0,0,60,30,-20
+Shrine Maiden Dress,1,0,0,0,0,0,0,15,0
+Shrine Maiden Dress,2,0,0,0,0,5,5,20,0
+Shrine Maiden Dress,3,0,0,0,0,15,10,25,0
+Shrine Maiden Dress,4,0,0,0,0,20,15,30,0
+Shrine Maiden Dress,5,0,0,0,0,25,20,40,0
+Flame Skirt,1,0,0,0,0,0,10,10,0
+Flame Skirt,2,0,0,5,5,0,15,15,5
+Flame Skirt,3,0,5,10,5,0,20,20,5
+Flame Skirt,4,0,10,10,10,0,25,25,10
+Flame Skirt,5,0,10,10,10,0,30,30,10
+Blue Dress,1,0,0,0,0,0,0,15,0
+Blue Dress,2,0,0,0,0,0,5,20,0
+Blue Dress,3,0,0,0,0,5,10,25,0
+Blue Dress,4,5,0,0,0,5,15,30,0
+Blue Dress,5,5,0,0,0,5,20,40,0
+Fur Dress,1,0,0,0,0,0,10,10,0
+Fur Dress,2,0,5,5,0,0,15,15,0
+Fur Dress,3,0,5,5,0,0,20,20,0
+Fur Dress,4,0,10,10,0,0,25,25,0
+Fur Dress,5,0,10,10,0,0,30,30,0
+Camo Skirt,1,0,0,0,0,0,10,10,0
+Camo Skirt,2,0,0,0,0,0,15,15,0
+Camo Skirt,3,0,0,0,0,0,20,20,0
+Camo Skirt,4,0,0,0,0,0,25,25,0
+Camo Skirt,5,0,0,0,0,0,30,30,0
+Pirate Dress,1,0,5,5,0,0,0,0,0
+Pirate Dress,2,0,5,5,0,0,5,5,0
+Pirate Dress,3,0,10,10,0,0,10,10,0
+Pirate Dress,4,0,10,10,0,0,15,15,0
+Pirate Dress,5,0,15,15,0,0,20,20,0
+Cow Costume,1,5,0,0,0,0,5,5,0
+Cow Costume,2,5,0,0,0,0,10,10,0
+Cow Costume,3,10,0,0,0,0,15,15,0
+Cow Costume,4,15,0,0,0,0,20,20,0
+Cow Costume,5,20,0,0,0,0,25,25,0
+Dark Gown,1,0,0,10,0,0,0,15,0
+Dark Gown,2,0,0,15,0,0,0,20,0
+Dark Gown,3,0,0,20,0,0,0,25,0
+Dark Gown,4,0,0,25,0,0,0,30,0
+Dark Gown,5,0,0,30,0,0,0,40,0
+Pope's Dress,1,0,-20,0,0,0,0,20,0
+Pope's Dress,2,0,-20,0,0,5,0,30,0
+Pope's Dress,3,0,-20,0,0,5,0,40,0
+Pope's Dress,4,0,-20,0,0,10,0,50,0
+Pope's Dress,5,0,-20,0,0,10,0,60,0
+Ninja Skirt,1,0,0,0,10,0,0,0,10
+Ninja Skirt,2,0,0,0,15,0,0,0,15
+Ninja Skirt,3,0,0,0,20,0,5,5,20
+Ninja Skirt,4,0,0,0,25,0,10,10,25
+Ninja Skirt,5,0,0,0,30,0,15,15,30
+School Uniform,1,0,0,0,0,0,0,0,10
+School Uniform,2,0,0,0,0,0,0,0,20
+School Uniform,3,0,5,5,0,0,0,0,30
+School Uniform,4,0,5,5,0,0,0,0,40
+School Uniform,5,0,10,10,0,0,0,0,50
+Maid Outfit,1,0,0,0,0,0,10,10,0
+Maid Outfit,2,5,5,0,0,0,15,15,0
+Maid Outfit,3,5,10,0,0,0,20,20,0
+Maid Outfit,4,10,15,0,0,0,25,25,0
+Maid Outfit,5,10,20,0,0,0,30,30,0
+Flame Badge,1,0,0,0,0,0,0,0,0
+Lightning Badge,1,0,0,0,0,0,0,0,0
+Frost Badge,1,0,0,0,0,0,0,0,0
+Rock Badge,1,0,0,0,0,0,0,0,0
+Venom Badge,1,0,0,0,0,0,0,0,0
+Air Badge,1,0,0,0,0,0,0,0,0
+Bubble Badge,1,0,0,0,0,0,0,0,0
+Iron Cross,1,0,0,0,0,0,0,0,0
+Silver Cross,1,0,0,0,0,0,0,0,0
+Golden Pentagram,1,0,0,0,0,0,0,0,0
+Flame Badge,2,0,0,0,0,0,0,0,0
+Lightning Badge,2,0,0,0,0,0,0,0,0
+Frost Badge,2,0,0,0,0,0,0,0,0
+Rock Badge,2,0,0,0,0,0,0,0,0
+Venom Badge,2,0,0,0,0,0,0,0,0
+Air Badge,2,0,0,0,0,0,0,0,0
+Bubble Badge,2,0,0,0,0,0,0,0,0
+Iron Cross,2,0,0,0,0,0,0,0,0
+Silver Cross,2,0,0,0,0,0,0,0,0
+Golden Pentagram,2,0,0,0,0,0,0,0,0
+Flame Badge,3,0,0,0,0,0,0,0,0
+Lightning Badge,3,0,0,0,0,0,0,0,0
+Frost Badge,3,0,0,0,0,0,0,0,0
+Rock Badge,3,0,0,0,0,0,0,0,0
+Venom Badge,3,0,0,0,0,0,0,0,0
+Air Badge,3,0,0,0,0,0,0,0,0
+Bubble Badge,3,0,0,0,0,0,0,0,0
+Iron Cross,3,0,0,0,0,0,0,0,0
+Silver Cross,3,0,0,0,0,0,0,0,0
+Golden Pentagram,3,0,0,0,0,0,0,0,0
+The Tr*force,1,0,0,0,0,0,0,0,0
+Angel Pin,1,0,0,0,0,0,0,0,0
+Green Cross,1,0,0,0,0,0,0,0,0
+Clover Pin,1,0,0,0,0,0,0,0,0
+Broccoli Sticker,1,0,0,0,0,0,0,0,0
+Peace Sticker,1,0,0,0,0,0,0,0,0
+Cursed Charm,1,0,0,0,0,0,0,0,0
+Fr*ezie Badge,1,0,0,0,0,0,0,0,0
+Crossbone Pin,1,0,0,0,0,0,0,0,0
+Diamond Pin,1,0,0,0,0,0,0,0,0
+P*chu Sticker,1,0,0,0,0,0,0,0,0
+Clown Fish Sticker,1,0,0,0,0,0,0,0,0
+Beast Badge,1,0,0,0,0,0,0,0,0
+Pocket Clock,1,0,0,0,0,0,0,0,0
+Cat Badge,1,0,0,0,0,0,0,0,0
+The Tr*force,2,0,0,0,0,0,0,0,0
+Angel Pin,2,0,0,0,0,0,0,0,0
+Green Cross,2,0,0,0,0,0,0,0,0
+Clover Pin,2,0,0,0,0,0,0,0,0
+Broccoli Sticker,2,0,0,0,0,0,0,0,0
+Peace Sticker,2,0,0,0,0,0,0,0,0
+Cursed Charm,2,0,0,0,0,0,0,0,0
+Fr*ezie Badge,2,0,0,0,0,0,0,0,0
+Crossbone Pin,2,0,0,0,0,0,0,0,0
+Diamond Pin,2,0,0,0,0,0,0,0,0
+P*chu Sticker,2,0,0,0,0,0,0,0,0
+Clown Fish Sticker,2,0,0,0,0,0,0,0,0
+Beast Badge,2,0,0,0,0,0,0,0,0
+Pocket Clock,2,0,0,0,0,0,0,0,0
+Cat Badge,2,0,0,0,0,0,0,0,0
+The Tr*force,3,0,0,0,0,0,0,0,0
+Angel Pin,3,0,0,0,0,0,0,0,0
+Green Cross,3,0,0,0,0,0,0,0,0
+Clover Pin,3,0,0,0,0,0,0,0,0
+Broccoli Sticker,3,0,0,0,0,0,0,0,0
+Peace Sticker,3,0,0,0,0,0,0,0,0
+Cursed Charm,3,0,0,0,0,0,0,0,0
+Fr*ezie Badge,3,0,0,0,0,0,0,0,0
+Crossbone Pin,3,0,0,0,0,0,0,0,0
+Diamond Pin,3,0,0,0,0,0,0,0,0
+P*chu Sticker,3,0,0,0,0,0,0,0,0
+Clown Fish Sticker,3,0,0,0,0,0,0,0,0
+Beast Badge,3,0,0,0,0,0,0,0,0
+Pocket Clock,3,0,0,0,0,0,0,0,0
+Cat Badge,3,0,0,0,0,0,0,0,0
+Bowling Ball Badge,1,0,0,0,0,0,0,0,0
+Ancient Rune,1,0,0,0,0,0,0,0,0
+Bowling Ball Badge,2,0,0,0,0,0,5,0,0
+Ancient Rune,2,0,0,0,0,0,0,5,0
+Bowling Ball Badge,3,0,0,0,0,0,10,0,0
+Ancient Rune,3,0,0,0,0,0,0,10,0
+Heart Pin,1,5,0,0,0,0,0,0,0
+Heart Pin,2,10,0,0,0,0,0,0,0
+Heart Pin,3,15,0,0,0,0,0,0,0
+Potion Badge,1,0,0,0,0,10,0,0,0
+Potion Badge,2,0,0,0,0,15,0,0,0
+Potion Badge,3,0,0,0,0,25,0,0,0
+Target Badge,1,0,0,0,10,0,0,0,0
+Target Badge,2,0,0,0,15,0,0,0,0
+Target Badge,3,0,0,0,25,0,0,0,0
+Ghost Sticker,1,0,0,0,0,0,0,0,5
+Ghost Sticker,2,0,0,0,0,0,0,0,10
+Ghost Sticker,3,0,0,0,0,0,0,0,15
+Balance Badge,1,0,5,5,0,0,5,5,0
+Balance Badge,2,0,5,5,0,0,10,10,0
+Balance Badge,3,0,10,10,0,0,10,10,0
+Sword Medal,1,0,10,0,0,0,0,0,0
+Sword Medal,2,0,20,0,0,0,0,0,0
+Sword Medal,3,0,30,0,0,0,0,0,0
+Shield Medal,1,0,0,0,0,0,10,0,0
+Shield Medal,2,0,0,0,0,0,20,0,0
+Shield Medal,3,0,0,0,0,0,30,0,0
+Gold Star,1,0,0,10,0,0,0,0,0
+Gold Star,2,0,0,20,0,0,0,0,0
+Gold Star,3,0,0,30,0,0,0,0,0
+Platinum Star,1,0,0,0,0,0,0,10,0
+Platinum Star,2,0,0,0,0,0,0,20,0
+Platinum Star,3,0,0,0,0,0,0,30,0
