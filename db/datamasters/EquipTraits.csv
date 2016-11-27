@@ -1,0 +1,70 @@
+EquipName,TraitTypeName,KeyName
+Red Vulcan,ImbueElement,Fire
+Accelerator,BeatSkill,Speed Up
+Accelerator,BestowPlayer,Charged
+Chainsaw Gun,StackSkill,Sawblade
+Chainsaw Gun,BeatSkill,Triple Sawblades
+Chainsaw Gun,CounterSkill,Normal Attack
+Chainsaw Gun,InflictTarget,Death
+Deep Blue,ImbueElement,Water
+Deep Blue,BoostElement,Water
+Deep Blue,StackSkill,Geyser
+Deep Blue,CounterSkill,Normal Attack
+Destroyer,ImbueElement,Poison
+Destroyer,BoostElement,Poison
+Destroyer,StackSkill,Bamboo Trap
+Destroyer,InflictTarget,Poison
+Exterminator,ImbueElement,Poison
+Exterminator,BoostElement,Poison
+Exterminator,DebuffTarget,MagicDefenceDown
+Exterminator,StackSkill,Poison Cloud
+Exterminator,BeatSkill,The Dead
+Flamethrower,ImbueElement,Fire
+Flamethrower,BoostElement,Fire
+Flamethrower,StackSkill,Fire Blast
+Flamethrower,CounterSkill,Crush
+Flamethrower,InflictTarget,Burn
+God Hand,ImbueElement,Holy
+God Hand,BoostElement,Holy
+God Hand,DrainTarget,HealthPoints
+God Hand,StackSkill,Stone Fist
+Heavy Claw,ImbueElement,Bomb
+Heavy Claw,BoostElement,Bomb
+Heavy Claw,DebuffTarget,DefenceDown
+Mini Bomber,ImbueElement,Bomb
+Mini Bomber,BoostElement,Bomb
+Mini Bomber,StackSkill,Blast
+Mini Bomber,BeatSkill,Mini Missiles
+Mini Bomber,InflictTarget,Stagger
+Quake Maker,ImbueElement,Earth
+Quake Maker,StackSkill,Sand Dune
+Quake Maker,BoostElement,Earth
+Quake Maker,DebuffTarget,AttackDown
+Red Vulcan,BoostElement,Fire
+Red Vulcan,StackSkill,Fire Crystals
+Red Vulcan,CounterSkill,Flame Shot
+Red Vulcan,InflictTarget,Berserk
+Shadow Blaster,ImbueElement,Dark
+Shadow Blaster,BoostElement,Dark
+Shadow Blaster,StackSkill,Dark Flare
+Shadow Blaster,CounterSkill,Dark Shot
+Sub Zero,ImbueElement,Ice
+Sub Zero,BoostElement,Ice
+Sub Zero,StackSkill,Deep Freeze
+Sub Zero,InflictTarget,Freeze
+Super Snipe,InflictTarget,Death
+The Phantom,ImbueElement,Dark
+The Phantom,BoostElement,Dark
+The Phantom,StackSkill,Antimatter
+The Phantom,InflictTarget,Dispel
+Thunder Core,ImbueElement,Thunder
+Thunder Core,BoostElement,Thunder
+Thunder Core,StackSkill,Blue Bolt
+Thunder Core,CounterSkill,Plasma Shot
+Thunder Core,InflictTarget,Stun
+Ultra Zapper,DrainTarget,MagicPoints
+Ultra Zapper,StackSkill,Solar Flare
+Vortex Cannon,ImbueElement,Wind
+Vortex Cannon,BoostElement,Wind
+Vortex Cannon,StackSkill,Shockwave
+Vortex Cannon,InflictTarget,Dispel

@@ -21,19 +21,20 @@ class EquipsTopographyTests(unittest.TestCase):
 
     def test_get_equips__equips__contains_expected_keys(self):
         key_sets = [set(item.keys()) for item in self.data]
-        # We get something
+        # Make sure we get something
         self.assertTrue(key_sets != [])
         expected_keys = {
             'id',
             'equipName',
             'equipSlot',
             'levels',
+            'traits',
             'elementalResistances',
-            'ailmentResistances'}
+            'statusResistances'}
         expected_diffs = [
             set(),
             {'elementalResistances'},
-            {'ailmentResistances'}]
+            {'statusResistances'}]
         # None of the items have keys we are not expecting
         self.assertTrue(all(key_set.difference(expected_keys) == set() for key_set in key_sets))
         # Items may be missing ONLY elemental resistances OR ONLY ailment resistances.
@@ -52,13 +53,13 @@ class EquipsTopographyTests(unittest.TestCase):
         self.assertTrue(all(actual == expected for actual in actuals))
 
     def test_get_equips__ailment_resistances__contains_expected_keys(self):
-        resistance_sets = [e['ailmentResistances'] for e in self.data
-                           if 'ailmentResistances' in e]
+        resistance_sets = [e['statusResistances'] for e in self.data
+                           if 'statusResistances' in e]
         actuals = [set(resistance.keys())
                    for resistance_set in resistance_sets
                    for resistance in resistance_set]
         expected = {
-            "ailmentName",
+            "statusName",
             "scheme"}
         self.assertTrue(all(actual == expected for actual in actuals))
 

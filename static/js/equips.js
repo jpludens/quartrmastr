@@ -21,7 +21,6 @@ loadData.then(values => {
 
   // Create equip objects and render the selector
   let equips = values[0].map(e => new Equip(e));
-  // console.log(equips);
   ReactDOM.render(
     <ul>
       {equips.map(e => <li> <EquipPicker equip={e} /> </li> )}
@@ -41,6 +40,7 @@ class Equip {
   constructor(equipData) {
     this.name = equipData.equipName;
     this.slot = equipData.equipSlot;
+    this.traits = equipData.traits;
 
     this.levels = new Map();
     equipData.levels.forEach(rawLevelData => {
@@ -191,8 +191,8 @@ class EquipDetailsComponent extends React.Component {
 
     return (
       <div>
-        <h3>Details for {this.props.equip.name}</h3>
-        <p>{this.props.equip.slot}</p>
+        <h3>Details for {this.props.equip.name} ({this.props.equip.slot})</h3>
+        <EquipTraitsBlurb traits={this.props.equip.traits} />
         <div id="details">
           {currentLevelContent}
           {comparisonContent}
@@ -206,6 +206,56 @@ EquipDetailsComponent.propTypes = {
   equip: React.PropTypes.object.isRequired
 }
 
+
+class EquipTraitsBlurb extends React.Component {
+  constructor(props) {
+    super(props);
+  }
+
+
+  render() {
+    return ( 
+      <p>
+        {this.props.traits.map(trait => {
+          switch (trait.traitType) {
+            case "imbueElement":
+              return <span>Imbued with {trait.elementName}. </span>;
+              break;
+            case "boostElement":
+              return <span>Boosts the power of {trait.elementName} Skills. </span>;
+              break;
+            case "beatSkill":
+              return <span>Randomly casts {trait.skillName} between turns. </span>;
+              break;
+            case "stackSkill":
+              return <span>May cast {trait.skillName} with certain Skills. </span>;
+              break;
+            case "counterSkill":
+              return <span>Counter attacks with {trait.skillName}. </span>;
+              break;
+            case "statusOnTarget":
+              return <span>May inflict {trait.statusName} on targets. </span>;
+              break;
+            case "statusOnPlayer":
+              return <span>Randomly gives the player {trait.statusName}. </span>;
+              break;
+            case "drain":
+              return <span>Drains {trait.statName == "healthPoints" ? "HP" : "MP"} from foes with certain Skills. </span>;
+              break;
+            case "statDebuff":
+              return <span>May slap targets with {trait.statModifierName}. </span>;
+              break;
+            default:
+              return <span>Um... </span>;
+          }
+        })}
+      </p>
+    );
+  }
+}
+EquipTraitsBlurb.propTypes = {
+  traits: React.PropTypes.object.isRequired
+}
 
 class EquipLevelComparisonComponent extends React.Component {
   constructor(props) {

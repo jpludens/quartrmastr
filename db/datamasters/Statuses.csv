@@ -1,14 +1,4 @@
-ModifierName,ModifierType
-Fire,Element
-Thunder,Element
-Ice,Element
-Earth,Element
-Poison,Element
-Bomb,Element
-Wind,Element
-Water,Element
-Holy,Element
-Dark,Element
+StatusName,StatusType
 Burn,Ailment
 Stun,Ailment
 Freeze,Ailment

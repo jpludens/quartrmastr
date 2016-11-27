@@ -1,0 +1,16 @@
+TraitTypeName
+InflictTarget
+BestowPlayer
+InflictPlayer
+ReplaceInflict
+BuffReflex
+DebuffTarget
+DrainTarget
+ImbueElement
+BoostElement
+StackSkill
+BeatSkill
+CounterSkill
+BoostAction
+DrainHP
+DrainMP
