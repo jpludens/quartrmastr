@@ -275,17 +275,17 @@ Viking Helmet,BestowPlayer,Berserk
 Army Helmet,BeatSkill,Medipack
 Officer's Hat,BeatSkill,Tank Cannon
 Gas Mask,BeatSkill,Poison Gas
-Mage Hat,ActionBoost,Healing Spells
+Mage Hat,ActionBoost,healing spells
 Demon Skull,BestowPlayer,Curse
 Headband,BestowPlayer,Brave
 Puppy Hat,BeatSkill,Friend Dog
-Death Mask,BuffReflex,PhysicalAttackUp
-Casual Shirt,ActionBoost,Healing Items
+Death Mask,BuffReflex,AttackUp
+Casual Shirt,ActionBoost,HP and MP healing items
 Knight Armor,BestowPlayer,Tired
-Genji Armor,BuffReflex,PhysicalAttackUp
+Genji Armor,BuffReflex,AttackUp
 Dragon Armor,BestowPlayer,Brave
 Viking Fur,BeatSkill,Wooly Mammoth
-Ninja Gear,ActionBoost,AttackItems
+Ninja Gear,ActionBoost,attack items
 Space Suit,BeatSkill,Scanbot
 Army Jacket,BeatSkill,Air Strike
 Officer's Coat,BeatSkill,Tank Guns
@@ -294,27 +294,27 @@ Bone Armor,BestowPlayer,Curse
 Karate Gi,BuffReflex,EvadeUp
 Leather Armor,BeatSkill,Temper
 Dark Armor,BuffReflex,MagicDefenceUp
-Golden Armor,BuffReflex,PhysicalDefenceUp
+Golden Armor,BuffReflex,DefenceUp
 Pink Flower,BestowPlayer,Bless
 Gold Crown,BestowPlayer,Brave
 Slime Bunny Ears,BestowPlayer,Tired
-Nurse Hat,ActionBoost,Healing Spells
+Nurse Hat,ActionBoost,healing spells
 Fur Hat,BeatSkill,Wooly Mammoth
 Red Dress,BuffReflex,MagicAttackUp
 Green Dress,BeatSkill,Ivy
 White Mage Dress,BuffReflex,MagicDefenceUp
-Shrine Maiden Dress,ActionBoost,Healing Items
+Shrine Maiden Dress,ActionBoost,HP and MP healing items
 Shrine Maiden Dress,BeatSkill,Talisman Seal
 Blue Dress,BeatSkill,Cloudburst
 Fur Dress,BeatSkill,Wooly Mammoth
 Camo Skirt,BeatSkill,Medipack
-Pirate Dress,BuffReflex,PhysicalAttack
-Cow Costume,BuffReflex,PhysicalDefenceUp
+Pirate Dress,BuffReflex,AttackUp
+Cow Costume,BuffReflex,DefenceUp
 Dark Gown,BuffReflex,MagicAttackUp
 Pope's Dress,BeatSkill,Revive
-Ninja Skirt,ActionBoost,Attack Itemms
+Ninja Skirt,ActionBoost,attack items
 Ninja Skirt,BeatSkill,Bind
-School Uniform,ActionBoost,Healing Items
+School Uniform,ActionBoost,HP and MP healing items
 School Uniform,BuffReflex,EvadeUp
 Maid Outfit,BeatSkill,Cleanse
 The Tr*force,BestowPlayer,Morale
@@ -327,7 +327,7 @@ Cursed Charm,ReplaceInflict,Curse
 Fr*ezie Badge,ReplaceInflict,Freeze
 Crossbone Pin,ReplaceInflict,Doom
 Diamond Pin,ReplaceInflict,Stagger
-Bowling Ball Badge,BuffReflex,PhysicalDefenceUp
+Bowling Ball Badge,BuffReflex,DefenceUp
 Ancient Rune,BuffReflex,MagicDefenceUp
 P*chu Sticker,BeatSkill,Thunderbolt
 Clown Fish Sticker,BeatSkill,Geyser

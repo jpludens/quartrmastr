@@ -8,7 +8,6 @@
 
 .equip-selector-listing {
 	cursor: pointer;
-	cursor: hand;
 }
 
 ul {
@@ -17,5 +16,4 @@ ul {
 
 button {
 	cursor: pointer;
-	cursor: hand;
 }

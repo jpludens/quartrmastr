@@ -352,6 +352,7 @@ class EquipTraitsBlurb extends React.Component {
 
 
   render() {
+    console.log(this.props.traits);
     return ( 
       <p>
         {this.props.traits.map(trait => {
@@ -363,7 +364,7 @@ class EquipTraitsBlurb extends React.Component {
               return <span>Boosts the power of {trait.elementName} Skills. </span>;
               break;
             case "actionBoost":
-              return <span>Boosts the power of {actionDesc}. </span>;
+              return <span>Boosts the power of {trait.actionDesc}. </span>;
               break;
             case "beatSkill":
               return <span>Randomly casts {trait.skillName} between turns. </span>;

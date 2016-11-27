@@ -334,7 +334,7 @@ def build_equip_buff_reflex_traits():
                     "FOREIGN KEY(StatModifier) REFERENCES StatModifiers(Id))")
 
         for csv_row in get_from_datamaster('EquipTraits.csv'):
-            if csv_row.get('TraitTypeName') == 'BuffTarget':
+            if csv_row.get('TraitTypeName') == 'BuffReflex':
                 cur.execute("INSERT INTO EquipBuffReflexTraits ("
                             "Equip, StatModifier)"
                             "VALUES (\"{}\", \"{}\")".format(
@@ -496,7 +496,7 @@ def build_equip_status_replace_traits():
                     "FOREIGN KEY(Status) REFERENCES Statuses(Id))")
 
         for csv_row in get_from_datamaster('EquipTraits.csv'):
-            if csv_row.get('TraitTypeName') == 'BestowPlayer':
+            if csv_row.get('TraitTypeName') == 'ReplaceInflict':
                 cur.execute("INSERT INTO EquipStatusReplaceTraits ("
                             "Equip, Status)"
                             "VALUES (\"{}\", \"{}\")".format(
