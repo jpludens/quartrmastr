@@ -4,21 +4,15 @@
     <meta charset="UTF-8">
     <title>QuartrMastr - Equips</title>
     <script type="text/javascript"
-            src="{{ url_for('static', filename='js/react.min.js') }}">
-    </script>
-    <script type="text/javascript"
-            src="{{ url_for('static', filename='js/react-dom.min.js') }}">
-    </script>
-    <script type="text/javascript"
-            src="{{ url_for('static', filename='js/browser.min.js') }}">
-    </script>
-    <script type="text/babel"
-            src="{{ url_for('static', filename='js/equips.js') }}">
+            data-main="{{ url_for('static', filename='js/dist/equips.js') }}"
+            src="{{ url_for('static', filename='js/require.js') }}">
     </script>
     <link rel="stylesheet" href="{{ url_for('static', filename='css/equips.css') }}">
 </head>
-<body style="style:inline-flex;">
-<div id="summaries" style="display:inline-flex"></div>
-<div id="details" style="display:inline-flex;"></div>
+<body style="display:inline-flex;">
+    <div id="equip-selector">
+        <p>NoLegs is fetching a bunch of data on Equips! Good kitty!</p>
+    </div>
+    <div id="equip-details"></div>
 </body>
 </html>

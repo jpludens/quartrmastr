@@ -6,3 +6,7 @@
 
 # pyc
 *.pyc
+
+# Non-minified js for debugging
+/static/js/react.js
+/static/js/react-dom.js

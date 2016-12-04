@@ -4,16 +4,8 @@
     <meta charset="UTF-8">
     <title>QuartrMastr - Materials</title>
     <script type="text/javascript"
-            src="{{ url_for('static', filename='js/react.min.js') }}">
-    </script>
-    <script type="text/javascript"
-            src="{{ url_for('static', filename='js/react-dom.min.js') }}">
-    </script>
-    <script type="text/javascript"
-            src="{{ url_for('static', filename='js/browser.min.js') }}">
-    </script>
-    <script type="text/babel"
-            src="{{ url_for('static', filename='js/materials.js') }}">
+            data-main="{{ url_for('static', filename='js/dist/materials.js') }}"
+            src="{{ url_for('static', filename='js/require.js') }}">
     </script>
 </head>
 <body>

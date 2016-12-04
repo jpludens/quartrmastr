@@ -1,12 +1,12 @@
-#details {
+#equip-details {
 	display: inline-flex;
 }
 
-.comparison {
-	margin-top: 91.5px;
+.column {
+	display: inline-block;
 }
 
-.equip-selector-listing {
+#equip-selector ul li {
 	cursor: pointer;
 }
 
