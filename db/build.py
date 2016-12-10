@@ -1,34 +1,49 @@
-import db_builder as builders
+#############################################################
+# This lets 'from db import tables' work from command line
+import os
+import sys
+this_path = os.path.dirname(os.path.realpath(__file__))
+sys.path.append(os.path.join(this_path, '../../quartrmastr'))
+#############################################################
+
+from db import tables
 
 
-def build():
-    # Build tables with no requirements
-    builders.build_stats()
-    builders.build_elements()
-    builders.build_statuses()
-    builders.build_equips()
-    builders.build_materials()
+def get_build_tiers():
+    all_requirements = {m: set(m.requirements) for m in tables.__all__}
 
-    # Build dependent tables
-    builders.build_stat_modifiers()
-    builders.build_equip_level_stats()
-    builders.build_equip_elemental_resistances()
-    builders.build_equip_status_resistances()
-    builders.build_equip_element_imbue_traits()
-    builders.build_equip_element_boost_traits()
-    builders.build_equip_skill_beat_traits()
-    builders.build_equip_skill_stack_traits()
-    builders.build_equip_skill_counter_traits()
-    builders.build_equip_status_on_target_traits()
-    builders.build_equip_status_on_player_traits()
-    builders.build_equip_status_replace_traits()
-    builders.build_equip_drain_traits()
-    builders.build_equip_action_boost_traits()
-    builders.build_equip_level_upgrade_requirements()
+    # Iterate through until all modules' requirements are satisfied
+    build_tiers = [[]]
+    remaining_requirements = all_requirements.items()
+    while remaining_requirements:
+        # Remove the previous tier's modules from each module's requirements.
+        # Modules with no remaining requirements are added to the current tier.
+        next_tier = []
+        for build_module, requirements in remaining_requirements:
+            updated_requirements = requirements.difference(build_tiers[-1])
+            if not updated_requirements:
+                next_tier.append(build_module)
+            else:
+                all_requirements[build_module] = updated_requirements
+        # Something is wrong with the reference order if there are no new modules.
+        if not next_tier:
+            raise RuntimeError
+        # Remove the newly satisfied modules from the dict of unsatisfied modules.
+        else:
+            for build_module in next_tier:
+                del all_requirements[build_module]
+        # Add the completed tier, and refresh the unsatisfied modules.
+        build_tiers.append(next_tier)
+        remaining_requirements = all_requirements.items()
+    return build_tiers[1:]
 
-    # Build further dependent tables
-    builders.build_equip_stat_debuff_traits()
-    builders.build_equip_buff_reflex_traits()
 
 if __name__ == "__main__":
-    build()
+    import pprint
+    pp = pprint.PrettyPrinter().pprint
+    tiers = get_build_tiers()
+    for index, tier in enumerate(tiers):
+        print "Starting Tier {}, containing the following modules".format(str(index+1))
+        pp([module.__name__ for module in tier])
+        for module in tier:
+            module.build()

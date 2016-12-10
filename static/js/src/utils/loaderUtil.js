@@ -12,7 +12,8 @@ const load = url => {
   ).then(response => (response.json()));
 }
 
-let loadMaterials = () => load('/api/v1/materials/');
+let loadCharacters = () => load('/api/v1/characters/');
 let loadEquips = () => load('/api/v1/equips/');
+let loadMaterials = () => load('/api/v1/materials/');
 
-export { loadMaterials, loadEquips };
+export { loadCharacters, loadEquips, loadMaterials };

@@ -3,15 +3,12 @@ import json
 import unittest
 
 
-class MaterialsTopographyTests(unittest.TestCase):
+class CharactersTopographyTests(unittest.TestCase):
 
     def setUp(self):
-        self.data = json.loads(quartrmastr.get_materials())
+        self.data = json.loads(quartrmastr.get_characters())
 
-    def test_get_materials__contains_expected_keys(self):
-        actuals = [set(item.keys()) for item in self.data]
-        expected = {'id', 'name', 'gold'}
-        self.assertTrue(all(actual == expected for actual in actuals))
+    # TODO
 
 
 class EquipsTopographyTests(unittest.TestCase):
@@ -177,6 +174,17 @@ class EquipsTopographyTests(unittest.TestCase):
             'magicDefence',
             'accuracy',
             'evade'}
+        self.assertTrue(all(actual == expected for actual in actuals))
+
+
+class MaterialsTopographyTests(unittest.TestCase):
+
+    def setUp(self):
+        self.data = json.loads(quartrmastr.get_materials())
+
+    def test_get_materials__contains_expected_keys(self):
+        actuals = [set(item.keys()) for item in self.data]
+        expected = {'id', 'name', 'gold'}
         self.assertTrue(all(actual == expected for actual in actuals))
 
 

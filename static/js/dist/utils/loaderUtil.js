@@ -15,13 +15,17 @@ define(['exports'], function (exports) {
     });
   };
 
-  var loadMaterials = function loadMaterials() {
-    return load('/api/v1/materials/');
+  var loadCharacters = function loadCharacters() {
+    return load('/api/v1/characters/');
   };
   var loadEquips = function loadEquips() {
     return load('/api/v1/equips/');
   };
+  var loadMaterials = function loadMaterials() {
+    return load('/api/v1/materials/');
+  };
 
-  exports.loadMaterials = loadMaterials;
+  exports.loadCharacters = loadCharacters;
   exports.loadEquips = loadEquips;
+  exports.loadMaterials = loadMaterials;
 });
