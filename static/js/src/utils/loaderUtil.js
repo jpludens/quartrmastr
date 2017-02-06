@@ -1,3 +1,5 @@
+// TODO eliminate this; use dataStatus and a custom data reducer
+
 const load = url => {
   return fetch(
     new Request(
@@ -13,7 +15,6 @@ const load = url => {
 }
 
 let loadCharacters = () => load('/api/v1/characters/');
-let loadEquips = () => load('/api/v1/equips/');
 let loadMaterials = () => load('/api/v1/materials/');
 
-export { loadCharacters, loadEquips, loadMaterials };
+export { loadCharacters, loadMaterials };

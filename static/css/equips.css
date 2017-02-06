@@ -1,19 +1,155 @@
-#equip-details {
-	display: inline-flex;
+body {
+	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#7db9e8+0,2989d8+25,2989d8+50,2989d8+75,1e5799+99 */
+	background: #2989D8; /* Old browsers */
+	font-family: Impact;
+	color: #fff;
+	text-shadow: 1px 0 0 #000, 0 -1px 0 #000, 0 1px 0 #000, -1px 0 0 #000;
 }
 
-.column {
-	display: inline-block;
+#selected-equip-name {
+	font-weight: normal;
+	font-size: 3em;
 }
 
-#equip-selector ul li {
+.equip-maxed-notice {
+	font-family: Impact;
+	font-size: 1.5em;
+	color: #fff;
+	text-shadow: 1px 0 0 #000, 0 -1px 0 #000, 0 1px 0 #000, -1px 0 0 #000;
+}
+
+.flexrow {
+	display: -webkit-flex;
+	display: flex;
+	-webkit-flex-direction: row;
+	flex-direction: row;
+	padding: 10px;
+}
+
+.flexcolumn {
+	display: -webkit-flex;
+	display: flex;
+	-webkit-flex-direction: column;
+	flex-direction: column;
+	padding: 10px;
+}
+
+
+
+
+.active-list li {
 	cursor: pointer;
-}
-
-ul {
 	list-style: none;
 }
 
-button {
-	cursor: pointer;
+
+.equip-diff-column-spacer {
+	margin-top: 54px;
+}
+
+
+/* TODO different classes for 
+stat
+resistance
+negative resistance
+neutral stat diff
+positive stat diff
+negative stat diff
+neutral resistance diff
+positive resistance diff
+negative resistance diff*/
+.stats {
+	list-style: none
+}
+
+.stats__icon-container {
+	width: 40px;
+	margin-right: 5px;
+	display: inline-block;
+	text-align: center;
+}
+
+.stats__icon {
+}
+
+.stats__value {
+	font-family: Impact;
+	font-size: 1.5em;
+	color: #fff;
+	text-shadow: 1px 0 0 #000, 0 -1px 0 #000, 0 1px 0 #000, -1px 0 0 #000;
+}
+
+.stats__value--increase {
+	color: palegreen;
+}
+
+.stats__value--decrease {
+	color: salmon;
+}
+
+.stats__value--nocrease {
+	color: silver;
+}
+
+
+
+.level-selector__level--current {
+	font-family: Impact;
+	text-shadow: 1px 0 0 #000, 0 -1px 0 #000, 0 1px 0 #000, -1px 0 0 #000;
+	font-size: 1.2em;
+	color: palegreen;
+}
+
+.level-selector__level--active {
+	font-family: Impact;
+	text-shadow: 1px 0 0 #000, 0 -1px 0 #000, 0 1px 0 #000, -1px 0 0 #000;
+	color: #fff;
+	font-size: 1.2em;
+}
+
+.level-selector__level--inactive {
+	font-family: Impact;
+	text-shadow: 1px 0 0 #000, 0 -1px 0 #000, 0 1px 0 #000, -1px 0 0 #000;
+	font-weight: bold;
+	color: salmon;
+}
+
+
+
+.resistance {
+	margin-right: 5px;
+}
+
+.element__icon-container {
+	width: 40px;
+	display: inline-block;
+	text-align: center;
+}
+
+.material-requirements__header {
+	font-family: Impact;
+	font-size: 2em;
+	color: #fff;
+	text-shadow: 1px 0 0 #000, 0 -1px 0 #000, 0 1px 0 #000, -1px 0 0 #000;
+}
+
+.material-requirements__material-name {
+	font-family: Impact;
+	font-size: 1.5em;
+	color: #fff;
+	text-shadow: 1px 0 0 #000, 0 -1px 0 #000, 0 1px 0 #000, -1px 0 0 #000;
+}
+
+.material-requirements__material-amount {
+	font-family: Impact;
+	font-size: 2em;
+	color: #fff;
+	text-shadow: 1px 0 0 #000, 0 -1px 0 #000, 0 1px 0 #000, -1px 0 0 #000;
+}
+
+.material-requirements__total-cost {
+	font-family: Impact;
+	font-size: 1.5em;
+	color: #fff;
+	text-shadow: 1px 0 0 #000, 0 -1px 0 #000, 0 1px 0 #000, -1px 0 0 #000;
 }

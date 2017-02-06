@@ -1,336 +1,336 @@
-EquipName,TraitTypeName,KeyName
-Red Vulcan,ImbueElement,Fire
-Accelerator,BeatSkill,Speed Up
-Accelerator,BestowPlayer,Charged
-Chainsaw Gun,StackSkill,Sawblade
-Chainsaw Gun,BeatSkill,Triple Sawblades
-Chainsaw Gun,CounterSkill,Normal Attack
-Chainsaw Gun,InflictTarget,Death
-Deep Blue,ImbueElement,Water
-Deep Blue,BoostElement,Water
-Deep Blue,StackSkill,Geyser
-Deep Blue,CounterSkill,Normal Attack
-Destroyer,ImbueElement,Poison
-Destroyer,BoostElement,Poison
-Destroyer,StackSkill,Bamboo Trap
-Destroyer,InflictTarget,Poison
-Exterminator,ImbueElement,Poison
-Exterminator,BoostElement,Poison
-Exterminator,DebuffTarget,MagicDefenceDown
-Exterminator,StackSkill,Poison Cloud
-Exterminator,BeatSkill,The Dead
-Flamethrower,ImbueElement,Fire
-Flamethrower,BoostElement,Fire
-Flamethrower,StackSkill,Fire Blast
-Flamethrower,CounterSkill,Crush
-Flamethrower,InflictTarget,Burn
-God Hand,ImbueElement,Holy
-God Hand,BoostElement,Holy
-God Hand,DrainTarget,HealthPoints
-God Hand,StackSkill,Stone Fist
-Heavy Claw,ImbueElement,Bomb
-Heavy Claw,BoostElement,Bomb
-Heavy Claw,DebuffTarget,DefenceDown
-Mini Bomber,ImbueElement,Bomb
-Mini Bomber,BoostElement,Bomb
-Mini Bomber,StackSkill,Blast
-Mini Bomber,BeatSkill,Mini Missiles
-Mini Bomber,InflictTarget,Stagger
-Quake Maker,ImbueElement,Earth
-Quake Maker,StackSkill,Sand Dune
-Quake Maker,BoostElement,Earth
-Quake Maker,DebuffTarget,AttackDown
-Red Vulcan,BoostElement,Fire
-Red Vulcan,StackSkill,Fire Crystals
-Red Vulcan,CounterSkill,Flame Shot
-Red Vulcan,InflictTarget,Berserk
-Shadow Blaster,ImbueElement,Dark
-Shadow Blaster,BoostElement,Dark
-Shadow Blaster,StackSkill,Dark Flare
-Shadow Blaster,CounterSkill,Dark Shot
-Sub Zero,ImbueElement,Ice
-Sub Zero,BoostElement,Ice
-Sub Zero,StackSkill,Deep Freeze
-Sub Zero,InflictTarget,Freeze
-Super Snipe,InflictTarget,Death
-The Phantom,ImbueElement,Dark
-The Phantom,BoostElement,Dark
-The Phantom,StackSkill,Antimatter
-The Phantom,InflictTarget,Dispel
-Thunder Core,ImbueElement,Thunder
-Thunder Core,BoostElement,Thunder
-Thunder Core,StackSkill,Blue Bolt
-Thunder Core,CounterSkill,Plasma Shot
-Thunder Core,InflictTarget,Stun
-Ultra Zapper,DrainTarget,MagicPoints
-Ultra Zapper,StackSkill,Solar Flare
-Vortex Cannon,ImbueElement,Wind
-Vortex Cannon,BoostElement,Wind
-Vortex Cannon,StackSkill,Shockwave
-Vortex Cannon,InflictTarget,Dispel
-Crystal Staff,InflictTarget,Dispel
-Flameheart,InflictTarget,Burn
-Flameheart,ImbueElement,Fire
-Flameheart,BoostElement,Fire
-Flameheart,StackSkill,Fireball
-Tribolt,ImbueElement,Thunder
-Tribolt,InflictTarget,Stun
-Tribolt,BoostElement,Thunder
-Tribolt,StackSkill,Thunderbolt
-Razorwind,ImbueElement,Ice
-Razorwind,InflictTarget,Freeze
-Razorwind,BoostElement,Ice
-Razorwind,StackSkill,Iceshard
-Flower Pot,ImbueElement,Earth
-Flower Pot,InflictTarget,Tired
-Flower Pot,BoostElement,Earth
-Flower Pot,StackSkill,Gaia Bloom
-Flower Pot,BeatSkill,Gaia Bloom
-Nirvana,ImbueElement,Poison
-Nirvana,InflictStatus,Poison
-Nirvana,BoostElement,Poison
-Nirvana,StackSkill,Vines
-Nirvana,BeatSkill,Bulb Blast
-Wrecking Rod,ImbueElement,Bomb
-Wrecking Rod,DebuffTarget,DefenceDown
-Wrecking Rod,BoostElement,Bomb
-Wrecking Rod,StackSkill,Blast
-Wrecking Rod,CounterSkill,Normal Attack
-Mystic Breeze,ImbueElement,Wind
-Mystic Breeze,InflictTarget,Syphon
-Mystic Breeze,DrainTarget,MagicPoints
-Mystic Breeze,BoostElement,Wind
-Mystic Breeze,StackSkill,Whirlwind
-Coral Staff,ImbueElement,Water
-Coral Staff,BoostElement,Water
-Coral Staff,StackSkill,Bubble Blast
-Seraphim,ImbueElement,Holy
-Seraphim,BoostElement,Holy
-Seraphim,StackSkill,Holy Fire
-Dreamcatcher,ImbueElement,Holy
-Dreamcatcher,DebuffTarget,MagicAttackDown
-Dreamcatcher,BoostElement,Holy
-Dreamcatcher,StackSkill,Talisman Seal
-Dreamcatcher,CounterSkill,Talisman Seal
-Hela's Staff,ImbueElement,Dark
-Hela's Staff,BestowPlayer,Curse
-Hela's Staff,InflictTarget,Curse
-Hela's Staff,BoostElement,Dark
-Alchemy Set,BestowPlayer,Regenerate
-Alchemy Set,InflictTarget,Random
-Alchemy Set,BoostElement,Non-elemental
-Alchemy Set,CounterSkill,Spectrum
-Road Sign,CounterSkill,Spectrum
-Epoch,DrainTarget,HealthPoints
-Epoch,StackSkill,Slow Down
-Oak Staff,ImbueElement,Earth
-Oak Staff,BestowPlayer,Bless
-Oak Staff,BoostElement,Earth
-Oak Staff,StackSkill,Lumber
-Shooting Star,BoostElement,Non-elemental
-Shooting Star,StackSkill,Lucky Star
-Shooting Star,BeatSkill,Star Shower
-Death Scythe,ImbueElement,Dark
-Death Scythe,BoostElement,Dark
-Death Scythe,StackSkill,Death Spike
-Death Scythe,BeatSkill,Grim Reaper
-Crimson Dragon,ImbueElement,Fire
-Crimson Dragon,InflictTarget,Burn
-Crimson Dragon,BoostElement,Fire
-Crimson Dragon,StackSkill,Dragon Flame
-Thor's Hammer,ImbueElement,Thunder
-Thor's Hammer,InflictStatus,Stun
-Thor's Hammer,BoostElement,Thunder
-Thor's Hammer,StackSkill,Spark Arrow
-Juggernaut,ImbueElement,Bomb
-Juggernaut,BoostElement,Bomb
-Juggernaut,StackSkill,Big Blast
-Sky Feather,ImbueElement,Wind
-Sky Feather,InflictTarget,Syphon
-Sky Feather,DrainTarget,MagicPoints
-Sky Feather,BoostElement,Wind
-Sky Feather,StackSkill,Gust
-Atlantis,ImbueElement,Water
-Atlantis,InflictStatus,Wet
-Atlantis,BoostElement,Water
-Atlantis,StackSkill,Aqua Arrow
-Black Widow,ImbueElement,Dark
-Black Widow,InflictTarget,Curse
-Black Widow,BoostElement,Dark
-Black Widow,StackSkill,Dark Spikes
-Black Widow,CounterSkill,Normal Attack
-Eagle Eye,CounterSkill,Piercing Shot
-Iron Tooth,InflictTarget,Stagger
-Iron Tooth,CounterSkill,Combo Shot
-Fenrir's Jaw,ImbueElement,Holy
-Fenrir's Jaw,DrainTarget,HealthPoints
-Fenrir's Jaw,BoostElement,Holy
-Fenrir's Jaw,CounterSkill,Normal Attack
-The Departed,InflictTarget,Doom
-The Departed,DebuffTarget,MagicDefenceDown
-The Departed,CounterSkill,Normal Attack
-The Departed,StackSkill,Bones
-Alchemist's Bow,InflictTarget,Random
-Crystal Bow,StackSkill,Frost Arrow
-Crystal Bow,BeatSkill,Fire Crystals
-Crystal Bow,CounterSkill,Spark Arrow
-Thorn Bow,ImbueElement,Poison
-Thorn Bow,BoostElement,Poison
-Thorn Bow,StackSkill,Thorny Vines
-Thorn Bow,BeatSkill,Thorny Vines
-Angel Wing,ImbueElement,Holy
-Angel Wing,InflictTarget,Weaken
-Angel Wing,BoostElement,Holy
-Angel Wing,BeatSkill,ArrowRain
-Emerald Cyclone,ImbueElement,Wind
-Emerald Cyclone,InflictTarget,Dispel
-Emerald Cyclone,BoostElement,Wind
-Emerald Cyclone,StackSkill,Shockwave
-Emerald Cyclone,CounterSkill,Piercing Shot
-Frozen Tears,ImbueElement,Ice
-Frozen Tears,InflictStatus,Freeze
-Frozen Tears,BoostElement,Ice
-Frozen Tears,StackSkill,Ice Spike
-Gaia's Bow,ImbueElement,Earth
-Gaia's Bow,InflictTarget,Stun
-Gaia's Bow,BoostElement,Earth
-Gaia's Bow,StackSkill,Bulb Blast
-Fairy Bow,ImbueElement,Poison
-Fairy Bow,InflictTarget,Poison
-Fairy Bow,BoostElement,Poison
-Fairy Bow,StackSkill,Vines
-Magma Hammer,ImbueElement,Fire
-Magma Hammer,InflictTarget,Burn
-Magma Hammer,BoostElement,Fire
-Magma Hammer,StackSkill,Fume
-Ice Needle,ImbueElement,Ice
-Ice Needle,InflictTarget,Freeze
-Ice Needle,BoostElement,Ice
-Ice Needle,StackSkill,Tundra
-Golden Dragon,ImbueElement,Thunder
-Golden Dragon,InflictTarget,Stun
-Golden Dragon,BoostElement,Thunder
-Golden Dragon,StackSkill,Spark
-Golden Dragon,CounterSkill,Normal Attack
-Gash Club,ImbueElement,Earth
-Gash Club,InflictTarget,Poison
-Gash Club,BoostElement,Earth
-Gash Club,StackSkill,Log
-Gash Club,CounterSkill,Normal Attack
-Dragon Claw,ImbueElement,Poison
-Dragon Claw,BestowPlayer,Poison
-Dragon Claw,InflictTarget,Poison
-Dragon Claw,BoostElement,Poison
-Dragon Claw,StackSkill,Toxic
-Dragon Claw,CounterSkill,Normal Attack
-G*bson EB0,ImbueElement,Wind
-G*bson EB0,BoostElement,Wind
-G*bson EB0,BeatSkill,Power Metal
-Silver Blade,ImbueElement,Wind
-Silver Blade,DebuffTarget,EvadeDown
-Silver Blade,BoostElement,Wind
-Silver Blade,CounterSkill,Swift Slash
-Sapphire Giant,ImbueElement,Water
-Sapphire Giant,BoostElement,Water
-Sapphire Giant,StackSkill,Flood
-Heaven's Gate,ImbueElement,Holy
-Heaven's Gate,BoostElement,Holy
-Heaven's Gate,StackSkill,Holy Sword
-Heaven's Gate,CounterSkill,Normal Attack
-Anarchy,ImbueElement,Dark
-Anarchy,BoostElement,Dark
-Anarchy,CounterSkill,Revenge
-Devil's Sunrise,ImbueElement,Dark
-Devil's Sunrise,BoostElement,Dark
-Devil's Sunrise,CounterSkill,Quick Slash
-Devil's Sunrise,StackSkill,Haunt
-Bone Blade,InflictTarget,Weaken
-Bone Blade,DebuffTarget,DefenceDown
-Bone Blade,StackSkill,Fright
-Blood Blade,InflictTarget,Tired
-Blood Blade,DrainTarget,HealthPoints
-Rune Blade,ImbueElement,Holy
-Rune Blade,InflictTarget,Syphon
-Rune Blade,DrainTarget,MagicPoints
-Rune Blade,BoostElement,Holy
-Rune Blade,StackSkill,Glitter
-Chainsaw Blade,InflictTarget,Death
-Chainsaw Blade,StackSkill,Sawblades
-Equilibrium,BestowPlayer,Auto-Revive
-Equilibrium,InflictTarget,Syphon
-Equilibrium,CounterSkill,Legend
-Fusion Sword,ImbueElement,Bomb
-Fusion Sword,InflictTarget,Burn
-Fusion Sword,BoostElement,Bomb
-Fusion Sword,StackSkill,Big Blast
-Drill Lance,ImbueElement,Earth
-Drill Lance,InflictTarget,Stagger
-Drill Lance,BoostElement,Earth
-Drill Lance,StackSkill,Rock Fall
-Drill Lance,CounterSkill,Quake
-Casual Cap,BuffReflex,EvadeUp
-Knight Helmet,BeatSkill,NoLegs
-Dragon Helm,BestowPlayer,Morale
-Viking Helmet,BestowPlayer,Berserk
-Army Helmet,BeatSkill,Medipack
-Officer's Hat,BeatSkill,Tank Cannon
-Gas Mask,BeatSkill,Poison Gas
-Mage Hat,ActionBoost,healing spells
-Demon Skull,BestowPlayer,Curse
-Headband,BestowPlayer,Brave
-Puppy Hat,BeatSkill,Friend Dog
-Death Mask,BuffReflex,AttackUp
-Casual Shirt,ActionBoost,HP and MP healing items
-Knight Armor,BestowPlayer,Tired
-Genji Armor,BuffReflex,AttackUp
-Dragon Armor,BestowPlayer,Brave
-Viking Fur,BeatSkill,Wooly Mammoth
-Ninja Gear,ActionBoost,attack items
-Space Suit,BeatSkill,Scanbot
-Army Jacket,BeatSkill,Air Strike
-Officer's Coat,BeatSkill,Tank Guns
-Red Jacket,BuffReflex,MagicAttackUp
-Bone Armor,BestowPlayer,Curse
-Karate Gi,BuffReflex,EvadeUp
-Leather Armor,BeatSkill,Temper
-Dark Armor,BuffReflex,MagicDefenceUp
-Golden Armor,BuffReflex,DefenceUp
-Pink Flower,BestowPlayer,Bless
-Gold Crown,BestowPlayer,Brave
-Slime Bunny Ears,BestowPlayer,Tired
-Nurse Hat,ActionBoost,healing spells
-Fur Hat,BeatSkill,Wooly Mammoth
-Red Dress,BuffReflex,MagicAttackUp
-Green Dress,BeatSkill,Ivy
-White Mage Dress,BuffReflex,MagicDefenceUp
-Shrine Maiden Dress,ActionBoost,HP and MP healing items
-Shrine Maiden Dress,BeatSkill,Talisman Seal
-Blue Dress,BeatSkill,Cloudburst
-Fur Dress,BeatSkill,Wooly Mammoth
-Camo Skirt,BeatSkill,Medipack
-Pirate Dress,BuffReflex,AttackUp
-Cow Costume,BuffReflex,DefenceUp
-Dark Gown,BuffReflex,MagicAttackUp
-Pope's Dress,BeatSkill,Revive
-Ninja Skirt,ActionBoost,attack items
-Ninja Skirt,BeatSkill,Bind
-School Uniform,ActionBoost,HP and MP healing items
-School Uniform,BuffReflex,EvadeUp
-Maid Outfit,BeatSkill,Cleanse
-The Tr*force,BestowPlayer,Morale
-Angel Pin,BestowPlayer,Auto-Revive
-Green Cross,BestowPlayer,Regenerate
-Clover Pin,BestowPlayer,Bless
-Broccoli Sticker,ReplaceInflict,Poison
-Peace Sticker,ReplaceInflict,Weaken
-Cursed Charm,ReplaceInflict,Curse
-Fr*ezie Badge,ReplaceInflict,Freeze
-Crossbone Pin,ReplaceInflict,Doom
-Diamond Pin,ReplaceInflict,Stagger
-Bowling Ball Badge,BuffReflex,DefenceUp
-Ancient Rune,BuffReflex,MagicDefenceUp
-P*chu Sticker,BeatSkill,Thunderbolt
-Clown Fish Sticker,BeatSkill,Geyser
-Beast Badge,BeatSkill,Quake
-Pocket Clock,BeatSkill,Slow Down
-Cat Badge,BeatSkill,NoLegs
+EquipName,TraitTypeName,TraitPropertyName,TraitPropertyValue,Text
+Red Vulcan,Imbue,Element,Fire,Imbue Element: Fire
+Accelerator,Chrono,Skill,Speed Up,Chrono Skill: Speed Up
+Accelerator,Bestow,Status,Charged,Bestow Status: Charged
+Chainsaw Gun,Combo,Skill,Sawblade,Combo Skill: Sawblade
+Chainsaw Gun,Chrono,Skill,Triple Sawblades,Chrono Skill: Triple Sawblades
+Chainsaw Gun,Counter,Skill,Normal Attack,Counter Skill: Normal Attack
+Chainsaw Gun,Inflict,Status,Death,Inflict Status: Death
+Deep Blue,Imbue,Element,Water,Imbue Element: Water
+Deep Blue,Boost,Element,Water,Boost Element: Water
+Deep Blue,Combo,Skill,Geyser,Combo Skill: Geyser
+Deep Blue,Counter,Skill,Normal Attack,Counter Skill: Normal Attack
+Destroyer,Imbue,Element,Poison,Imbue Element: Poison
+Destroyer,Boost,Element,Poison,Boost Element: Poison
+Destroyer,Combo,Skill,Bamboo Trap,Combo Skill: Bamboo Trap
+Destroyer,Inflict,Status,Poison,Inflict Status: Poison
+Exterminator,Imbue,Element,Poison,Imbue Element: Poison
+Exterminator,Boost,Element,Poison,Boost Element: Poison
+Exterminator,Debuff,Stat,MagicDefence,Debuff Stat: MagicDefence
+Exterminator,Combo,Skill,Poison Cloud,Combo Skill: Poison Cloud
+Exterminator,Chrono,Skill,The Dead,Chrono Skill: The Dead
+Flamethrower,Imbue,Element,Fire,Imbue Element: Fire
+Flamethrower,Boost,Element,Fire,Boost Element: Fire
+Flamethrower,Combo,Skill,Fire Blast,Combo Skill: Fire Blast
+Flamethrower,Counter,Skill,Crush,Counter Skill: Crush
+Flamethrower,Inflict,Status,Burn,Inflict Status: Burn
+God Hand,Imbue,Element,Holy,Imbue Element: Holy
+God Hand,Boost,Element,Holy,Boost Element: Holy
+God Hand,Drain,Stat,HealthPoints,Drain Stat: HealthPoints
+God Hand,Combo,Skill,Stone Fist,Combo Skill: Stone Fist
+Heavy Claw,Imbue,Element,Bomb,Imbue Element: Bomb
+Heavy Claw,Boost,Element,Bomb,Boost Element: Bomb
+Heavy Claw,Debuff,Stat,Defence,Debuff Stat: Defence
+Mini Bomber,Imbue,Element,Bomb,Imbue Element: Bomb
+Mini Bomber,Boost,Element,Bomb,Boost Element: Bomb
+Mini Bomber,Combo,Skill,Blast,Combo Skill: Blast
+Mini Bomber,Chrono,Skill,Mini Missiles,Chrono Skill: Mini Missiles
+Mini Bomber,Inflict,Status,Stagger,Inflict Status: Stagger
+Quake Maker,Imbue,Element,Earth,Imbue Element: Earth
+Quake Maker,Combo,Skill,Sand Dune,Combo Skill: Sand Dune
+Quake Maker,Boost,Element,Earth,Boost Element: Earth
+Quake Maker,Debuff,Stat,Attack,Debuff Stat: Attack
+Red Vulcan,Boost,Element,Fire,Boost Element: Fire
+Red Vulcan,Combo,Skill,Fire Crystals,Combo Skill: Fire Crystals
+Red Vulcan,Counter,Skill,Flame Shot,Counter Skill: Flame Shot
+Red Vulcan,Inflict,Status,Berserk,Inflict Status: Berserk
+Shadow Blaster,Imbue,Element,Dark,Imbue Element: Dark
+Shadow Blaster,Boost,Element,Dark,Boost Element: Dark
+Shadow Blaster,Combo,Skill,Dark Flare,Combo Skill: Dark Flare
+Shadow Blaster,Counter,Skill,Dark Shot,Counter Skill: Dark Shot
+Sub Zero,Imbue,Element,Ice,Imbue Element: Ice
+Sub Zero,Boost,Element,Ice,Boost Element: Ice
+Sub Zero,Combo,Skill,Deep Freeze,Combo Skill: Deep Freeze
+Sub Zero,Inflict,Status,Freeze,Inflict Status: Freeze
+Super Snipe,Inflict,Status,Death,Inflict Status: Death
+The Phantom,Imbue,Element,Dark,Imbue Element: Dark
+The Phantom,Boost,Element,Dark,Boost Element: Dark
+The Phantom,Combo,Skill,Antimatter,Combo Skill: Antimatter
+The Phantom,Inflict,Status,Dispel,Inflict Status: Dispel
+Thunder Core,Imbue,Element,Thunder,Imbue Element: Thunder
+Thunder Core,Boost,Element,Thunder,Boost Element: Thunder
+Thunder Core,Combo,Skill,Blue Bolt,Combo Skill: Blue Bolt
+Thunder Core,Counter,Skill,Plasma Shot,Counter Skill: Plasma Shot
+Thunder Core,Inflict,Status,Stun,Inflict Status: Stun
+Ultra Zapper,Drain,Stat,MagicPoints,Drain Stat: MagicPoints
+Ultra Zapper,Combo,Skill,Solar Flare,Combo Skill: Solar Flare
+Vortex Cannon,Imbue,Element,Wind,Imbue Element: Wind
+Vortex Cannon,Boost,Element,Wind,Boost Element: Wind
+Vortex Cannon,Combo,Skill,Shockwave,Combo Skill: Shockwave
+Vortex Cannon,Inflict,Status,Dispel,Inflict Status: Dispel
+Crystal Staff,Inflict,Status,Dispel,Inflict Status: Dispel
+Flameheart,Inflict,Status,Burn,Inflict Status: Burn
+Flameheart,Imbue,Element,Fire,Imbue Element: Fire
+Flameheart,Boost,Element,Fire,Boost Element: Fire
+Flameheart,Combo,Skill,Fireball,Combo Skill: Fireball
+Tribolt,Imbue,Element,Thunder,Imbue Element: Thunder
+Tribolt,Inflict,Status,Stun,Inflict Status: Stun
+Tribolt,Boost,Element,Thunder,Boost Element: Thunder
+Tribolt,Combo,Skill,Thunderbolt,Combo Skill: Thunderbolt
+Razorwind,Imbue,Element,Ice,Imbue Element: Ice
+Razorwind,Inflict,Status,Freeze,Inflict Status: Freeze
+Razorwind,Boost,Element,Ice,Boost Element: Ice
+Razorwind,Combo,Skill,Iceshard,Combo Skill: Iceshard
+Flower Pot,Imbue,Element,Earth,Imbue Element: Earth
+Flower Pot,Inflict,Status,Tired,Inflict Status: Tired
+Flower Pot,Boost,Element,Earth,Boost Element: Earth
+Flower Pot,Combo,Skill,Gaia Bloom,Combo Skill: Gaia Bloom
+Flower Pot,Chrono,Skill,Gaia Bloom,Chrono Skill: Gaia Bloom
+Nirvana,Imbue,Element,Poison,Imbue Element: Poison
+Nirvana,Inflict,Status,Poison,Inflict Status: Poison
+Nirvana,Boost,Element,Poison,Boost Element: Poison
+Nirvana,Combo,Skill,Vines,Combo Skill: Vines
+Nirvana,Chrono,Skill,Bulb Blast,Chrono Skill: Bulb Blast
+Wrecking Rod,Imbue,Element,Bomb,Imbue Element: Bomb
+Wrecking Rod,Debuff,Stat,Defence,Debuff Stat: Defence
+Wrecking Rod,Boost,Element,Bomb,Boost Element: Bomb
+Wrecking Rod,Combo,Skill,Blast,Combo Skill: Blast
+Wrecking Rod,Counter,Skill,Normal Attack,Counter Skill: Normal Attack
+Mystic Breeze,Imbue,Element,Wind,Imbue Element: Wind
+Mystic Breeze,Inflict,Status,Syphon,Inflict Status: Syphon
+Mystic Breeze,Drain,Stat,MagicPoints,Drain Stat: MagicPoints
+Mystic Breeze,Boost,Element,Wind,Boost Element: Wind
+Mystic Breeze,Combo,Skill,Whirlwind,Combo Skill: Whirlwind
+Coral Staff,Imbue,Element,Water,Imbue Element: Water
+Coral Staff,Boost,Element,Water,Boost Element: Water
+Coral Staff,Combo,Skill,Bubble Blast,Combo Skill: Bubble Blast
+Seraphim,Imbue,Element,Holy,Imbue Element: Holy
+Seraphim,Boost,Element,Holy,Boost Element: Holy
+Seraphim,Combo,Skill,Holy Fire,Combo Skill: Holy Fire
+Dreamcatcher,Imbue,Element,Holy,Imbue Element: Holy
+Dreamcatcher,Debuff,Stat,MagicAttack,Debuff Stat: MagicAttack
+Dreamcatcher,Boost,Element,Holy,Boost Element: Holy
+Dreamcatcher,Combo,Skill,Talisman Seal,Combo Skill: Talisman Seal
+Dreamcatcher,Counter,Skill,Talisman Seal,Counter Skill: Talisman Seal
+Hela's Staff,Imbue,Element,Dark,Imbue Element: Dark
+Hela's Staff,Bestow,Status,Curse,Bestow Status: Curse
+Hela's Staff,Inflict,Status,Curse,Inflict Status: Curse
+Hela's Staff,Boost,Element,Dark,Boost Element: Dark
+Alchemy Set,Bestow,Status,Regenerate,Bestow Status: Regenerate
+Alchemy Set,Inflict,Misc,random status effects,Inflict Misc: Random
+Alchemy Set,Boost,Misc,Non-elemental skills,Boost Misc: Non-elemental
+Alchemy Set,Counter,Skill,Spectrum,Counter Skill: Spectrum
+Road Sign,Counter,Skill,Spectrum,Counter Skill: Spectrum
+Epoch,Drain,Stat,HealthPoints,Drain Stat: HealthPoints
+Epoch,Combo,Skill,Slow Down,Combo Skill: Slow Down
+Oak Staff,Imbue,Element,Earth,Imbue Element: Earth
+Oak Staff,Bestow,Status,Bless,Bestow Status: Bless
+Oak Staff,Boost,Element,Earth,Boost Element: Earth
+Oak Staff,Combo,Skill,Lumber,Combo Skill: Lumber
+Shooting Star,Boost,Misc,Non-elemental skills,Boost Misc: Non-elemental
+Shooting Star,Combo,Skill,Lucky Star,Combo Skill: Lucky Star
+Shooting Star,Chrono,Skill,Star Shower,Chrono Skill: Star Shower
+Death Scythe,Imbue,Element,Dark,Imbue Element: Dark
+Death Scythe,Boost,Element,Dark,Boost Element: Dark
+Death Scythe,Combo,Skill,Death Spike,Combo Skill: Death Spike
+Death Scythe,Chrono,Skill,Grim Reaper,Chrono Skill: Grim Reaper
+Crimson Dragon,Imbue,Element,Fire,Imbue Element: Fire
+Crimson Dragon,Inflict,Status,Burn,Inflict Status: Burn
+Crimson Dragon,Boost,Element,Fire,Boost Element: Fire
+Crimson Dragon,Combo,Skill,Dragon Flame,Combo Skill: Dragon Flame
+Thor's Hammer,Imbue,Element,Thunder,Imbue Element: Thunder
+Thor's Hammer,Inflict,Status,Stun,Inflict Status: Stun
+Thor's Hammer,Boost,Element,Thunder,Boost Element: Thunder
+Thor's Hammer,Combo,Skill,Spark Arrow,Combo Skill: Spark Arrow
+Juggernaut,Imbue,Element,Bomb,Imbue Element: Bomb
+Juggernaut,Boost,Element,Bomb,Boost Element: Bomb
+Juggernaut,Combo,Skill,Big Blast,Combo Skill: Big Blast
+Sky Feather,Imbue,Element,Wind,Imbue Element: Wind
+Sky Feather,Inflict,Status,Syphon,Inflict Status: Syphon
+Sky Feather,Drain,Stat,MagicPoints,Drain Stat: MagicPoints
+Sky Feather,Boost,Element,Wind,Boost Element: Wind
+Sky Feather,Combo,Skill,Gust,Combo Skill: Gust
+Atlantis,Imbue,Element,Water,Imbue Element: Water
+Atlantis,Inflict,Status,Wet,Inflict Status: Wet
+Atlantis,Boost,Element,Water,Boost Element: Water
+Atlantis,Combo,Skill,Aqua Arrow,Combo Skill: Aqua Arrow
+Black Widow,Imbue,Element,Dark,Imbue Element: Dark
+Black Widow,Inflict,Status,Curse,Inflict Status: Curse
+Black Widow,Boost,Element,Dark,Boost Element: Dark
+Black Widow,Combo,Skill,Dark Spikes,Combo Skill: Dark Spikes
+Black Widow,Counter,Skill,Normal Attack,Counter Skill: Normal Attack
+Eagle Eye,Counter,Skill,Piercing Shot,Counter Skill: Piercing Shot
+Iron Tooth,Inflict,Status,Stagger,Inflict Status: Stagger
+Iron Tooth,Counter,Skill,Combo Shot,Counter Skill: Combo Shot
+Fenrir's Jaw,Imbue,Element,Holy,Imbue Element: Holy
+Fenrir's Jaw,Drain,Stat,HealthPoints,Drain Stat: HealthPoints
+Fenrir's Jaw,Boost,Element,Holy,Boost Element: Holy
+Fenrir's Jaw,Counter,Skill,Normal Attack,Counter Skill: Normal Attack
+The Departed,Inflict,Status,Doom,Inflict Status: Doom
+The Departed,Debuff,Stat,MagicDefence,Debuff Stat: MagicDefence
+The Departed,Counter,Skill,Normal Attack,Counter Skill: Normal Attack
+The Departed,Combo,Skill,Bones,Combo Skill: Bones
+Alchemist's Bow,Inflict,Misc,random status effects,Inflict Misc: Random
+Crystal Bow,Combo,Skill,Frost Arrow,Combo Skill: Frost Arrow
+Crystal Bow,Chrono,Skill,Fire Crystals,Chrono Skill: Fire Crystals
+Crystal Bow,Counter,Skill,Spark Arrow,Counter Skill: Spark Arrow
+Thorn Bow,Imbue,Element,Poison,Imbue Element: Poison
+Thorn Bow,Boost,Element,Poison,Boost Element: Poison
+Thorn Bow,Combo,Skill,Thorny Vines,Combo Skill: Thorny Vines
+Thorn Bow,Chrono,Skill,Thorny Vines,Chrono Skill: Thorny Vines
+Angel Wing,Imbue,Element,Holy,Imbue Element: Holy
+Angel Wing,Inflict,Status,Weaken,Inflict Status: Weaken
+Angel Wing,Boost,Element,Holy,Boost Element: Holy
+Angel Wing,Chrono,Skill,ArrowRain,Chrono Skill: ArrowRain
+Emerald Cyclone,Imbue,Element,Wind,Imbue Element: Wind
+Emerald Cyclone,Inflict,Status,Dispel,Inflict Status: Dispel
+Emerald Cyclone,Boost,Element,Wind,Boost Element: Wind
+Emerald Cyclone,Combo,Skill,Shockwave,Combo Skill: Shockwave
+Emerald Cyclone,Counter,Skill,Piercing Shot,Counter Skill: Piercing Shot
+Frozen Tears,Imbue,Element,Ice,Imbue Element: Ice
+Frozen Tears,Inflict,Status,Freeze,Inflict Status: Freeze
+Frozen Tears,Boost,Element,Ice,Boost Element: Ice
+Frozen Tears,Combo,Skill,Ice Spike,Combo Skill: Ice Spike
+Gaia's Bow,Imbue,Element,Earth,Imbue Element: Earth
+Gaia's Bow,Inflict,Status,Stun,Inflict Status: Stun
+Gaia's Bow,Boost,Element,Earth,Boost Element: Earth
+Gaia's Bow,Combo,Skill,Bulb Blast,Combo Skill: Bulb Blast
+Fairy Bow,Imbue,Element,Poison,Imbue Element: Poison
+Fairy Bow,Inflict,Status,Poison,Inflict Status: Poison
+Fairy Bow,Boost,Element,Poison,Boost Element: Poison
+Fairy Bow,Combo,Skill,Vines,Combo Skill: Vines
+Magma Hammer,Imbue,Element,Fire,Imbue Element: Fire
+Magma Hammer,Inflict,Status,Burn,Inflict Status: Burn
+Magma Hammer,Boost,Element,Fire,Boost Element: Fire
+Magma Hammer,Combo,Skill,Fume,Combo Skill: Fume
+Ice Needle,Imbue,Element,Ice,Imbue Element: Ice
+Ice Needle,Inflict,Status,Freeze,Inflict Status: Freeze
+Ice Needle,Boost,Element,Ice,Boost Element: Ice
+Ice Needle,Combo,Skill,Tundra,Combo Skill: Tundra
+Golden Dragon,Imbue,Element,Thunder,Imbue Element: Thunder
+Golden Dragon,Inflict,Status,Stun,Inflict Status: Stun
+Golden Dragon,Boost,Element,Thunder,Boost Element: Thunder
+Golden Dragon,Combo,Skill,Spark,Combo Skill: Spark
+Golden Dragon,Counter,Skill,Normal Attack,Counter Skill: Normal Attack
+Gash Club,Imbue,Element,Earth,Imbue Element: Earth
+Gash Club,Inflict,Status,Poison,Inflict Status: Poison
+Gash Club,Boost,Element,Earth,Boost Element: Earth
+Gash Club,Combo,Skill,Log,Combo Skill: Log
+Gash Club,Counter,Skill,Normal Attack,Counter Skill: Normal Attack
+Dragon Claw,Imbue,Element,Poison,Imbue Element: Poison
+Dragon Claw,Bestow,Status,Poison,Bestow Status: Poison
+Dragon Claw,Inflict,Status,Poison,Inflict Status: Poison
+Dragon Claw,Boost,Element,Poison,Boost Element: Poison
+Dragon Claw,Combo,Skill,Toxic,Combo Skill: Toxic
+Dragon Claw,Counter,Skill,Normal Attack,Counter Skill: Normal Attack
+G*bson EB0,Imbue,Element,Wind,Imbue Element: Wind
+G*bson EB0,Boost,Element,Wind,Boost Element: Wind
+G*bson EB0,Chrono,Skill,Power Metal,Chrono Skill: Power Metal
+Silver Blade,Imbue,Element,Wind,Imbue Element: Wind
+Silver Blade,Debuff,Stat,Evade,Debuff Stat: Evade
+Silver Blade,Boost,Element,Wind,Boost Element: Wind
+Silver Blade,Counter,Skill,Swift Slash,Counter Skill: Swift Slash
+Sapphire Giant,Imbue,Element,Water,Imbue Element: Water
+Sapphire Giant,Boost,Element,Water,Boost Element: Water
+Sapphire Giant,Combo,Skill,Flood,Combo Skill: Flood
+Heaven's Gate,Imbue,Element,Holy,Imbue Element: Holy
+Heaven's Gate,Boost,Element,Holy,Boost Element: Holy
+Heaven's Gate,Combo,Skill,Holy Sword,Combo Skill: Holy Sword
+Heaven's Gate,Counter,Skill,Normal Attack,Counter Skill: Normal Attack
+Anarchy,Imbue,Element,Dark,Imbue Element: Dark
+Anarchy,Boost,Element,Dark,Boost Element: Dark
+Anarchy,Counter,Skill,Revenge,Counter Skill: Revenge
+Devil's Sunrise,Imbue,Element,Dark,Imbue Element: Dark
+Devil's Sunrise,Boost,Element,Dark,Boost Element: Dark
+Devil's Sunrise,Counter,Skill,Quick Slash,Counter Skill: Quick Slash
+Devil's Sunrise,Combo,Skill,Haunt,Combo Skill: Haunt
+Bone Blade,Inflict,Status,Weaken,Inflict Status: Weaken
+Bone Blade,Debuff,Stat,Defence,Debuff Stat: Defence
+Bone Blade,Combo,Skill,Fright,Combo Skill: Fright
+Blood Blade,Inflict,Status,Tired,Inflict Status: Tired
+Blood Blade,Drain,Stat,HealthPoints,Drain Stat: HealthPoints
+Rune Blade,Imbue,Element,Holy,Imbue Element: Holy
+Rune Blade,Inflict,Status,Syphon,Inflict Status: Syphon
+Rune Blade,Drain,Stat,MagicPoints,Drain Stat: MagicPoints
+Rune Blade,Boost,Element,Holy,Boost Element: Holy
+Rune Blade,Combo,Skill,Glitter,Combo Skill: Glitter
+Chainsaw Blade,Inflict,Status,Death,Inflict Status: Death
+Chainsaw Blade,Combo,Skill,Sawblades,Combo Skill: Sawblades
+Equilibrium,Bestow,Status,Auto-Revive,Bestow Status: Auto-Revive
+Equilibrium,Inflict,Status,Syphon,Inflict Status: Syphon
+Equilibrium,Counter,Skill,Legend,Counter Skill: Legend
+Fusion Sword,Imbue,Element,Bomb,Imbue Element: Bomb
+Fusion Sword,Inflict,Status,Burn,Inflict Status: Burn
+Fusion Sword,Boost,Element,Bomb,Boost Element: Bomb
+Fusion Sword,Combo,Skill,Big Blast,Combo Skill: Big Blast
+Drill Lance,Imbue,Element,Earth,Imbue Element: Earth
+Drill Lance,Inflict,Status,Stagger,Inflict Status: Stagger
+Drill Lance,Boost,Element,Earth,Boost Element: Earth
+Drill Lance,Combo,Skill,Rock Fall,Combo Skill: Rock Fall
+Drill Lance,Counter,Skill,Quake,Counter Skill: Quake
+Casual Cap,Rally,Stat,Evade,Rally Stat: Evade
+Knight Helmet,Chrono,Skill,NoLegs,Chrono Skill: NoLegs
+Dragon Helm,Bestow,Status,Morale,Bestow Status: Morale
+Viking Helmet,Bestow,Status,Berserk,Bestow Status: Berserk
+Army Helmet,Chrono,Skill,Medipack,Chrono Skill: Medipack
+Officer's Hat,Chrono,Skill,Tank Cannon,Chrono Skill: Tank Cannon
+Gas Mask,Chrono,Skill,Poison Gas,Chrono Skill: Poison Gas
+Mage Hat,Boost,Misc,healing spells,Boost Misc: healing spells
+Demon Skull,Bestow,Status,Curse,Bestow Status: Curse
+Headband,Bestow,Status,Brave,Bestow Status: Brave
+Puppy Hat,Chrono,Skill,Friend Dog,Chrono Skill: Friend Dog
+Death Mask,Rally,Stat,Attack,Rally Stat: Attack
+Casual Shirt,Boost,Misc,HP and MP healing items,Boost Misc: HP and MP healing items
+Knight Armor,Bestow,Status,Tired,Bestow Status: Tired
+Genji Armor,Rally,Stat,Attack,Rally Stat: Attack
+Dragon Armor,Bestow,Status,Brave,Bestow Status: Brave
+Viking Fur,Chrono,Skill,Wooly Mammoth,Chrono Skill: Wooly Mammoth
+Ninja Gear,Boost,Misc,attack items,Boost Misc: attack items
+Space Suit,Chrono,Skill,Scanbot,Chrono Skill: Scanbot
+Army Jacket,Chrono,Skill,Air Strike,Chrono Skill: Air Strike
+Officer's Coat,Chrono,Skill,Tank Guns,Chrono Skill: Tank Guns
+Red Jacket,Rally,Stat,MagicAttack,Rally Stat: MagicAttack
+Bone Armor,Bestow,Status,Curse,Bestow Status: Curse
+Karate Gi,Rally,Stat,Evade,Rally Stat: Evade
+Leather Armor,Chrono,Skill,Temper,Chrono Skill: Temper
+Dark Armor,Rally,Stat,MagicDefence,Rally Stat: MagicDefence
+Golden Armor,Rally,Stat,Defence,Rally Stat: Defence
+Pink Flower,Bestow,Status,Bless,Bestow Status: Bless
+Gold Crown,Bestow,Status,Brave,Bestow Status: Brave
+Slime Bunny Ears,Bestow,Status,Tired,Bestow Status: Tired
+Nurse Hat,Boost,Misc,healing spells,Boost Misc: healing spells
+Fur Hat,Chrono,Skill,Wooly Mammoth,Chrono Skill: Wooly Mammoth
+Red Dress,Rally,Stat,MagicAttack,Rally Stat: MagicAttack
+Green Dress,Chrono,Skill,Ivy,Chrono Skill: Ivy
+White Mage Dress,Rally,Stat,MagicDefence,Rally Stat: MagicDefence
+Shrine Maiden Dress,Boost,Misc,HP and MP healing items,Boost Misc: HP and MP healing items
+Shrine Maiden Dress,Chrono,Skill,Talisman Seal,Chrono Skill: Talisman Seal
+Blue Dress,Chrono,Skill,Cloudburst,Chrono Skill: Cloudburst
+Fur Dress,Chrono,Skill,Wooly Mammoth,Chrono Skill: Wooly Mammoth
+Camo Skirt,Chrono,Skill,Medipack,Chrono Skill: Medipack
+Pirate Dress,Rally,Stat,Attack,Rally Stat: Attack
+Cow Costume,Rally,Stat,Defence,Rally Stat: Defence
+Dark Gown,Rally,Stat,MagicAttack,Rally Stat: MagicAttack
+Pope's Dress,Chrono,Skill,Revive,Chrono Skill: Revive
+Ninja Skirt,Boost,Misc,attack items,Boost Misc: attack items
+Ninja Skirt,Chrono,Skill,Bind,Chrono Skill: Bind
+School Uniform,Boost,Misc,HP and MP healing items,Boost Misc: HP and MP healing items
+School Uniform,Rally,Stat,Evade,Rally Stat: Evade
+Maid Outfit,Chrono,Skill,Cleanse,Chrono Skill: Cleanse
+The Tr*force,Bestow,Status,Morale,Bestow Status: Morale
+Angel Pin,Bestow,Status,Auto-Revive,Bestow Status: Auto-Revive
+Green Cross,Bestow,Status,Regenerate,Bestow Status: Regenerate
+Clover Pin,Bestow,Status,Bless,Bestow Status: Bless
+Broccoli Sticker,ReplaceInflict,Status,Poison,ReplaceInflict Status: Poison
+Peace Sticker,ReplaceInflict,Status,Weaken,ReplaceInflict Status: Weaken
+Cursed Charm,ReplaceInflict,Status,Curse,ReplaceInflict Status: Curse
+Fr*ezie Badge,ReplaceInflict,Status,Freeze,ReplaceInflict Status: Freeze
+Crossbone Pin,ReplaceInflict,Status,Doom,ReplaceInflict Status: Doom
+Diamond Pin,ReplaceInflict,Status,Stagger,ReplaceInflict Status: Stagger
+Bowling Ball Badge,Rally,Stat,Defence,Rally Stat: Defence
+Ancient Rune,Rally,Stat,MagicDefence,Rally Stat: MagicDefence
+P*chu Sticker,Chrono,Skill,Thunderbolt,Chrono Skill: Thunderbolt
+Clown Fish Sticker,Chrono,Skill,Geyser,Chrono Skill: Geyser
+Beast Badge,Chrono,Skill,Quake,Chrono Skill: Quake
+Pocket Clock,Chrono,Skill,Slow Down,Chrono Skill: Slow Down
+Cat Badge,Chrono,Skill,NoLegs,Chrono Skill: NoLegs

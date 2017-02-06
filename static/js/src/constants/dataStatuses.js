@@ -1,0 +1,8 @@
+const DATA_STATUSES = {
+  NOT_LOADED: "NOT_LOADED",
+  LOADING: "LOADING",
+  LOADED: "LOADED",
+  FAILED: "FAILED",
+};
+
+export default DATA_STATUSES;

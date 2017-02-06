@@ -3,16 +3,14 @@
 <head>
     <meta charset="UTF-8">
     <title>QuartrMastr - Equips</title>
-    <script type="text/javascript"
-            data-main="{{ url_for('static', filename='js/dist/equips.js') }}"
-            src="{{ url_for('static', filename='js/require.js') }}">
-    </script>
     <link rel="stylesheet" href="{{ url_for('static', filename='css/equips.css') }}">
 </head>
 <body style="display:inline-flex;">
-    <div id="equip-selector">
+    <div id="content">
         <p>One moment, NoLegs is fetching Equips data. Good kitty!</p>
     </div>
-    <div id="equip-details"></div>
+    <script type="text/javascript"
+            src="{{ url_for('static', filename='js/bundles/equips-bundle.js') }}">
+    </script>
 </body>
 </html>

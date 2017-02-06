@@ -2,7 +2,7 @@
 
 import flask
 import json
-import db.loaders as loaders
+from db.loaders import characters, equips, materials
 
 
 app = flask.Flask(__name__)
@@ -12,17 +12,30 @@ api_root = "localhost:5000/api/v1/"
 # Api routes
 @app.route('/api/v1/characters/', methods=['GET'])
 def get_characters():
-    return json.dumps(loaders.load_characters())
+    return json.dumps(characters.load())
 
 
 @app.route('/api/v1/equips/', methods=['GET'])
 def get_equips():
-    return json.dumps(loaders.load_equips())
+    return json.dumps(equips.load())
 
 
 @app.route('/api/v1/materials/', methods=['GET'])
 def get_materials():
-    return json.dumps(loaders.load_materials())
+    return json.dumps(materials.load())
+
+
+# Image server
+@app.route('/images', methods=['GET'])
+def get_image():
+    image = flask.request.args.get('image')
+    if not image:
+        return flask.make_response(
+            'Request to /images must include image argument', 404)
+    if not image[-4:] == '.png':
+        return flask.make_response(
+            '/images only provides files of type(s): .png', 404)
+    return flask.send_from_directory('static/img/', image)
 
 
 # App routes
@@ -47,4 +60,4 @@ def materials_view():
 
 
 if __name__ == '__main__':
-    app.run(debug=True)
+    app.run(debug=True, threaded=True)

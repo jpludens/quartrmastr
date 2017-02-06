@@ -1,6 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import { loadMaterials } from 'utils/loaderUtil'
+import { loadMaterials } from './utils/loaderUtil'
 
 loadMaterials().then(materials => {
   ReactDOM.render(

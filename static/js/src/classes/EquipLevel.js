@@ -1,41 +1,41 @@
+import ELEMENTS from '../constants/elements.js';
+import STATS from '../constants/stats.js';
+import STATUSES from '../constants/statuses.js';
+import ElementalResistances from './ElementalResistances.js';
+import Material from './Material.js';
+import { materialRequirementFromObj } from './MaterialRequirement.js';
+import Stats from './Stats.js';
+import StatusResistances from './StatusResistances.js';
+
 export default class EquipLevel {
-  constructor(rawLevelData, equipData) {
-    this.level = rawLevelData.level;
-    this.stats = rawLevelData.stats;
-
-    this.upgradeMaterials = new Map();
-    if (rawLevelData.hasOwnProperty("upgradeMaterials")) {
-      rawLevelData.upgradeMaterials.forEach(um => {
-        this.upgradeMaterials.set(um.materialName, um.materialAmount);
-      })
-    }
-
-    const resistanceValues = {
-      '10per': { 1:  10, 2:  20, 3:  30, 4:  40, 5:   50 },
-      '20per': { 1:  20, 2:  40, 3:  60, 4:  80, 5:  100 },
-      '30neg': { 1: -30, 2: -30, 3: -30, 4: -30, 5:  -30 },
-      '50neg': { 1: -50, 2: -50, 3: -50, 4: -50, 5:  -50 },
-      'ftrip': { 1:  10, 2:  10, 3:  30 },
-      'fhalf': { 1:  20, 2:  35, 3:  50 },
-      'ffull': { 1:  40, 2:  70, 3: 100 }
-    }
-
-    this.elementalResistances = new Map();
-    if (equipData.hasOwnProperty("elementalResistances")) {
-      equipData.elementalResistances.forEach(r => {
-        this.elementalResistances.set(
-          r.elementName,
-          resistanceValues[r.scheme][this.level]);
-      });
-    }
-
-    this.statusResistances = new Map();
-    if (equipData.hasOwnProperty("ailmentResistances")) {
-      equipData.ailmentResistances.forEach(r => {
-        this.statusResistances.set(
-          r.ailmentName,
-          resistanceValues[r.scheme][this.level]);
-      });
-    }
+  constructor(level, stats, upgradeMaterialRequirements,
+    elementalResistances, statusResistances) {
+    this.level = level;
+    this.stats = stats;
+    this.upgradeMaterialRequirements = upgradeMaterialRequirements,
+    this.elementalResistances = elementalResistances,
+    this.statusResistances = statusResistances
   }
 }
+
+const equipLevelFromObj = obj => {
+  const upgradeMaterialRequirements = obj.upgradeMaterialRequirements
+    ? obj.upgradeMaterialRequirements.map(umr =>
+      materialRequirementFromObj(umr))
+    : [];
+  const elementalResistances = obj.elementalResistances
+    ? new ElementalResistances().fromObj(obj.elementalResistances)
+    : new ElementalResistances();
+  const statusResistances = obj.statusResistances
+    ? new StatusResistances().fromObj(obj.statusResistances)
+    : new StatusResistances();
+
+  return new EquipLevel(
+    obj.level,
+    new Stats().fromObj(obj.stats),
+    upgradeMaterialRequirements,
+    elementalResistances,
+    statusResistances);
+};
+
+export { equipLevelFromObj }
