@@ -41,22 +41,23 @@ def get_image():
 # App routes
 @app.route('/', methods=['GET'])
 def index():
-    return flask.render_template('index.html')
-
-
-@app.route('/characters/', methods=['GET'])
-def characters_view():
-    return flask.render_template('characters.html')
-
-
-@app.route('/equips/', methods=['GET'])
-def equips_view():
+    # return flask.render_template('index.html')
     return flask.render_template('equips.html')
 
 
-@app.route('/materials/', methods=['GET'])
-def materials_view():
-    return flask.render_template('materials.html')
+# @app.route('/characters/', methods=['GET'])
+# def characters_view():
+#     return flask.render_template('characters.html')
+
+
+# @app.route('/equips/', methods=['GET'])
+# def equips_view():
+#     return flask.render_template('equips.html')
+
+
+# @app.route('/materials/', methods=['GET'])
+# def materials_view():
+#     return flask.render_template('materials.html')
 
 
 if __name__ == '__main__':
